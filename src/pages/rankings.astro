@@ -4,16 +4,16 @@ import dist from '../data/ffa-dist.json';
 const baseUrl = import.meta.env.BASE_URL;
 const configs = (dist as any).configs as any[];
 
-type Dim = { key: string; label: string; unit: string };
+type Dim = { key: string; label: string; unit: string; low?: boolean };
 const FAIR: Dim[] = [
   { key: 'fairScore', label: 'Fairness', unit: '/100 (higher = fairer)' },
   { key: 'collideMean', label: 'Collision distance', unit: 'moves to first neighbour' },
-  { key: 'collideCV', label: 'Collision spread', unit: 'CV (lower = even)' },
-  { key: 'terrYieldCV', label: 'Territory-yield spread', unit: 'CV (lower = even)' },
+  { key: 'collideCV', label: 'Collision spread', unit: 'CV — lower is fairer', low: true },
+  { key: 'terrYieldCV', label: 'Territory-yield spread', unit: 'CV — lower is fairer', low: true },
   { key: 'terrYieldMean', label: 'Territory yield', unit: 'pre-collision, per player' },
-  { key: 'isolPct', label: 'Isolated starts', unit: '% boxed off from others' },
-  { key: 'islandPct', label: 'Island starts', unit: '% on a small landmass' },
-  { key: 'landmasses', label: 'Landmasses w/ starts', unit: 'count (1 = contiguous)' },
+  { key: 'isolPct', label: 'Isolated starts', unit: '% boxed off — lower is fairer', low: true },
+  { key: 'islandPct', label: 'Island starts', unit: '% on a small landmass — lower is fairer', low: true },
+  { key: 'landmasses', label: 'Landmasses w/ starts', unit: 'count — lower (1) is fairer', low: true },
   { key: 'spreadMean', label: 'Start spread', unit: 'mean hex between starts' },
 ];
 const MAP: Dim[] = [
@@ -53,15 +53,18 @@ const GROUPS = [
 
 const nameOf = (c: any) => c.group;
 const subOf = (c: any) => c.aspect[0].toUpperCase() + c.aspect.slice(1);
-function ranked(key: string) {
+function ranked(key: string, low = false) {
   const rows = configs.map((c) => {
     const d = c.dist?.[key]; const none = !d || (d.max ?? 0) <= 0;
     return { c, v: d?.mean ?? 0, none };
   });
   const vals = rows.map((r) => r.v); const lo = Math.min(...vals), hi = Math.max(...vals);
-  rows.sort((a, b) => b.v - a.v);
+  // best-first: low-is-better → ascending; else descending
+  rows.sort((a, b) => low ? a.v - b.v : b.v - a.v);
   return rows.map((r, i) => {
-    const t = hi > lo ? (r.v - lo) / (hi - lo) : 0.5; const tt = Math.max(0, Math.min(1, t));
+    let t = hi > lo ? (r.v - lo) / (hi - lo) : 0.5;
+    if (low) t = 1 - t;                 // low value = green / full bar
+    const tt = Math.max(0, Math.min(1, t));
     return { ...r, rank: i + 1, w: r.none ? 100 : Math.round(8 + tt * 92),
       col: r.none ? '#23262c' : `hsl(${Math.round(tt * 125)},58%,42%)` };
   });
@@ -90,7 +93,7 @@ const tip = (c: any, k: string) => { const d = c.dist?.[k];
                 <div class="lbcard__h"><span class="lbcard__t">{dim.label}</span>
                   {dim.unit && <span class="lbcard__u">{dim.unit}</span>}</div>
                 <ol class="lb">
-                  {ranked(dim.key).map((r) => (
+                  {ranked(dim.key, dim.low).map((r) => (
                     <li class={`r${r.none ? ' r--none' : ''}`} title={tip(r.c, dim.key)}>
                       <span class="r__n">{r.rank}</span>
                       <span class="r__nm"><b>{nameOf(r.c)}</b><i>{subOf(r.c)}</i></span>

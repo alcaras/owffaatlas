@@ -1,6 +1,1454 @@
 {
- "configCount": 14,
+ "configCount": 42,
  "configs": [
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 2,
+     "mean": 0.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.8
+    },
+    "camp": {
+     "max": 41,
+     "mean": 22.4,
+     "med": 23.5,
+     "min": 9,
+     "n": 12,
+     "sd": 10.3
+    },
+    "clearcutSF": {
+     "max": 33000,
+     "mean": 21150.0,
+     "med": 21970.0,
+     "min": 11340,
+     "n": 12,
+     "sd": 8732.0
+    },
+    "clearcutWJ": {
+     "max": 33000,
+     "mean": 21150.0,
+     "med": 21970.0,
+     "min": 11340,
+     "n": 12,
+     "sd": 8732.0
+    },
+    "collideCV": {
+     "max": 1.039,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.362,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 127,
+     "mean": 81.1,
+     "med": 82.0,
+     "min": 30,
+     "n": 12,
+     "sd": 24.4
+    },
+    "ele": {
+     "max": 14,
+     "mean": 6.5,
+     "med": 6.5,
+     "min": 1,
+     "n": 12,
+     "sd": 4.3
+    },
+    "expansion": {
+     "max": 3378,
+     "mean": 2187.6,
+     "med": 2249.0,
+     "min": 1170,
+     "n": 12,
+     "sd": 913.0
+    },
+    "fairScore": {
+     "max": 62,
+     "mean": 41.3,
+     "med": 39.0,
+     "min": 21,
+     "n": 12,
+     "sd": 12.7
+    },
+    "food": {
+     "max": 24175,
+     "mean": 16056.8,
+     "med": 16707.5,
+     "min": 8936,
+     "n": 12,
+     "sd": 6178.9
+    },
+    "grain": {
+     "max": 29,
+     "mean": 22.8,
+     "med": 24.5,
+     "min": 13,
+     "n": 12,
+     "sd": 5.4
+    },
+    "grove": {
+     "max": 66,
+     "mean": 41.8,
+     "med": 39.0,
+     "min": 28,
+     "n": 12,
+     "sd": 11.3
+    },
+    "hills": {
+     "max": 1096,
+     "mean": 725.5,
+     "med": 741.5,
+     "min": 373,
+     "n": 12,
+     "sd": 289.5
+    },
+    "hillsPct": {
+     "max": 10.1,
+     "mean": 6.7,
+     "med": 6.8,
+     "min": 3.5,
+     "n": 12,
+     "sd": 2.7
+    },
+    "horse": {
+     "max": 59,
+     "mean": 43.1,
+     "med": 44.0,
+     "min": 25,
+     "n": 12,
+     "sd": 9.8
+    },
+    "iron": {
+     "max": 20899,
+     "mean": 13625.0,
+     "med": 14061.5,
+     "min": 7404,
+     "n": 12,
+     "sd": 5569.9
+    },
+    "islandPct": {
+     "max": 70,
+     "mean": 20.0,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 20.0
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 100.0,
+     "med": 100.0,
+     "min": 100,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 3940,
+     "mean": 2629.0,
+     "med": 2695.0,
+     "min": 1524,
+     "n": 12,
+     "sd": 1014.8
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 8.8,
+     "med": 9.0,
+     "min": 6,
+     "n": 12,
+     "sd": 1.3
+    },
+    "marble": {
+     "max": 23,
+     "mean": 15.4,
+     "med": 14.5,
+     "min": 11,
+     "n": 12,
+     "sd": 4.3
+    },
+    "marsh": {
+     "max": 1.1,
+     "mean": 0.7,
+     "med": 0.6,
+     "min": 0.3,
+     "n": 12,
+     "sd": 0.2
+    },
+    "nets": {
+     "max": 210,
+     "mean": 183.4,
+     "med": 181.0,
+     "min": 152,
+     "n": 12,
+     "sd": 15.5
+    },
+    "nomad": {
+     "max": 2.4,
+     "mean": 1.0,
+     "med": 0.7,
+     "min": 0.2,
+     "n": 12,
+     "sd": 0.7
+    },
+    "ore": {
+     "max": 19,
+     "mean": 13.1,
+     "med": 12.5,
+     "min": 10,
+     "n": 12,
+     "sd": 3.0
+    },
+    "pasture": {
+     "max": 91,
+     "mean": 61.5,
+     "med": 63.5,
+     "min": 37,
+     "n": 12,
+     "sd": 16.9
+    },
+    "precious": {
+     "max": 87,
+     "mean": 66.3,
+     "med": 63.0,
+     "min": 53,
+     "n": 12,
+     "sd": 10.5
+    },
+    "rangedCover": {
+     "max": 3.8,
+     "mean": 2.4,
+     "med": 2.5,
+     "min": 1.3,
+     "n": 12,
+     "sd": 1.0
+    },
+    "river": {
+     "max": 18.2,
+     "mean": 13.0,
+     "med": 13.3,
+     "min": 8.3,
+     "n": 12,
+     "sd": 3.8
+    },
+    "scrub": {
+     "max": 1.4,
+     "mean": 0.6,
+     "med": 0.3,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.5
+    },
+    "sites": {
+     "max": 111,
+     "mean": 94.2,
+     "med": 96.0,
+     "min": 79,
+     "n": 12,
+     "sd": 11.3
+    },
+    "spreadMean": {
+     "max": 59,
+     "mean": 50.9,
+     "med": 50.0,
+     "min": 44,
+     "n": 12,
+     "sd": 5.9
+    },
+    "spreadMin": {
+     "max": 22,
+     "mean": 13.2,
+     "med": 12.5,
+     "min": 9,
+     "n": 12,
+     "sd": 3.8
+    },
+    "stone": {
+     "max": 18355,
+     "mean": 11951.3,
+     "med": 12277.0,
+     "min": 6504,
+     "n": 12,
+     "sd": 5027.5
+    },
+    "terrSitesCV": {
+     "max": 0.837,
+     "mean": 0.5,
+     "med": 0.4,
+     "min": 0.305,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 11.1,
+     "mean": 9.4,
+     "med": 9.6,
+     "min": 7.9,
+     "n": 12,
+     "sd": 1.1
+    },
+    "terrYieldCV": {
+     "max": 0.892,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.377,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 6737,
+     "mean": 4426.2,
+     "med": 4593.0,
+     "min": 2468,
+     "n": 12,
+     "sd": 1779.2
+    },
+    "trees": {
+     "max": 7.1,
+     "mean": 4.6,
+     "med": 4.9,
+     "min": 2.5,
+     "n": 12,
+     "sd": 1.8
+    },
+    "veg": {
+     "max": 8.4,
+     "mean": 5.2,
+     "med": 5.2,
+     "min": 2.7,
+     "n": 12,
+     "sd": 2.3
+    },
+    "wood": {
+     "max": 4041,
+     "mean": 2629.9,
+     "med": 2798.0,
+     "min": 1418,
+     "n": 12,
+     "sd": 1027.6
+    }
+   },
+   "group": "Archipelago",
+   "imgs": [
+    "atlas/archipelago-huge-square/seed-1.png",
+    "atlas/archipelago-huge-square/seed-2.png",
+    "atlas/archipelago-huge-square/seed-3.png",
+    "atlas/archipelago-huge-square/seed-4.png",
+    "atlas/archipelago-huge-square/seed-5.png",
+    "atlas/archipelago-huge-square/seed-6.png",
+    "atlas/archipelago-huge-square/seed-7.png",
+    "atlas/archipelago-huge-square/seed-8.png",
+    "atlas/archipelago-huge-square/seed-9.png",
+    "atlas/archipelago-huge-square/seed-10.png",
+    "atlas/archipelago-huge-square/seed-11.png",
+    "atlas/archipelago-huge-square/seed-12.png"
+   ],
+   "label": "Archipelago \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "archipelago-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 3,
+     "mean": 1.0,
+     "med": 0.5,
+     "min": 0,
+     "n": 12,
+     "sd": 1.2
+    },
+    "camp": {
+     "max": 39,
+     "mean": 24.8,
+     "med": 25.0,
+     "min": 9,
+     "n": 12,
+     "sd": 9.1
+    },
+    "clearcutSF": {
+     "max": 33800,
+     "mean": 22455.0,
+     "med": 23000.0,
+     "min": 11900,
+     "n": 12,
+     "sd": 8656.0
+    },
+    "clearcutWJ": {
+     "max": 33800,
+     "mean": 22455.0,
+     "med": 23000.0,
+     "min": 11900,
+     "n": 12,
+     "sd": 8656.0
+    },
+    "collideCV": {
+     "max": 1.161,
+     "mean": 0.7,
+     "med": 0.6,
+     "min": 0.398,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 144,
+     "mean": 81.7,
+     "med": 75.5,
+     "min": 51,
+     "n": 12,
+     "sd": 24.6
+    },
+    "ele": {
+     "max": 11,
+     "mean": 5.0,
+     "med": 3.5,
+     "min": 1,
+     "n": 12,
+     "sd": 3.6
+    },
+    "expansion": {
+     "max": 3478,
+     "mean": 2265.2,
+     "med": 2307.0,
+     "min": 1253,
+     "n": 12,
+     "sd": 899.1
+    },
+    "fairScore": {
+     "max": 64,
+     "mean": 39.0,
+     "med": 42.0,
+     "min": 0,
+     "n": 12,
+     "sd": 19.7
+    },
+    "food": {
+     "max": 24846,
+     "mean": 16667.7,
+     "med": 17278.0,
+     "min": 9668,
+     "n": 12,
+     "sd": 6058.4
+    },
+    "grain": {
+     "max": 45,
+     "mean": 25.2,
+     "med": 23.0,
+     "min": 13,
+     "n": 12,
+     "sd": 10.1
+    },
+    "grove": {
+     "max": 73,
+     "mean": 47.5,
+     "med": 52.0,
+     "min": 25,
+     "n": 12,
+     "sd": 15.6
+    },
+    "hills": {
+     "max": 1083,
+     "mean": 679.5,
+     "med": 661.0,
+     "min": 385,
+     "n": 12,
+     "sd": 274.1
+    },
+    "hillsPct": {
+     "max": 10.0,
+     "mean": 6.2,
+     "med": 6.1,
+     "min": 3.5,
+     "n": 12,
+     "sd": 2.5
+    },
+    "horse": {
+     "max": 55,
+     "mean": 41.7,
+     "med": 47.5,
+     "min": 24,
+     "n": 12,
+     "sd": 11.1
+    },
+    "iron": {
+     "max": 21030,
+     "mean": 13808.8,
+     "med": 13941.0,
+     "min": 7785,
+     "n": 12,
+     "sd": 5424.8
+    },
+    "islandPct": {
+     "max": 80,
+     "mean": 23.3,
+     "med": 15.0,
+     "min": 0,
+     "n": 12,
+     "sd": 26.9
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 100.0,
+     "med": 100.0,
+     "min": 100,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4011,
+     "mean": 2699.0,
+     "med": 2777.5,
+     "min": 1586,
+     "n": 12,
+     "sd": 1009.2
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 8.9,
+     "med": 10.0,
+     "min": 5,
+     "n": 12,
+     "sd": 1.7
+    },
+    "marble": {
+     "max": 26,
+     "mean": 15.0,
+     "med": 12.0,
+     "min": 10,
+     "n": 12,
+     "sd": 5.5
+    },
+    "marsh": {
+     "max": 1.2,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.4
+    },
+    "nets": {
+     "max": 225,
+     "mean": 189.9,
+     "med": 192.5,
+     "min": 157,
+     "n": 12,
+     "sd": 17.3
+    },
+    "nomad": {
+     "max": 2.2,
+     "mean": 0.9,
+     "med": 0.6,
+     "min": 0.3,
+     "n": 12,
+     "sd": 0.7
+    },
+    "ore": {
+     "max": 16,
+     "mean": 11.9,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 2.3
+    },
+    "pasture": {
+     "max": 84,
+     "mean": 60.1,
+     "med": 64.0,
+     "min": 37,
+     "n": 12,
+     "sd": 15.3
+    },
+    "precious": {
+     "max": 86,
+     "mean": 66.6,
+     "med": 69.5,
+     "min": 35,
+     "n": 12,
+     "sd": 16.0
+    },
+    "rangedCover": {
+     "max": 3.9,
+     "mean": 2.6,
+     "med": 2.6,
+     "min": 1.4,
+     "n": 12,
+     "sd": 1.0
+    },
+    "river": {
+     "max": 19.0,
+     "mean": 13.1,
+     "med": 13.7,
+     "min": 8.1,
+     "n": 12,
+     "sd": 4.0
+    },
+    "scrub": {
+     "max": 1.3,
+     "mean": 0.5,
+     "med": 0.3,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.5
+    },
+    "sites": {
+     "max": 114,
+     "mean": 95.8,
+     "med": 99.5,
+     "min": 79,
+     "n": 12,
+     "sd": 12.8
+    },
+    "spreadMean": {
+     "max": 69,
+     "mean": 60.8,
+     "med": 59.5,
+     "min": 46,
+     "n": 12,
+     "sd": 6.8
+    },
+    "spreadMin": {
+     "max": 19,
+     "mean": 13.2,
+     "med": 14.0,
+     "min": 8,
+     "n": 12,
+     "sd": 3.4
+    },
+    "stone": {
+     "max": 18885,
+     "mean": 12228.0,
+     "med": 12483.5,
+     "min": 6746,
+     "n": 12,
+     "sd": 4983.8
+    },
+    "terrSitesCV": {
+     "max": 0.822,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.215,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 11.4,
+     "mean": 9.6,
+     "med": 9.9,
+     "min": 7.9,
+     "n": 12,
+     "sd": 1.3
+    },
+    "terrYieldCV": {
+     "max": 0.993,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.295,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 6883,
+     "mean": 4551.8,
+     "med": 4664.5,
+     "min": 2588,
+     "n": 12,
+     "sd": 1747.8
+    },
+    "trees": {
+     "max": 7.3,
+     "mean": 4.9,
+     "med": 5.1,
+     "min": 2.7,
+     "n": 12,
+     "sd": 1.8
+    },
+    "veg": {
+     "max": 8.4,
+     "mean": 5.4,
+     "med": 5.5,
+     "min": 2.8,
+     "n": 12,
+     "sd": 2.2
+    },
+    "wood": {
+     "max": 4148,
+     "mean": 2813.1,
+     "med": 2942.5,
+     "min": 1540,
+     "n": 12,
+     "sd": 1021.0
+    }
+   },
+   "group": "Archipelago",
+   "imgs": [
+    "atlas/archipelago-huge-wide/seed-1.png",
+    "atlas/archipelago-huge-wide/seed-2.png",
+    "atlas/archipelago-huge-wide/seed-3.png",
+    "atlas/archipelago-huge-wide/seed-4.png",
+    "atlas/archipelago-huge-wide/seed-5.png",
+    "atlas/archipelago-huge-wide/seed-6.png",
+    "atlas/archipelago-huge-wide/seed-7.png",
+    "atlas/archipelago-huge-wide/seed-8.png",
+    "atlas/archipelago-huge-wide/seed-9.png",
+    "atlas/archipelago-huge-wide/seed-10.png",
+    "atlas/archipelago-huge-wide/seed-11.png",
+    "atlas/archipelago-huge-wide/seed-12.png"
+   ],
+   "label": "Archipelago \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "archipelago-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 20,
+     "mean": 8.7,
+     "med": 7.0,
+     "min": 1,
+     "n": 12,
+     "sd": 7.1
+    },
+    "camp": {
+     "max": 64,
+     "mean": 49.9,
+     "med": 48.5,
+     "min": 36,
+     "n": 12,
+     "sd": 8.4
+    },
+    "clearcutSF": {
+     "max": 43720,
+     "mean": 39220.0,
+     "med": 39540.0,
+     "min": 35180,
+     "n": 12,
+     "sd": 2192.1
+    },
+    "clearcutWJ": {
+     "max": 43720,
+     "mean": 39220.0,
+     "med": 39540.0,
+     "min": 35180,
+     "n": 12,
+     "sd": 2192.1
+    },
+    "collideCV": {
+     "max": 0.614,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.184,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 127,
+     "mean": 105.6,
+     "med": 108.0,
+     "min": 79,
+     "n": 12,
+     "sd": 14.4
+    },
+    "ele": {
+     "max": 18,
+     "mean": 12.2,
+     "med": 11.0,
+     "min": 9,
+     "n": 12,
+     "sd": 2.8
+    },
+    "expansion": {
+     "max": 4096,
+     "mean": 3767.8,
+     "med": 3768.0,
+     "min": 3372,
+     "n": 12,
+     "sd": 193.8
+    },
+    "fairScore": {
+     "max": 73,
+     "mean": 62.0,
+     "med": 62.5,
+     "min": 47,
+     "n": 12,
+     "sd": 8.3
+    },
+    "food": {
+     "max": 20686,
+     "mean": 18948.9,
+     "med": 18822.5,
+     "min": 15956,
+     "n": 12,
+     "sd": 1248.4
+    },
+    "grain": {
+     "max": 62,
+     "mean": 42.6,
+     "med": 38.5,
+     "min": 29,
+     "n": 12,
+     "sd": 10.3
+    },
+    "grove": {
+     "max": 49,
+     "mean": 38.9,
+     "med": 39.0,
+     "min": 22,
+     "n": 12,
+     "sd": 8.5
+    },
+    "hills": {
+     "max": 1936,
+     "mean": 1779.9,
+     "med": 1796.0,
+     "min": 1454,
+     "n": 12,
+     "sd": 117.4
+    },
+    "hillsPct": {
+     "max": 30.1,
+     "mean": 28.2,
+     "med": 28.5,
+     "min": 25.9,
+     "n": 12,
+     "sd": 1.2
+    },
+    "horse": {
+     "max": 42,
+     "mean": 33.9,
+     "med": 34.5,
+     "min": 23,
+     "n": 12,
+     "sd": 4.5
+    },
+    "iron": {
+     "max": 26832,
+     "mean": 25429.2,
+     "med": 25537.5,
+     "min": 22098,
+     "n": 12,
+     "sd": 1193.7
+    },
+    "islandPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
+    "isolPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4665,
+     "mean": 4486.6,
+     "med": 4546.0,
+     "min": 3868,
+     "n": 12,
+     "sd": 202.1
+    },
+    "landmasses": {
+     "max": 2,
+     "mean": 1.1,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.3
+    },
+    "marble": {
+     "max": 30,
+     "mean": 19.5,
+     "med": 18.5,
+     "min": 10,
+     "n": 12,
+     "sd": 6.5
+    },
+    "marsh": {
+     "max": 0.5,
+     "mean": 0.2,
+     "med": 0.2,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.1
+    },
+    "nets": {
+     "max": 35,
+     "mean": 22.3,
+     "med": 21.5,
+     "min": 13,
+     "n": 12,
+     "sd": 7.2
+    },
+    "nomad": {
+     "max": 54.9,
+     "mean": 52.6,
+     "med": 52.5,
+     "min": 49.6,
+     "n": 12,
+     "sd": 1.6
+    },
+    "ore": {
+     "max": 18,
+     "mean": 14.0,
+     "med": 14.0,
+     "min": 11,
+     "n": 12,
+     "sd": 2.5
+    },
+    "pasture": {
+     "max": 89,
+     "mean": 70.6,
+     "med": 70.5,
+     "min": 58,
+     "n": 12,
+     "sd": 8.4
+    },
+    "precious": {
+     "max": 48,
+     "mean": 40.8,
+     "med": 42.0,
+     "min": 31,
+     "n": 12,
+     "sd": 5.0
+    },
+    "rangedCover": {
+     "max": 8.5,
+     "mean": 7.8,
+     "med": 7.8,
+     "min": 7.2,
+     "n": 12,
+     "sd": 0.3
+    },
+    "river": {
+     "max": 15.5,
+     "mean": 14.3,
+     "med": 14.1,
+     "min": 13.5,
+     "n": 12,
+     "sd": 0.5
+    },
+    "scrub": {
+     "max": 15.4,
+     "mean": 13.9,
+     "med": 14.1,
+     "min": 11.9,
+     "n": 12,
+     "sd": 1.0
+    },
+    "sites": {
+     "max": 80,
+     "mean": 75.1,
+     "med": 76.0,
+     "min": 68,
+     "n": 12,
+     "sd": 3.7
+    },
+    "spreadMean": {
+     "max": 52,
+     "mean": 46.0,
+     "med": 46.5,
+     "min": 40,
+     "n": 12,
+     "sd": 3.5
+    },
+    "spreadMin": {
+     "max": 21,
+     "mean": 16.7,
+     "med": 16.5,
+     "min": 10,
+     "n": 12,
+     "sd": 2.7
+    },
+    "stone": {
+     "max": 25363,
+     "mean": 23688.5,
+     "med": 23809.5,
+     "min": 20838,
+     "n": 12,
+     "sd": 1151.6
+    },
+    "terrSitesCV": {
+     "max": 0.565,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.308,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 8.0,
+     "mean": 7.5,
+     "med": 7.6,
+     "min": 6.8,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 0.673,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.349,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 7613,
+     "mean": 7093.4,
+     "med": 7098.5,
+     "min": 6135,
+     "n": 12,
+     "sd": 366.4
+    },
+    "trees": {
+     "max": 9.5,
+     "mean": 8.6,
+     "med": 8.6,
+     "min": 7.2,
+     "n": 12,
+     "sd": 0.6
+    },
+    "veg": {
+     "max": 24.3,
+     "mean": 22.5,
+     "med": 22.5,
+     "min": 20.6,
+     "n": 12,
+     "sd": 1.0
+    },
+    "wood": {
+     "max": 3247,
+     "mean": 2867.2,
+     "med": 2896.5,
+     "min": 2384,
+     "n": 12,
+     "sd": 253.9
+    }
+   },
+   "group": "Arid Plateau",
+   "imgs": [
+    "atlas/arid-plateau-huge-square/seed-1.png",
+    "atlas/arid-plateau-huge-square/seed-2.png",
+    "atlas/arid-plateau-huge-square/seed-3.png",
+    "atlas/arid-plateau-huge-square/seed-4.png",
+    "atlas/arid-plateau-huge-square/seed-5.png",
+    "atlas/arid-plateau-huge-square/seed-6.png",
+    "atlas/arid-plateau-huge-square/seed-7.png",
+    "atlas/arid-plateau-huge-square/seed-8.png",
+    "atlas/arid-plateau-huge-square/seed-9.png",
+    "atlas/arid-plateau-huge-square/seed-10.png",
+    "atlas/arid-plateau-huge-square/seed-11.png",
+    "atlas/arid-plateau-huge-square/seed-12.png"
+   ],
+   "label": "Arid Plateau \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "arid-plateau-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 22,
+     "mean": 8.0,
+     "med": 9.5,
+     "min": 0,
+     "n": 12,
+     "sd": 6.9
+    },
+    "camp": {
+     "max": 64,
+     "mean": 45.4,
+     "med": 43.0,
+     "min": 38,
+     "n": 12,
+     "sd": 7.4
+    },
+    "clearcutSF": {
+     "max": 45420,
+     "mean": 38835.0,
+     "med": 38410.0,
+     "min": 32080,
+     "n": 12,
+     "sd": 3115.9
+    },
+    "clearcutWJ": {
+     "max": 45420,
+     "mean": 38835.0,
+     "med": 38410.0,
+     "min": 32080,
+     "n": 12,
+     "sd": 3115.9
+    },
+    "collideCV": {
+     "max": 0.444,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.154,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 131,
+     "mean": 106.7,
+     "med": 106.0,
+     "min": 84,
+     "n": 12,
+     "sd": 12.3
+    },
+    "ele": {
+     "max": 17,
+     "mean": 10.0,
+     "med": 9.0,
+     "min": 5,
+     "n": 12,
+     "sd": 3.6
+    },
+    "expansion": {
+     "max": 4238,
+     "mean": 3729.3,
+     "med": 3755.5,
+     "min": 3106,
+     "n": 12,
+     "sd": 288.2
+    },
+    "fairScore": {
+     "max": 78,
+     "mean": 66.8,
+     "med": 68.0,
+     "min": 53,
+     "n": 12,
+     "sd": 7.7
+    },
+    "food": {
+     "max": 21281,
+     "mean": 19169.1,
+     "med": 19120.5,
+     "min": 16815,
+     "n": 12,
+     "sd": 1233.3
+    },
+    "grain": {
+     "max": 49,
+     "mean": 38.2,
+     "med": 36.5,
+     "min": 27,
+     "n": 12,
+     "sd": 6.4
+    },
+    "grove": {
+     "max": 61,
+     "mean": 43.3,
+     "med": 44.5,
+     "min": 30,
+     "n": 12,
+     "sd": 10.5
+    },
+    "hills": {
+     "max": 1848,
+     "mean": 1724.4,
+     "med": 1728.5,
+     "min": 1565,
+     "n": 12,
+     "sd": 83.3
+    },
+    "hillsPct": {
+     "max": 27.6,
+     "mean": 26.8,
+     "med": 26.9,
+     "min": 25.3,
+     "n": 12,
+     "sd": 0.7
+    },
+    "horse": {
+     "max": 40,
+     "mean": 34.2,
+     "med": 36.5,
+     "min": 25,
+     "n": 12,
+     "sd": 4.3
+    },
+    "iron": {
+     "max": 27581,
+     "mean": 25249.5,
+     "med": 25097.5,
+     "min": 22513,
+     "n": 12,
+     "sd": 1346.7
+    },
+    "islandPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
+    "isolPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4850,
+     "mean": 4561.9,
+     "med": 4611.5,
+     "min": 4261,
+     "n": 12,
+     "sd": 177.6
+    },
+    "landmasses": {
+     "max": 2,
+     "mean": 1.1,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.3
+    },
+    "marble": {
+     "max": 34,
+     "mean": 23.8,
+     "med": 23.0,
+     "min": 17,
+     "n": 12,
+     "sd": 4.7
+    },
+    "marsh": {
+     "max": 0.5,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.1
+    },
+    "nets": {
+     "max": 26,
+     "mean": 20.5,
+     "med": 21.5,
+     "min": 13,
+     "n": 12,
+     "sd": 4.0
+    },
+    "nomad": {
+     "max": 55.3,
+     "mean": 51.7,
+     "med": 51.5,
+     "min": 48.0,
+     "n": 12,
+     "sd": 2.1
+    },
+    "ore": {
+     "max": 23,
+     "mean": 15.4,
+     "med": 17.0,
+     "min": 10,
+     "n": 12,
+     "sd": 3.6
+    },
+    "pasture": {
+     "max": 97,
+     "mean": 67.9,
+     "med": 66.0,
+     "min": 55,
+     "n": 12,
+     "sd": 10.3
+    },
+    "precious": {
+     "max": 55,
+     "mean": 39.7,
+     "med": 41.5,
+     "min": 27,
+     "n": 12,
+     "sd": 8.2
+    },
+    "rangedCover": {
+     "max": 8.5,
+     "mean": 7.5,
+     "med": 7.6,
+     "min": 6.4,
+     "n": 12,
+     "sd": 0.5
+    },
+    "river": {
+     "max": 14.5,
+     "mean": 13.7,
+     "med": 13.9,
+     "min": 12.7,
+     "n": 12,
+     "sd": 0.6
+    },
+    "scrub": {
+     "max": 14.9,
+     "mean": 12.2,
+     "med": 12.2,
+     "min": 10.1,
+     "n": 12,
+     "sd": 1.6
+    },
+    "sites": {
+     "max": 83,
+     "mean": 74.6,
+     "med": 73.5,
+     "min": 67,
+     "n": 12,
+     "sd": 5.4
+    },
+    "spreadMean": {
+     "max": 61,
+     "mean": 54.9,
+     "med": 55.5,
+     "min": 48,
+     "n": 12,
+     "sd": 3.9
+    },
+    "spreadMin": {
+     "max": 23,
+     "mean": 18.7,
+     "med": 18.5,
+     "min": 16,
+     "n": 12,
+     "sd": 1.9
+    },
+    "stone": {
+     "max": 26233,
+     "mean": 23292.6,
+     "med": 23199.0,
+     "min": 20594,
+     "n": 12,
+     "sd": 1537.5
+    },
+    "terrSitesCV": {
+     "max": 0.521,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.24,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 8.3,
+     "mean": 7.5,
+     "med": 7.3,
+     "min": 6.7,
+     "n": 12,
+     "sd": 0.5
+    },
+    "terrYieldCV": {
+     "max": 0.531,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.271,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 7880,
+     "mean": 7076.8,
+     "med": 6989.0,
+     "min": 6252,
+     "n": 12,
+     "sd": 414.5
+    },
+    "trees": {
+     "max": 10.6,
+     "mean": 9.0,
+     "med": 9.1,
+     "min": 7.7,
+     "n": 12,
+     "sd": 0.8
+    },
+    "veg": {
+     "max": 23.7,
+     "mean": 21.2,
+     "med": 20.9,
+     "min": 17.9,
+     "n": 12,
+     "sd": 1.7
+    },
+    "wood": {
+     "max": 3707,
+     "mean": 3056.2,
+     "med": 3049.0,
+     "min": 2601,
+     "n": 12,
+     "sd": 311.9
+    }
+   },
+   "group": "Arid Plateau",
+   "imgs": [
+    "atlas/arid-plateau-huge-wide/seed-1.png",
+    "atlas/arid-plateau-huge-wide/seed-2.png",
+    "atlas/arid-plateau-huge-wide/seed-3.png",
+    "atlas/arid-plateau-huge-wide/seed-4.png",
+    "atlas/arid-plateau-huge-wide/seed-5.png",
+    "atlas/arid-plateau-huge-wide/seed-6.png",
+    "atlas/arid-plateau-huge-wide/seed-7.png",
+    "atlas/arid-plateau-huge-wide/seed-8.png",
+    "atlas/arid-plateau-huge-wide/seed-9.png",
+    "atlas/arid-plateau-huge-wide/seed-10.png",
+    "atlas/arid-plateau-huge-wide/seed-11.png",
+    "atlas/arid-plateau-huge-wide/seed-12.png"
+   ],
+   "label": "Arid Plateau \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "arid-plateau-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
   {
    "aspect": "square",
    "dist": {
@@ -722,6 +2170,730 @@
    "n": 12,
    "setting": "Huge \u00b7 wide \u00b7 10 players",
    "slug": "bay-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 14,
+     "mean": 7.2,
+     "med": 6.5,
+     "min": 2,
+     "n": 12,
+     "sd": 3.4
+    },
+    "camp": {
+     "max": 68,
+     "mean": 55.0,
+     "med": 56.5,
+     "min": 39,
+     "n": 12,
+     "sd": 8.5
+    },
+    "clearcutSF": {
+     "max": 43240,
+     "mean": 40565.0,
+     "med": 40670.0,
+     "min": 37500,
+     "n": 12,
+     "sd": 1745.0
+    },
+    "clearcutWJ": {
+     "max": 43240,
+     "mean": 40565.0,
+     "med": 40670.0,
+     "min": 37500,
+     "n": 12,
+     "sd": 1745.0
+    },
+    "collideCV": {
+     "max": 0.562,
+     "mean": 0.3,
+     "med": 0.2,
+     "min": 0.147,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 114,
+     "mean": 94.8,
+     "med": 96.5,
+     "min": 70,
+     "n": 12,
+     "sd": 10.7
+    },
+    "ele": {
+     "max": 25,
+     "mean": 16.8,
+     "med": 16.5,
+     "min": 9,
+     "n": 12,
+     "sd": 4.8
+    },
+    "expansion": {
+     "max": 4336,
+     "mean": 4185.9,
+     "med": 4204.0,
+     "min": 3901,
+     "n": 12,
+     "sd": 130.1
+    },
+    "fairScore": {
+     "max": 78,
+     "mean": 68.6,
+     "med": 69.5,
+     "min": 51,
+     "n": 12,
+     "sd": 7.4
+    },
+    "food": {
+     "max": 25539,
+     "mean": 24554.8,
+     "med": 24743.0,
+     "min": 22976,
+     "n": 12,
+     "sd": 792.1
+    },
+    "grain": {
+     "max": 57,
+     "mean": 39.6,
+     "med": 41.0,
+     "min": 24,
+     "n": 12,
+     "sd": 9.1
+    },
+    "grove": {
+     "max": 68,
+     "mean": 51.2,
+     "med": 50.5,
+     "min": 39,
+     "n": 12,
+     "sd": 7.8
+    },
+    "hills": {
+     "max": 1262,
+     "mean": 1176.5,
+     "med": 1181.0,
+     "min": 1032,
+     "n": 12,
+     "sd": 59.2
+    },
+    "hillsPct": {
+     "max": 21.7,
+     "mean": 19.5,
+     "med": 19.4,
+     "min": 17.0,
+     "n": 12,
+     "sd": 1.2
+    },
+    "horse": {
+     "max": 48,
+     "mean": 35.2,
+     "med": 33.5,
+     "min": 30,
+     "n": 12,
+     "sd": 4.9
+    },
+    "iron": {
+     "max": 25783,
+     "mean": 25105.8,
+     "med": 25179.5,
+     "min": 23639,
+     "n": 12,
+     "sd": 644.3
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4844,
+     "mean": 4683.7,
+     "med": 4703.5,
+     "min": 4410,
+     "n": 12,
+     "sd": 123.9
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 25,
+     "mean": 18.3,
+     "med": 17.0,
+     "min": 15,
+     "n": 12,
+     "sd": 2.6
+    },
+    "marsh": {
+     "max": 1.9,
+     "mean": 1.4,
+     "med": 1.5,
+     "min": 0.9,
+     "n": 12,
+     "sd": 0.3
+    },
+    "nets": {
+     "max": 22,
+     "mean": 12.8,
+     "med": 12.0,
+     "min": 7,
+     "n": 12,
+     "sd": 3.9
+    },
+    "nomad": {
+     "max": 18.9,
+     "mean": 15.3,
+     "med": 15.2,
+     "min": 13.2,
+     "n": 12,
+     "sd": 1.6
+    },
+    "ore": {
+     "max": 14,
+     "mean": 11.3,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.3
+    },
+    "pasture": {
+     "max": 92,
+     "mean": 73.9,
+     "med": 71.0,
+     "min": 62,
+     "n": 12,
+     "sd": 9.5
+    },
+    "precious": {
+     "max": 50,
+     "mean": 36.4,
+     "med": 36.0,
+     "min": 27,
+     "n": 12,
+     "sd": 6.8
+    },
+    "rangedCover": {
+     "max": 9.1,
+     "mean": 8.4,
+     "med": 8.4,
+     "min": 7.8,
+     "n": 12,
+     "sd": 0.4
+    },
+    "river": {
+     "max": 23.2,
+     "mean": 20.8,
+     "med": 20.9,
+     "min": 19.4,
+     "n": 12,
+     "sd": 0.9
+    },
+    "scrub": {
+     "max": 8.4,
+     "mean": 7.5,
+     "med": 7.3,
+     "min": 6.4,
+     "n": 12,
+     "sd": 0.6
+    },
+    "sites": {
+     "max": 84,
+     "mean": 78.1,
+     "med": 78.5,
+     "min": 69,
+     "n": 12,
+     "sd": 4.4
+    },
+    "spreadMean": {
+     "max": 49,
+     "mean": 44.8,
+     "med": 46.0,
+     "min": 37,
+     "n": 12,
+     "sd": 3.3
+    },
+    "spreadMin": {
+     "max": 21,
+     "mean": 17.4,
+     "med": 18.0,
+     "min": 10,
+     "n": 12,
+     "sd": 3.3
+    },
+    "stone": {
+     "max": 24974,
+     "mean": 24356.0,
+     "med": 24470.0,
+     "min": 23026,
+     "n": 12,
+     "sd": 583.2
+    },
+    "terrSitesCV": {
+     "max": 0.541,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.266,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 8.4,
+     "mean": 7.8,
+     "med": 7.8,
+     "min": 6.9,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 0.497,
+     "mean": 0.4,
+     "med": 0.3,
+     "min": 0.27,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 8068,
+     "mean": 7819.9,
+     "med": 7843.5,
+     "min": 7338,
+     "n": 12,
+     "sd": 204.1
+    },
+    "trees": {
+     "max": 14.6,
+     "mean": 13.1,
+     "med": 12.9,
+     "min": 12.1,
+     "n": 12,
+     "sd": 0.7
+    },
+    "veg": {
+     "max": 21.6,
+     "mean": 20.6,
+     "med": 20.6,
+     "min": 18.7,
+     "n": 12,
+     "sd": 0.8
+    },
+    "wood": {
+     "max": 4537,
+     "mean": 4181.5,
+     "med": 4217.5,
+     "min": 3734,
+     "n": 12,
+     "sd": 225.3
+    }
+   },
+   "group": "Coastal Rain Basin",
+   "imgs": [
+    "atlas/coastal-rain-basin-huge-square/seed-1.png",
+    "atlas/coastal-rain-basin-huge-square/seed-2.png",
+    "atlas/coastal-rain-basin-huge-square/seed-3.png",
+    "atlas/coastal-rain-basin-huge-square/seed-4.png",
+    "atlas/coastal-rain-basin-huge-square/seed-5.png",
+    "atlas/coastal-rain-basin-huge-square/seed-6.png",
+    "atlas/coastal-rain-basin-huge-square/seed-7.png",
+    "atlas/coastal-rain-basin-huge-square/seed-8.png",
+    "atlas/coastal-rain-basin-huge-square/seed-9.png",
+    "atlas/coastal-rain-basin-huge-square/seed-10.png",
+    "atlas/coastal-rain-basin-huge-square/seed-11.png",
+    "atlas/coastal-rain-basin-huge-square/seed-12.png"
+   ],
+   "label": "Coastal Rain Basin \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "coastal-rain-basin-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 11,
+     "mean": 7.1,
+     "med": 8.0,
+     "min": 3,
+     "n": 12,
+     "sd": 2.1
+    },
+    "camp": {
+     "max": 66,
+     "mean": 51.6,
+     "med": 54.5,
+     "min": 40,
+     "n": 12,
+     "sd": 8.3
+    },
+    "clearcutSF": {
+     "max": 47060,
+     "mean": 39866.7,
+     "med": 39800.0,
+     "min": 35220,
+     "n": 12,
+     "sd": 3497.6
+    },
+    "clearcutWJ": {
+     "max": 47060,
+     "mean": 39866.7,
+     "med": 39800.0,
+     "min": 35220,
+     "n": 12,
+     "sd": 3497.6
+    },
+    "collideCV": {
+     "max": 0.588,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.106,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 112,
+     "mean": 85.3,
+     "med": 83.0,
+     "min": 69,
+     "n": 12,
+     "sd": 13.5
+    },
+    "ele": {
+     "max": 21,
+     "mean": 14.0,
+     "med": 13.5,
+     "min": 7,
+     "n": 12,
+     "sd": 3.9
+    },
+    "expansion": {
+     "max": 4651,
+     "mean": 4246.8,
+     "med": 4255.5,
+     "min": 3856,
+     "n": 12,
+     "sd": 223.8
+    },
+    "fairScore": {
+     "max": 72,
+     "mean": 61.2,
+     "med": 63.5,
+     "min": 45,
+     "n": 12,
+     "sd": 9.3
+    },
+    "food": {
+     "max": 27600,
+     "mean": 25135.7,
+     "med": 25132.5,
+     "min": 22933,
+     "n": 12,
+     "sd": 1353.8
+    },
+    "grain": {
+     "max": 62,
+     "mean": 39.8,
+     "med": 37.0,
+     "min": 29,
+     "n": 12,
+     "sd": 10.4
+    },
+    "grove": {
+     "max": 57,
+     "mean": 48.7,
+     "med": 48.0,
+     "min": 42,
+     "n": 12,
+     "sd": 4.7
+    },
+    "hills": {
+     "max": 1209,
+     "mean": 1035.2,
+     "med": 1005.0,
+     "min": 927,
+     "n": 12,
+     "sd": 92.1
+    },
+    "hillsPct": {
+     "max": 19.2,
+     "mean": 16.7,
+     "med": 16.5,
+     "min": 14.3,
+     "n": 12,
+     "sd": 1.7
+    },
+    "horse": {
+     "max": 47,
+     "mean": 36.7,
+     "med": 36.5,
+     "min": 29,
+     "n": 12,
+     "sd": 5.4
+    },
+    "iron": {
+     "max": 26490,
+     "mean": 24854.2,
+     "med": 24920.5,
+     "min": 22732,
+     "n": 12,
+     "sd": 1076.3
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 5097,
+     "mean": 4717.9,
+     "med": 4723.0,
+     "min": 4359,
+     "n": 12,
+     "sd": 222.2
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 27,
+     "mean": 17.0,
+     "med": 15.0,
+     "min": 11,
+     "n": 12,
+     "sd": 4.8
+    },
+    "marsh": {
+     "max": 2.3,
+     "mean": 1.4,
+     "med": 1.2,
+     "min": 0.8,
+     "n": 12,
+     "sd": 0.4
+    },
+    "nets": {
+     "max": 23,
+     "mean": 15.3,
+     "med": 15.0,
+     "min": 11,
+     "n": 12,
+     "sd": 3.8
+    },
+    "nomad": {
+     "max": 14.5,
+     "mean": 11.9,
+     "med": 12.1,
+     "min": 8.4,
+     "n": 12,
+     "sd": 1.7
+    },
+    "ore": {
+     "max": 14,
+     "mean": 12.0,
+     "med": 12.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.4
+    },
+    "pasture": {
+     "max": 98,
+     "mean": 76.7,
+     "med": 74.0,
+     "min": 57,
+     "n": 12,
+     "sd": 9.7
+    },
+    "precious": {
+     "max": 56,
+     "mean": 40.6,
+     "med": 37.0,
+     "min": 25,
+     "n": 12,
+     "sd": 9.4
+    },
+    "rangedCover": {
+     "max": 9.1,
+     "mean": 8.0,
+     "med": 8.0,
+     "min": 7.1,
+     "n": 12,
+     "sd": 0.6
+    },
+    "river": {
+     "max": 22.7,
+     "mean": 20.7,
+     "med": 20.8,
+     "min": 19.6,
+     "n": 12,
+     "sd": 0.9
+    },
+    "scrub": {
+     "max": 8.3,
+     "mean": 6.9,
+     "med": 6.9,
+     "min": 6.0,
+     "n": 12,
+     "sd": 0.6
+    },
+    "sites": {
+     "max": 90,
+     "mean": 78.7,
+     "med": 77.5,
+     "min": 73,
+     "n": 12,
+     "sd": 4.2
+    },
+    "spreadMean": {
+     "max": 57,
+     "mean": 49.2,
+     "med": 49.0,
+     "min": 41,
+     "n": 12,
+     "sd": 5.3
+    },
+    "spreadMin": {
+     "max": 23,
+     "mean": 13.9,
+     "med": 11.5,
+     "min": 8,
+     "n": 12,
+     "sd": 4.8
+    },
+    "stone": {
+     "max": 25689,
+     "mean": 24202.8,
+     "med": 24280.0,
+     "min": 22392,
+     "n": 12,
+     "sd": 922.0
+    },
+    "terrSitesCV": {
+     "max": 0.561,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.228,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 9.0,
+     "mean": 7.9,
+     "med": 7.8,
+     "min": 7.3,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 0.609,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.281,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 8458,
+     "mean": 7833.8,
+     "med": 7859.5,
+     "min": 7217,
+     "n": 12,
+     "sd": 356.1
+    },
+    "trees": {
+     "max": 14.6,
+     "mean": 12.6,
+     "med": 12.8,
+     "min": 10.8,
+     "n": 12,
+     "sd": 1.1
+    },
+    "veg": {
+     "max": 22.1,
+     "mean": 19.5,
+     "med": 19.4,
+     "min": 17.7,
+     "n": 12,
+     "sd": 1.3
+    },
+    "wood": {
+     "max": 4995,
+     "mean": 4145.6,
+     "med": 4138.0,
+     "min": 3515,
+     "n": 12,
+     "sd": 407.3
+    }
+   },
+   "group": "Coastal Rain Basin",
+   "imgs": [
+    "atlas/coastal-rain-basin-huge-wide/seed-1.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-2.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-3.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-4.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-5.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-6.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-7.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-8.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-9.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-10.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-11.png",
+    "atlas/coastal-rain-basin-huge-wide/seed-12.png"
+   ],
+   "label": "Coastal Rain Basin \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "coastal-rain-basin-huge-wide",
    "tip": "",
    "variant": ""
   },
@@ -1453,6 +3625,2178 @@
    "aspect": "square",
    "dist": {
     "camel": {
+     "max": 12,
+     "mean": 7.5,
+     "med": 7.0,
+     "min": 2,
+     "n": 12,
+     "sd": 3.2
+    },
+    "camp": {
+     "max": 69,
+     "mean": 57.7,
+     "med": 58.5,
+     "min": 47,
+     "n": 12,
+     "sd": 6.5
+    },
+    "clearcutSF": {
+     "max": 82380,
+     "mean": 71991.7,
+     "med": 71220.0,
+     "min": 63120,
+     "n": 12,
+     "sd": 4737.0
+    },
+    "clearcutWJ": {
+     "max": 150180,
+     "mean": 142056.7,
+     "med": 141810.0,
+     "min": 131800,
+     "n": 12,
+     "sd": 5370.0
+    },
+    "collideCV": {
+     "max": 0.552,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.212,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 157,
+     "mean": 130.9,
+     "med": 138.0,
+     "min": 82,
+     "n": 12,
+     "sd": 23.9
+    },
+    "ele": {
+     "max": 18,
+     "mean": 11.8,
+     "med": 9.5,
+     "min": 6,
+     "n": 12,
+     "sd": 4.5
+    },
+    "expansion": {
+     "max": 4169,
+     "mean": 3948.8,
+     "med": 3922.5,
+     "min": 3814,
+     "n": 12,
+     "sd": 117.6
+    },
+    "fairScore": {
+     "max": 74,
+     "mean": 61.7,
+     "med": 63.5,
+     "min": 45,
+     "n": 12,
+     "sd": 9.6
+    },
+    "food": {
+     "max": 29542,
+     "mean": 28591.1,
+     "med": 28564.0,
+     "min": 27780,
+     "n": 12,
+     "sd": 598.9
+    },
+    "grain": {
+     "max": 70,
+     "mean": 50.6,
+     "med": 50.0,
+     "min": 36,
+     "n": 12,
+     "sd": 9.4
+    },
+    "grove": {
+     "max": 70,
+     "mean": 56.0,
+     "med": 52.5,
+     "min": 45,
+     "n": 12,
+     "sd": 9.8
+    },
+    "hills": {
+     "max": 1383,
+     "mean": 1237.9,
+     "med": 1269.0,
+     "min": 991,
+     "n": 12,
+     "sd": 108.1
+    },
+    "hillsPct": {
+     "max": 18.7,
+     "mean": 16.8,
+     "med": 17.2,
+     "min": 13.4,
+     "n": 12,
+     "sd": 1.5
+    },
+    "horse": {
+     "max": 57,
+     "mean": 43.3,
+     "med": 44.0,
+     "min": 35,
+     "n": 12,
+     "sd": 5.7
+    },
+    "iron": {
+     "max": 30191,
+     "mean": 29886.2,
+     "med": 29881.0,
+     "min": 29624,
+     "n": 12,
+     "sd": 181.3
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 17.5,
+     "mean": 15.8,
+     "med": 16.1,
+     "min": 13.7,
+     "n": 12,
+     "sd": 1.0
+    },
+    "land": {
+     "max": 5897,
+     "mean": 5681.7,
+     "med": 5653.5,
+     "min": 5588,
+     "n": 12,
+     "sd": 83.0
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 33,
+     "mean": 22.4,
+     "med": 22.5,
+     "min": 11,
+     "n": 12,
+     "sd": 6.2
+    },
+    "marsh": {
+     "max": 1.1,
+     "mean": 0.7,
+     "med": 0.7,
+     "min": 0.4,
+     "n": 12,
+     "sd": 0.2
+    },
+    "nets": {
+     "max": 62,
+     "mean": 50.8,
+     "med": 50.0,
+     "min": 38,
+     "n": 12,
+     "sd": 6.2
+    },
+    "nomad": {
+     "max": 19.0,
+     "mean": 15.6,
+     "med": 15.3,
+     "min": 12.7,
+     "n": 12,
+     "sd": 2.1
+    },
+    "ore": {
+     "max": 14,
+     "mean": 12.0,
+     "med": 12.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.2
+    },
+    "pasture": {
+     "max": 91,
+     "mean": 81.0,
+     "med": 83.0,
+     "min": 66,
+     "n": 12,
+     "sd": 6.9
+    },
+    "precious": {
+     "max": 87,
+     "mean": 65.0,
+     "med": 61.5,
+     "min": 49,
+     "n": 12,
+     "sd": 10.2
+    },
+    "rangedCover": {
+     "max": 25.4,
+     "mean": 24.1,
+     "med": 24.0,
+     "min": 22.3,
+     "n": 12,
+     "sd": 0.9
+    },
+    "river": {
+     "max": 19.2,
+     "mean": 18.5,
+     "med": 18.6,
+     "min": 17.5,
+     "n": 12,
+     "sd": 0.5
+    },
+    "scrub": {
+     "max": 10.8,
+     "mean": 9.1,
+     "med": 9.2,
+     "min": 7.7,
+     "n": 12,
+     "sd": 0.9
+    },
+    "sites": {
+     "max": 100,
+     "mean": 95.3,
+     "med": 95.0,
+     "min": 91,
+     "n": 12,
+     "sd": 2.7
+    },
+    "spreadMean": {
+     "max": 59,
+     "mean": 50.7,
+     "med": 49.5,
+     "min": 43,
+     "n": 12,
+     "sd": 4.6
+    },
+    "spreadMin": {
+     "max": 27,
+     "mean": 19.6,
+     "med": 20.0,
+     "min": 14,
+     "n": 12,
+     "sd": 3.9
+    },
+    "stone": {
+     "max": 29863,
+     "mean": 29606.5,
+     "med": 29577.5,
+     "min": 29409,
+     "n": 12,
+     "sd": 150.5
+    },
+    "terrSitesCV": {
+     "max": 0.605,
+     "mean": 0.4,
+     "med": 0.3,
+     "min": 0.274,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 10.0,
+     "mean": 9.5,
+     "med": 9.5,
+     "min": 9.1,
+     "n": 12,
+     "sd": 0.3
+    },
+    "terrYieldCV": {
+     "max": 0.627,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.284,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 9853,
+     "mean": 9577.5,
+     "med": 9566.5,
+     "min": 9368,
+     "n": 12,
+     "sd": 117.3
+    },
+    "trees": {
+     "max": 23.3,
+     "mean": 19.8,
+     "med": 19.9,
+     "min": 16.7,
+     "n": 12,
+     "sd": 1.6
+    },
+    "veg": {
+     "max": 47.6,
+     "mean": 44.7,
+     "med": 44.5,
+     "min": 42.2,
+     "n": 12,
+     "sd": 1.6
+    },
+    "wood": {
+     "max": 8997,
+     "mean": 7690.2,
+     "med": 7711.5,
+     "min": 6487,
+     "n": 12,
+     "sd": 590.7
+    }
+   },
+   "group": "Deep Jungle",
+   "imgs": [
+    "atlas/deep-jungle-huge-square/seed-1.png",
+    "atlas/deep-jungle-huge-square/seed-2.png",
+    "atlas/deep-jungle-huge-square/seed-3.png",
+    "atlas/deep-jungle-huge-square/seed-4.png",
+    "atlas/deep-jungle-huge-square/seed-5.png",
+    "atlas/deep-jungle-huge-square/seed-6.png",
+    "atlas/deep-jungle-huge-square/seed-7.png",
+    "atlas/deep-jungle-huge-square/seed-8.png",
+    "atlas/deep-jungle-huge-square/seed-9.png",
+    "atlas/deep-jungle-huge-square/seed-10.png",
+    "atlas/deep-jungle-huge-square/seed-11.png",
+    "atlas/deep-jungle-huge-square/seed-12.png"
+   ],
+   "label": "Deep Jungle \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "deep-jungle-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 10,
+     "mean": 5.7,
+     "med": 5.5,
+     "min": 1,
+     "n": 12,
+     "sd": 2.8
+    },
+    "camp": {
+     "max": 79,
+     "mean": 57.0,
+     "med": 58.5,
+     "min": 37,
+     "n": 12,
+     "sd": 13.5
+    },
+    "clearcutSF": {
+     "max": 79300,
+     "mean": 73410.0,
+     "med": 72960.0,
+     "min": 68720,
+     "n": 12,
+     "sd": 2791.8
+    },
+    "clearcutWJ": {
+     "max": 157320,
+     "mean": 150270.0,
+     "med": 151570.0,
+     "min": 140460,
+     "n": 12,
+     "sd": 5202.8
+    },
+    "collideCV": {
+     "max": 0.47,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.226,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 143,
+     "mean": 122.5,
+     "med": 127.5,
+     "min": 88,
+     "n": 12,
+     "sd": 15.7
+    },
+    "ele": {
+     "max": 18,
+     "mean": 10.9,
+     "med": 11.0,
+     "min": 6,
+     "n": 12,
+     "sd": 3.4
+    },
+    "expansion": {
+     "max": 4191,
+     "mean": 3995.8,
+     "med": 3973.0,
+     "min": 3883,
+     "n": 12,
+     "sd": 93.1
+    },
+    "fairScore": {
+     "max": 74,
+     "mean": 61.7,
+     "med": 62.0,
+     "min": 50,
+     "n": 12,
+     "sd": 6.3
+    },
+    "food": {
+     "max": 30840,
+     "mean": 29650.4,
+     "med": 29524.5,
+     "min": 28384,
+     "n": 12,
+     "sd": 755.3
+    },
+    "grain": {
+     "max": 60,
+     "mean": 52.5,
+     "med": 52.5,
+     "min": 42,
+     "n": 12,
+     "sd": 4.5
+    },
+    "grove": {
+     "max": 67,
+     "mean": 54.8,
+     "med": 54.0,
+     "min": 46,
+     "n": 12,
+     "sd": 6.7
+    },
+    "hills": {
+     "max": 1230,
+     "mean": 1051.7,
+     "med": 1016.5,
+     "min": 934,
+     "n": 12,
+     "sd": 89.8
+    },
+    "hillsPct": {
+     "max": 16.7,
+     "mean": 14.2,
+     "med": 13.8,
+     "min": 12.7,
+     "n": 12,
+     "sd": 1.2
+    },
+    "horse": {
+     "max": 48,
+     "mean": 43.3,
+     "med": 43.0,
+     "min": 38,
+     "n": 12,
+     "sd": 3.0
+    },
+    "iron": {
+     "max": 30987,
+     "mean": 30009.1,
+     "med": 30018.5,
+     "min": 29152,
+     "n": 12,
+     "sd": 523.7
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 19.7,
+     "mean": 17.4,
+     "med": 17.6,
+     "min": 15.3,
+     "n": 12,
+     "sd": 1.2
+    },
+    "land": {
+     "max": 5972,
+     "mean": 5812.6,
+     "med": 5775.0,
+     "min": 5679,
+     "n": 12,
+     "sd": 96.8
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 43,
+     "mean": 28.6,
+     "med": 29.5,
+     "min": 17,
+     "n": 12,
+     "sd": 8.3
+    },
+    "marsh": {
+     "max": 0.9,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.2,
+     "n": 12,
+     "sd": 0.2
+    },
+    "nets": {
+     "max": 58,
+     "mean": 49.2,
+     "med": 49.5,
+     "min": 40,
+     "n": 12,
+     "sd": 5.4
+    },
+    "nomad": {
+     "max": 17.6,
+     "mean": 12.4,
+     "med": 12.3,
+     "min": 8.5,
+     "n": 12,
+     "sd": 2.6
+    },
+    "ore": {
+     "max": 13,
+     "mean": 11.2,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.2
+    },
+    "pasture": {
+     "max": 91,
+     "mean": 78.1,
+     "med": 76.5,
+     "min": 70,
+     "n": 12,
+     "sd": 5.9
+    },
+    "precious": {
+     "max": 69,
+     "mean": 56.5,
+     "med": 58.0,
+     "min": 42,
+     "n": 12,
+     "sd": 8.8
+    },
+    "rangedCover": {
+     "max": 26.6,
+     "mean": 25.4,
+     "med": 25.7,
+     "min": 23.8,
+     "n": 12,
+     "sd": 0.9
+    },
+    "river": {
+     "max": 19.0,
+     "mean": 18.4,
+     "med": 18.4,
+     "min": 17.6,
+     "n": 12,
+     "sd": 0.4
+    },
+    "scrub": {
+     "max": 10.0,
+     "mean": 8.8,
+     "med": 8.8,
+     "min": 7.7,
+     "n": 12,
+     "sd": 0.8
+    },
+    "sites": {
+     "max": 104,
+     "mean": 96.2,
+     "med": 95.5,
+     "min": 94,
+     "n": 12,
+     "sd": 2.7
+    },
+    "spreadMean": {
+     "max": 65,
+     "mean": 56.8,
+     "med": 56.5,
+     "min": 50,
+     "n": 12,
+     "sd": 5.0
+    },
+    "spreadMin": {
+     "max": 27,
+     "mean": 20.9,
+     "med": 21.5,
+     "min": 12,
+     "n": 12,
+     "sd": 4.6
+    },
+    "stone": {
+     "max": 30155,
+     "mean": 29512.4,
+     "med": 29497.5,
+     "min": 29006,
+     "n": 12,
+     "sd": 323.4
+    },
+    "terrSitesCV": {
+     "max": 0.557,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.305,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 10.4,
+     "mean": 9.6,
+     "med": 9.6,
+     "min": 9.4,
+     "n": 12,
+     "sd": 0.3
+    },
+    "terrYieldCV": {
+     "max": 0.59,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.3,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 10046,
+     "mean": 9708.1,
+     "med": 9706.5,
+     "min": 9428,
+     "n": 12,
+     "sd": 167.3
+    },
+    "trees": {
+     "max": 22.2,
+     "mean": 20.5,
+     "med": 20.0,
+     "min": 19.4,
+     "n": 12,
+     "sd": 0.9
+    },
+    "veg": {
+     "max": 48.2,
+     "mean": 46.6,
+     "med": 46.8,
+     "min": 44.6,
+     "n": 12,
+     "sd": 1.2
+    },
+    "wood": {
+     "max": 8539,
+     "mean": 7908.1,
+     "med": 7784.0,
+     "min": 7512,
+     "n": 12,
+     "sd": 361.5
+    }
+   },
+   "group": "Deep Jungle",
+   "imgs": [
+    "atlas/deep-jungle-huge-wide/seed-1.png",
+    "atlas/deep-jungle-huge-wide/seed-2.png",
+    "atlas/deep-jungle-huge-wide/seed-3.png",
+    "atlas/deep-jungle-huge-wide/seed-4.png",
+    "atlas/deep-jungle-huge-wide/seed-5.png",
+    "atlas/deep-jungle-huge-wide/seed-6.png",
+    "atlas/deep-jungle-huge-wide/seed-7.png",
+    "atlas/deep-jungle-huge-wide/seed-8.png",
+    "atlas/deep-jungle-huge-wide/seed-9.png",
+    "atlas/deep-jungle-huge-wide/seed-10.png",
+    "atlas/deep-jungle-huge-wide/seed-11.png",
+    "atlas/deep-jungle-huge-wide/seed-12.png"
+   ],
+   "label": "Deep Jungle \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "deep-jungle-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 39,
+     "mean": 22.7,
+     "med": 22.0,
+     "min": 12,
+     "n": 12,
+     "sd": 6.0
+    },
+    "camp": {
+     "max": 47,
+     "mean": 34.8,
+     "med": 35.0,
+     "min": 20,
+     "n": 12,
+     "sd": 7.6
+    },
+    "clearcutSF": {
+     "max": 9680,
+     "mean": 8430.0,
+     "med": 8450.0,
+     "min": 7300,
+     "n": 12,
+     "sd": 689.3
+    },
+    "clearcutWJ": {
+     "max": 9680,
+     "mean": 8430.0,
+     "med": 8450.0,
+     "min": 7300,
+     "n": 12,
+     "sd": 689.3
+    },
+    "collideCV": {
+     "max": 0.637,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.141,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 99,
+     "mean": 80.0,
+     "med": 79.0,
+     "min": 62,
+     "n": 12,
+     "sd": 10.4
+    },
+    "ele": {
+     "max": 8,
+     "mean": 3.8,
+     "med": 3.5,
+     "min": 1,
+     "n": 12,
+     "sd": 1.8
+    },
+    "expansion": {
+     "max": 2270,
+     "mean": 2107.9,
+     "med": 2103.0,
+     "min": 1974,
+     "n": 12,
+     "sd": 98.5
+    },
+    "fairScore": {
+     "max": 79,
+     "mean": 62.2,
+     "med": 63.5,
+     "min": 40,
+     "n": 12,
+     "sd": 9.6
+    },
+    "food": {
+     "max": 9821,
+     "mean": 9224.6,
+     "med": 9247.5,
+     "min": 8731,
+     "n": 12,
+     "sd": 368.3
+    },
+    "grain": {
+     "max": 36,
+     "mean": 28.0,
+     "med": 28.5,
+     "min": 19,
+     "n": 12,
+     "sd": 4.4
+    },
+    "grove": {
+     "max": 41,
+     "mean": 28.5,
+     "med": 26.5,
+     "min": 19,
+     "n": 12,
+     "sd": 7.1
+    },
+    "hills": {
+     "max": 1132,
+     "mean": 1023.7,
+     "med": 1021.0,
+     "min": 939,
+     "n": 12,
+     "sd": 49.7
+    },
+    "hillsPct": {
+     "max": 15.3,
+     "mean": 13.9,
+     "med": 13.9,
+     "min": 12.7,
+     "n": 12,
+     "sd": 0.7
+    },
+    "horse": {
+     "max": 14,
+     "mean": 9.7,
+     "med": 10.0,
+     "min": 4,
+     "n": 12,
+     "sd": 2.5
+    },
+    "iron": {
+     "max": 17537,
+     "mean": 16986.5,
+     "med": 16982.0,
+     "min": 16231,
+     "n": 12,
+     "sd": 417.8
+    },
+    "islandPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
+    "isolPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 5254,
+     "mean": 5197.7,
+     "med": 5200.0,
+     "min": 5148,
+     "n": 12,
+     "sd": 29.6
+    },
+    "landmasses": {
+     "max": 2,
+     "mean": 1.2,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.4
+    },
+    "marble": {
+     "max": 23,
+     "mean": 13.9,
+     "med": 12.5,
+     "min": 10,
+     "n": 12,
+     "sd": 3.9
+    },
+    "marsh": {
+     "max": 0.1,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "nets": {
+     "max": 48,
+     "mean": 31.3,
+     "med": 31.0,
+     "min": 17,
+     "n": 12,
+     "sd": 8.3
+    },
+    "nomad": {
+     "max": 64.8,
+     "mean": 64.0,
+     "med": 64.0,
+     "min": 63.1,
+     "n": 12,
+     "sd": 0.6
+    },
+    "ore": {
+     "max": 12,
+     "mean": 10.5,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.8
+    },
+    "pasture": {
+     "max": 52,
+     "mean": 40.6,
+     "med": 40.0,
+     "min": 30,
+     "n": 12,
+     "sd": 6.9
+    },
+    "precious": {
+     "max": 37,
+     "mean": 25.5,
+     "med": 24.5,
+     "min": 17,
+     "n": 12,
+     "sd": 6.1
+    },
+    "rangedCover": {
+     "max": 1.6,
+     "mean": 1.4,
+     "med": 1.4,
+     "min": 1.2,
+     "n": 12,
+     "sd": 0.1
+    },
+    "river": {
+     "max": 18.4,
+     "mean": 17.6,
+     "med": 17.7,
+     "min": 16.2,
+     "n": 12,
+     "sd": 0.6
+    },
+    "scrub": {
+     "max": 2.6,
+     "mean": 2.1,
+     "med": 2.2,
+     "min": 1.6,
+     "n": 12,
+     "sd": 0.3
+    },
+    "sites": {
+     "max": 59,
+     "mean": 52.8,
+     "med": 52.5,
+     "min": 47,
+     "n": 12,
+     "sd": 3.1
+    },
+    "spreadMean": {
+     "max": 47,
+     "mean": 41.2,
+     "med": 41.5,
+     "min": 37,
+     "n": 12,
+     "sd": 3.0
+    },
+    "spreadMin": {
+     "max": 19,
+     "mean": 13.3,
+     "med": 13.0,
+     "min": 7,
+     "n": 12,
+     "sd": 3.7
+    },
+    "stone": {
+     "max": 14372,
+     "mean": 13449.3,
+     "med": 13427.0,
+     "min": 12425,
+     "n": 12,
+     "sd": 625.8
+    },
+    "terrSitesCV": {
+     "max": 0.543,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.28,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 5.9,
+     "mean": 5.3,
+     "med": 5.2,
+     "min": 4.7,
+     "n": 12,
+     "sd": 0.3
+    },
+    "terrYieldCV": {
+     "max": 0.581,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.28,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 4247,
+     "mean": 4035.8,
+     "med": 4027.0,
+     "min": 3815,
+     "n": 12,
+     "sd": 134.4
+    },
+    "trees": {
+     "max": 2.2,
+     "mean": 1.8,
+     "med": 1.8,
+     "min": 1.3,
+     "n": 12,
+     "sd": 0.3
+    },
+    "veg": {
+     "max": 4.4,
+     "mean": 3.9,
+     "med": 3.8,
+     "min": 3.5,
+     "n": 12,
+     "sd": 0.3
+    },
+    "wood": {
+     "max": 840,
+     "mean": 697.6,
+     "med": 686.0,
+     "min": 500,
+     "n": 12,
+     "sd": 106.4
+    }
+   },
+   "group": "Desert",
+   "imgs": [
+    "atlas/desert-huge-square/seed-1.png",
+    "atlas/desert-huge-square/seed-2.png",
+    "atlas/desert-huge-square/seed-3.png",
+    "atlas/desert-huge-square/seed-4.png",
+    "atlas/desert-huge-square/seed-5.png",
+    "atlas/desert-huge-square/seed-6.png",
+    "atlas/desert-huge-square/seed-7.png",
+    "atlas/desert-huge-square/seed-8.png",
+    "atlas/desert-huge-square/seed-9.png",
+    "atlas/desert-huge-square/seed-10.png",
+    "atlas/desert-huge-square/seed-11.png",
+    "atlas/desert-huge-square/seed-12.png"
+   ],
+   "label": "Desert \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "desert-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 34,
+     "mean": 23.2,
+     "med": 22.0,
+     "min": 17,
+     "n": 12,
+     "sd": 4.7
+    },
+    "camp": {
+     "max": 49,
+     "mean": 34.8,
+     "med": 34.0,
+     "min": 24,
+     "n": 12,
+     "sd": 7.7
+    },
+    "clearcutSF": {
+     "max": 9380,
+     "mean": 8405.0,
+     "med": 8350.0,
+     "min": 7700,
+     "n": 12,
+     "sd": 499.0
+    },
+    "clearcutWJ": {
+     "max": 9380,
+     "mean": 8405.0,
+     "med": 8350.0,
+     "min": 7700,
+     "n": 12,
+     "sd": 499.0
+    },
+    "collideCV": {
+     "max": 0.87,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.106,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 104,
+     "mean": 76.4,
+     "med": 76.0,
+     "min": 45,
+     "n": 12,
+     "sd": 15.5
+    },
+    "ele": {
+     "max": 11,
+     "mean": 4.8,
+     "med": 4.5,
+     "min": 2,
+     "n": 12,
+     "sd": 2.3
+    },
+    "expansion": {
+     "max": 2202,
+     "mean": 2090.0,
+     "med": 2096.0,
+     "min": 1975,
+     "n": 12,
+     "sd": 72.0
+    },
+    "fairScore": {
+     "max": 77,
+     "mean": 60.4,
+     "med": 63.5,
+     "min": 26,
+     "n": 12,
+     "sd": 13.8
+    },
+    "food": {
+     "max": 9457,
+     "mean": 9135.2,
+     "med": 9198.0,
+     "min": 8776,
+     "n": 12,
+     "sd": 222.0
+    },
+    "grain": {
+     "max": 36,
+     "mean": 25.1,
+     "med": 24.5,
+     "min": 17,
+     "n": 12,
+     "sd": 5.7
+    },
+    "grove": {
+     "max": 37,
+     "mean": 28.4,
+     "med": 29.0,
+     "min": 18,
+     "n": 12,
+     "sd": 5.1
+    },
+    "hills": {
+     "max": 1094,
+     "mean": 1008.7,
+     "med": 1010.5,
+     "min": 912,
+     "n": 12,
+     "sd": 50.5
+    },
+    "hillsPct": {
+     "max": 14.8,
+     "mean": 13.7,
+     "med": 13.7,
+     "min": 12.4,
+     "n": 12,
+     "sd": 0.7
+    },
+    "horse": {
+     "max": 12,
+     "mean": 9.8,
+     "med": 10.0,
+     "min": 5,
+     "n": 12,
+     "sd": 2.0
+    },
+    "iron": {
+     "max": 17248,
+     "mean": 16748.1,
+     "med": 16622.0,
+     "min": 16418,
+     "n": 12,
+     "sd": 274.1
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 5238,
+     "mean": 5202.6,
+     "med": 5203.0,
+     "min": 5158,
+     "n": 12,
+     "sd": 26.1
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 27,
+     "mean": 15.6,
+     "med": 14.0,
+     "min": 10,
+     "n": 12,
+     "sd": 4.7
+    },
+    "marsh": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "nets": {
+     "max": 38,
+     "mean": 26.3,
+     "med": 25.5,
+     "min": 18,
+     "n": 12,
+     "sd": 5.7
+    },
+    "nomad": {
+     "max": 65.3,
+     "mean": 64.6,
+     "med": 64.5,
+     "min": 64.2,
+     "n": 12,
+     "sd": 0.3
+    },
+    "ore": {
+     "max": 11,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 9,
+     "n": 12,
+     "sd": 0.4
+    },
+    "pasture": {
+     "max": 59,
+     "mean": 37.2,
+     "med": 36.5,
+     "min": 23,
+     "n": 12,
+     "sd": 8.8
+    },
+    "precious": {
+     "max": 37,
+     "mean": 26.1,
+     "med": 25.5,
+     "min": 15,
+     "n": 12,
+     "sd": 6.9
+    },
+    "rangedCover": {
+     "max": 1.6,
+     "mean": 1.4,
+     "med": 1.4,
+     "min": 1.3,
+     "n": 12,
+     "sd": 0.1
+    },
+    "river": {
+     "max": 18.3,
+     "mean": 17.7,
+     "med": 17.7,
+     "min": 16.9,
+     "n": 12,
+     "sd": 0.4
+    },
+    "scrub": {
+     "max": 2.6,
+     "mean": 2.1,
+     "med": 2.2,
+     "min": 1.4,
+     "n": 12,
+     "sd": 0.3
+    },
+    "sites": {
+     "max": 54,
+     "mean": 51.2,
+     "med": 52.0,
+     "min": 46,
+     "n": 12,
+     "sd": 2.2
+    },
+    "spreadMean": {
+     "max": 50,
+     "mean": 41.9,
+     "med": 41.5,
+     "min": 35,
+     "n": 12,
+     "sd": 4.9
+    },
+    "spreadMin": {
+     "max": 17,
+     "mean": 12.3,
+     "med": 12.5,
+     "min": 7,
+     "n": 12,
+     "sd": 3.0
+    },
+    "stone": {
+     "max": 13781,
+     "mean": 13299.0,
+     "med": 13405.5,
+     "min": 12588,
+     "n": 12,
+     "sd": 365.1
+    },
+    "terrSitesCV": {
+     "max": 0.622,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.24,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 5.4,
+     "mean": 5.1,
+     "med": 5.2,
+     "min": 4.6,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldCV": {
+     "max": 0.616,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.335,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 4080,
+     "mean": 3988.3,
+     "med": 4013.5,
+     "min": 3863,
+     "n": 12,
+     "sd": 74.6
+    },
+    "trees": {
+     "max": 2.5,
+     "mean": 1.8,
+     "med": 1.7,
+     "min": 1.4,
+     "n": 12,
+     "sd": 0.3
+    },
+    "veg": {
+     "max": 4.2,
+     "mean": 3.9,
+     "med": 3.9,
+     "min": 3.7,
+     "n": 12,
+     "sd": 0.1
+    },
+    "wood": {
+     "max": 963,
+     "mean": 700.4,
+     "med": 682.0,
+     "min": 573,
+     "n": 12,
+     "sd": 100.8
+    }
+   },
+   "group": "Desert",
+   "imgs": [
+    "atlas/desert-huge-wide/seed-1.png",
+    "atlas/desert-huge-wide/seed-2.png",
+    "atlas/desert-huge-wide/seed-3.png",
+    "atlas/desert-huge-wide/seed-4.png",
+    "atlas/desert-huge-wide/seed-5.png",
+    "atlas/desert-huge-wide/seed-6.png",
+    "atlas/desert-huge-wide/seed-7.png",
+    "atlas/desert-huge-wide/seed-8.png",
+    "atlas/desert-huge-wide/seed-9.png",
+    "atlas/desert-huge-wide/seed-10.png",
+    "atlas/desert-huge-wide/seed-11.png",
+    "atlas/desert-huge-wide/seed-12.png"
+   ],
+   "label": "Desert \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "desert-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 6,
+     "mean": 2.9,
+     "med": 2.5,
+     "min": 1,
+     "n": 12,
+     "sd": 1.3
+    },
+    "camp": {
+     "max": 47,
+     "mean": 37.8,
+     "med": 39.5,
+     "min": 27,
+     "n": 12,
+     "sd": 7.2
+    },
+    "clearcutSF": {
+     "max": 44220,
+     "mean": 40483.3,
+     "med": 40900.0,
+     "min": 37780,
+     "n": 12,
+     "sd": 1842.5
+    },
+    "clearcutWJ": {
+     "max": 44220,
+     "mean": 40483.3,
+     "med": 40900.0,
+     "min": 37780,
+     "n": 12,
+     "sd": 1842.5
+    },
+    "collideCV": {
+     "max": 0.38,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.077,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 115,
+     "mean": 100.4,
+     "med": 104.0,
+     "min": 74,
+     "n": 12,
+     "sd": 11.5
+    },
+    "ele": {
+     "max": 13,
+     "mean": 6.4,
+     "med": 5.5,
+     "min": 2,
+     "n": 12,
+     "sd": 3.2
+    },
+    "expansion": {
+     "max": 4213,
+     "mean": 4047.2,
+     "med": 4072.5,
+     "min": 3727,
+     "n": 12,
+     "sd": 143.7
+    },
+    "fairScore": {
+     "max": 79,
+     "mean": 66.9,
+     "med": 67.0,
+     "min": 55,
+     "n": 12,
+     "sd": 7.4
+    },
+    "food": {
+     "max": 30029,
+     "mean": 28681.0,
+     "med": 28876.5,
+     "min": 26595,
+     "n": 12,
+     "sd": 1050.0
+    },
+    "grain": {
+     "max": 58,
+     "mean": 45.3,
+     "med": 46.0,
+     "min": 31,
+     "n": 12,
+     "sd": 8.5
+    },
+    "grove": {
+     "max": 61,
+     "mean": 51.8,
+     "med": 51.0,
+     "min": 47,
+     "n": 12,
+     "sd": 4.1
+    },
+    "hills": {
+     "max": 1266,
+     "mean": 1179.8,
+     "med": 1182.0,
+     "min": 1038,
+     "n": 12,
+     "sd": 58.4
+    },
+    "hillsPct": {
+     "max": 21.8,
+     "mean": 19.6,
+     "med": 19.5,
+     "min": 17.1,
+     "n": 12,
+     "sd": 1.2
+    },
+    "horse": {
+     "max": 52,
+     "mean": 40.3,
+     "med": 40.0,
+     "min": 32,
+     "n": 12,
+     "sd": 5.6
+    },
+    "iron": {
+     "max": 25269,
+     "mean": 24419.4,
+     "med": 24536.0,
+     "min": 22836,
+     "n": 12,
+     "sd": 684.5
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4851,
+     "mean": 4690.3,
+     "med": 4724.5,
+     "min": 4408,
+     "n": 12,
+     "sd": 125.9
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 43,
+     "mean": 25.8,
+     "med": 24.0,
+     "min": 18,
+     "n": 12,
+     "sd": 6.8
+    },
+    "marsh": {
+     "max": 4.0,
+     "mean": 3.6,
+     "med": 3.5,
+     "min": 3.0,
+     "n": 12,
+     "sd": 0.3
+    },
+    "nets": {
+     "max": 21,
+     "mean": 14.6,
+     "med": 14.0,
+     "min": 9,
+     "n": 12,
+     "sd": 4.0
+    },
+    "nomad": {
+     "max": 7.9,
+     "mean": 6.7,
+     "med": 6.9,
+     "min": 5.3,
+     "n": 12,
+     "sd": 0.8
+    },
+    "ore": {
+     "max": 25,
+     "mean": 16.0,
+     "med": 14.0,
+     "min": 11,
+     "n": 12,
+     "sd": 4.3
+    },
+    "pasture": {
+     "max": 99,
+     "mean": 79.8,
+     "med": 79.5,
+     "min": 66,
+     "n": 12,
+     "sd": 9.8
+    },
+    "precious": {
+     "max": 35,
+     "mean": 25.8,
+     "med": 26.0,
+     "min": 19,
+     "n": 12,
+     "sd": 4.5
+    },
+    "rangedCover": {
+     "max": 9.0,
+     "mean": 8.4,
+     "med": 8.4,
+     "min": 7.8,
+     "n": 12,
+     "sd": 0.3
+    },
+    "river": {
+     "max": 23.2,
+     "mean": 20.8,
+     "med": 20.9,
+     "min": 19.4,
+     "n": 12,
+     "sd": 0.9
+    },
+    "scrub": {
+     "max": 3.5,
+     "mean": 2.9,
+     "med": 2.8,
+     "min": 2.4,
+     "n": 12,
+     "sd": 0.3
+    },
+    "sites": {
+     "max": 83,
+     "mean": 78.0,
+     "med": 78.5,
+     "min": 73,
+     "n": 12,
+     "sd": 3.1
+    },
+    "spreadMean": {
+     "max": 51,
+     "mean": 45.2,
+     "med": 45.0,
+     "min": 41,
+     "n": 12,
+     "sd": 2.8
+    },
+    "spreadMin": {
+     "max": 22,
+     "mean": 17.1,
+     "med": 18.0,
+     "min": 9,
+     "n": 12,
+     "sd": 3.8
+    },
+    "stone": {
+     "max": 23654,
+     "mean": 22926.0,
+     "med": 23115.5,
+     "min": 21206,
+     "n": 12,
+     "sd": 699.7
+    },
+    "terrSitesCV": {
+     "max": 0.587,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.2,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 8.3,
+     "mean": 7.8,
+     "med": 7.8,
+     "min": 7.3,
+     "n": 12,
+     "sd": 0.3
+    },
+    "terrYieldCV": {
+     "max": 0.649,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.258,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 8400,
+     "mean": 8094.0,
+     "med": 8134.5,
+     "min": 7526,
+     "n": 12,
+     "sd": 250.9
+    },
+    "trees": {
+     "max": 16.7,
+     "mean": 15.3,
+     "med": 15.4,
+     "min": 14.1,
+     "n": 12,
+     "sd": 0.7
+    },
+    "veg": {
+     "max": 19.4,
+     "mean": 18.2,
+     "med": 18.2,
+     "min": 17.0,
+     "n": 12,
+     "sd": 0.7
+    },
+    "wood": {
+     "max": 5384,
+     "mean": 4913.0,
+     "med": 4939.5,
+     "min": 4586,
+     "n": 12,
+     "sd": 240.4
+    }
+   },
+   "group": "Desolation",
+   "imgs": [
+    "atlas/desolation-huge-square/seed-1.png",
+    "atlas/desolation-huge-square/seed-2.png",
+    "atlas/desolation-huge-square/seed-3.png",
+    "atlas/desolation-huge-square/seed-4.png",
+    "atlas/desolation-huge-square/seed-5.png",
+    "atlas/desolation-huge-square/seed-6.png",
+    "atlas/desolation-huge-square/seed-7.png",
+    "atlas/desolation-huge-square/seed-8.png",
+    "atlas/desolation-huge-square/seed-9.png",
+    "atlas/desolation-huge-square/seed-10.png",
+    "atlas/desolation-huge-square/seed-11.png",
+    "atlas/desolation-huge-square/seed-12.png"
+   ],
+   "label": "Desolation \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "desolation-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 5,
+     "mean": 3.2,
+     "med": 2.5,
+     "min": 1,
+     "n": 12,
+     "sd": 1.5
+    },
+    "camp": {
+     "max": 60,
+     "mean": 43.6,
+     "med": 42.0,
+     "min": 30,
+     "n": 12,
+     "sd": 7.7
+    },
+    "clearcutSF": {
+     "max": 49820,
+     "mean": 41140.0,
+     "med": 40590.0,
+     "min": 36000,
+     "n": 12,
+     "sd": 3529.7
+    },
+    "clearcutWJ": {
+     "max": 49820,
+     "mean": 41140.0,
+     "med": 40590.0,
+     "min": 36000,
+     "n": 12,
+     "sd": 3529.7
+    },
+    "collideCV": {
+     "max": 0.355,
+     "mean": 0.2,
+     "med": 0.2,
+     "min": 0.136,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 109,
+     "mean": 92.6,
+     "med": 94.5,
+     "min": 74,
+     "n": 12,
+     "sd": 10.2
+    },
+    "ele": {
+     "max": 12,
+     "mean": 6.3,
+     "med": 6.5,
+     "min": 2,
+     "n": 12,
+     "sd": 2.8
+    },
+    "expansion": {
+     "max": 4494,
+     "mean": 4093.0,
+     "med": 4053.0,
+     "min": 3734,
+     "n": 12,
+     "sd": 217.8
+    },
+    "fairScore": {
+     "max": 75,
+     "mean": 65.5,
+     "med": 67.5,
+     "min": 51,
+     "n": 12,
+     "sd": 6.2
+    },
+    "food": {
+     "max": 33191,
+     "mean": 29635.4,
+     "med": 29321.5,
+     "min": 26851,
+     "n": 12,
+     "sd": 1809.0
+    },
+    "grain": {
+     "max": 62,
+     "mean": 43.6,
+     "med": 43.0,
+     "min": 31,
+     "n": 12,
+     "sd": 8.7
+    },
+    "grove": {
+     "max": 69,
+     "mean": 52.3,
+     "med": 50.0,
+     "min": 39,
+     "n": 12,
+     "sd": 8.7
+    },
+    "hills": {
+     "max": 1201,
+     "mean": 1035.8,
+     "med": 1008.0,
+     "min": 928,
+     "n": 12,
+     "sd": 90.5
+    },
+    "hillsPct": {
+     "max": 19.1,
+     "mean": 16.7,
+     "med": 16.5,
+     "min": 14.3,
+     "n": 12,
+     "sd": 1.6
+    },
+    "horse": {
+     "max": 56,
+     "mean": 43.1,
+     "med": 40.0,
+     "min": 33,
+     "n": 12,
+     "sd": 7.0
+    },
+    "iron": {
+     "max": 25699,
+     "mean": 24033.2,
+     "med": 23962.5,
+     "min": 21969,
+     "n": 12,
+     "sd": 1045.9
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 5100,
+     "mean": 4718.8,
+     "med": 4721.5,
+     "min": 4364,
+     "n": 12,
+     "sd": 221.9
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 35,
+     "mean": 23.4,
+     "med": 23.5,
+     "min": 12,
+     "n": 12,
+     "sd": 7.1
+    },
+    "marsh": {
+     "max": 4.5,
+     "mean": 3.8,
+     "med": 3.8,
+     "min": 3.0,
+     "n": 12,
+     "sd": 0.5
+    },
+    "nets": {
+     "max": 26,
+     "mean": 17.6,
+     "med": 17.5,
+     "min": 9,
+     "n": 12,
+     "sd": 4.5
+    },
+    "nomad": {
+     "max": 5.9,
+     "mean": 4.9,
+     "med": 5.2,
+     "min": 2.7,
+     "n": 12,
+     "sd": 0.9
+    },
+    "ore": {
+     "max": 22,
+     "mean": 15.8,
+     "med": 15.5,
+     "min": 10,
+     "n": 12,
+     "sd": 3.9
+    },
+    "pasture": {
+     "max": 95,
+     "mean": 77.9,
+     "med": 78.0,
+     "min": 63,
+     "n": 12,
+     "sd": 8.9
+    },
+    "precious": {
+     "max": 29,
+     "mean": 21.2,
+     "med": 21.5,
+     "min": 14,
+     "n": 12,
+     "sd": 4.5
+    },
+    "rangedCover": {
+     "max": 9.6,
+     "mean": 8.3,
+     "med": 8.2,
+     "min": 7.4,
+     "n": 12,
+     "sd": 0.6
+    },
+    "river": {
+     "max": 22.7,
+     "mean": 20.7,
+     "med": 20.8,
+     "min": 19.6,
+     "n": 12,
+     "sd": 0.9
+    },
+    "scrub": {
+     "max": 3.0,
+     "mean": 2.2,
+     "med": 2.3,
+     "min": 1.4,
+     "n": 12,
+     "sd": 0.5
+    },
+    "sites": {
+     "max": 87,
+     "mean": 78.2,
+     "med": 78.0,
+     "min": 71,
+     "n": 12,
+     "sd": 4.5
+    },
+    "spreadMean": {
+     "max": 56,
+     "mean": 50.2,
+     "med": 50.5,
+     "min": 43,
+     "n": 12,
+     "sd": 3.2
+    },
+    "spreadMin": {
+     "max": 21,
+     "mean": 17.6,
+     "med": 18.0,
+     "min": 11,
+     "n": 12,
+     "sd": 3.0
+    },
+    "stone": {
+     "max": 24497,
+     "mean": 22807.2,
+     "med": 22738.0,
+     "min": 21072,
+     "n": 12,
+     "sd": 956.4
+    },
+    "terrSitesCV": {
+     "max": 0.546,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.305,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 8.7,
+     "mean": 7.8,
+     "med": 7.8,
+     "min": 7.1,
+     "n": 12,
+     "sd": 0.5
+    },
+    "terrYieldCV": {
+     "max": 0.63,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.343,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 8934,
+     "mean": 8155.1,
+     "med": 8107.5,
+     "min": 7491,
+     "n": 12,
+     "sd": 413.4
+    },
+    "trees": {
+     "max": 18.5,
+     "mean": 15.5,
+     "med": 15.5,
+     "min": 13.5,
+     "n": 12,
+     "sd": 1.3
+    },
+    "veg": {
+     "max": 20.0,
+     "mean": 17.7,
+     "med": 17.6,
+     "min": 16.2,
+     "n": 12,
+     "sd": 1.0
+    },
+    "wood": {
+     "max": 6326,
+     "mean": 5073.8,
+     "med": 4989.0,
+     "min": 4358,
+     "n": 12,
+     "sd": 510.2
+    }
+   },
+   "group": "Desolation",
+   "imgs": [
+    "atlas/desolation-huge-wide/seed-1.png",
+    "atlas/desolation-huge-wide/seed-2.png",
+    "atlas/desolation-huge-wide/seed-3.png",
+    "atlas/desolation-huge-wide/seed-4.png",
+    "atlas/desolation-huge-wide/seed-5.png",
+    "atlas/desolation-huge-wide/seed-6.png",
+    "atlas/desolation-huge-wide/seed-7.png",
+    "atlas/desolation-huge-wide/seed-8.png",
+    "atlas/desolation-huge-wide/seed-9.png",
+    "atlas/desolation-huge-wide/seed-10.png",
+    "atlas/desolation-huge-wide/seed-11.png",
+    "atlas/desolation-huge-wide/seed-12.png"
+   ],
+   "label": "Desolation \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "desolation-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
      "max": 8,
      "mean": 2.9,
      "med": 2.5,
@@ -2170,6 +6514,2178 @@
    "n": 12,
    "setting": "Huge \u00b7 wide \u00b7 10 players",
    "slug": "donut-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 4,
+     "mean": 1.3,
+     "med": 1.0,
+     "min": 0,
+     "n": 12,
+     "sd": 1.2
+    },
+    "camp": {
+     "max": 56,
+     "mean": 37.9,
+     "med": 35.5,
+     "min": 23,
+     "n": 12,
+     "sd": 10.8
+    },
+    "clearcutSF": {
+     "max": 32120,
+     "mean": 20306.7,
+     "med": 21100.0,
+     "min": 10240,
+     "n": 12,
+     "sd": 8824.0
+    },
+    "clearcutWJ": {
+     "max": 32120,
+     "mean": 20306.7,
+     "med": 21100.0,
+     "min": 10240,
+     "n": 12,
+     "sd": 8824.0
+    },
+    "collideCV": {
+     "max": 0.98,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.36,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 128,
+     "mean": 73.2,
+     "med": 69.0,
+     "min": 31,
+     "n": 12,
+     "sd": 27.4
+    },
+    "ele": {
+     "max": 19,
+     "mean": 7.6,
+     "med": 6.0,
+     "min": 1,
+     "n": 12,
+     "sd": 4.7
+    },
+    "expansion": {
+     "max": 3387,
+     "mean": 2188.7,
+     "med": 2246.0,
+     "min": 1166,
+     "n": 12,
+     "sd": 912.7
+    },
+    "fairScore": {
+     "max": 62,
+     "mean": 39.2,
+     "med": 39.5,
+     "min": 20,
+     "n": 12,
+     "sd": 12.7
+    },
+    "food": {
+     "max": 24227,
+     "mean": 16086.7,
+     "med": 16744.0,
+     "min": 8891,
+     "n": 12,
+     "sd": 6184.1
+    },
+    "grain": {
+     "max": 84,
+     "mean": 55.2,
+     "med": 58.0,
+     "min": 30,
+     "n": 12,
+     "sd": 13.3
+    },
+    "grove": {
+     "max": 127,
+     "mean": 96.8,
+     "med": 91.0,
+     "min": 69,
+     "n": 12,
+     "sd": 16.7
+    },
+    "hills": {
+     "max": 1098,
+     "mean": 725.6,
+     "med": 741.5,
+     "min": 373,
+     "n": 12,
+     "sd": 289.5
+    },
+    "hillsPct": {
+     "max": 10.2,
+     "mean": 6.7,
+     "med": 6.8,
+     "min": 3.5,
+     "n": 12,
+     "sd": 2.7
+    },
+    "horse": {
+     "max": 81,
+     "mean": 60.1,
+     "med": 57.5,
+     "min": 43,
+     "n": 12,
+     "sd": 11.0
+    },
+    "iron": {
+     "max": 20976,
+     "mean": 13652.8,
+     "med": 14076.5,
+     "min": 7430,
+     "n": 12,
+     "sd": 5573.4
+    },
+    "islandPct": {
+     "max": 40,
+     "mean": 19.2,
+     "med": 15.0,
+     "min": 0,
+     "n": 12,
+     "sd": 15.5
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 95.0,
+     "med": 100.0,
+     "min": 40,
+     "n": 12,
+     "sd": 16.6
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 3945,
+     "mean": 2629.1,
+     "med": 2690.0,
+     "min": 1526,
+     "n": 12,
+     "sd": 1013.9
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 8.0,
+     "med": 8.0,
+     "min": 5,
+     "n": 12,
+     "sd": 1.6
+    },
+    "marble": {
+     "max": 36,
+     "mean": 22.8,
+     "med": 20.5,
+     "min": 15,
+     "n": 12,
+     "sd": 6.9
+    },
+    "marsh": {
+     "max": 1.1,
+     "mean": 0.7,
+     "med": 0.6,
+     "min": 0.3,
+     "n": 12,
+     "sd": 0.2
+    },
+    "nets": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "nomad": {
+     "max": 2.4,
+     "mean": 1.0,
+     "med": 0.7,
+     "min": 0.2,
+     "n": 12,
+     "sd": 0.7
+    },
+    "ore": {
+     "max": 30,
+     "mean": 25.7,
+     "med": 26.5,
+     "min": 14,
+     "n": 12,
+     "sd": 4.0
+    },
+    "pasture": {
+     "max": 117,
+     "mean": 86.5,
+     "med": 89.5,
+     "min": 61,
+     "n": 12,
+     "sd": 16.9
+    },
+    "precious": {
+     "max": 41,
+     "mean": 20.3,
+     "med": 19.5,
+     "min": 6,
+     "n": 12,
+     "sd": 12.0
+    },
+    "rangedCover": {
+     "max": 3.7,
+     "mean": 2.4,
+     "med": 2.5,
+     "min": 1.2,
+     "n": 12,
+     "sd": 1.0
+    },
+    "river": {
+     "max": 18.2,
+     "mean": 13.0,
+     "med": 13.3,
+     "min": 8.3,
+     "n": 12,
+     "sd": 3.8
+    },
+    "scrub": {
+     "max": 1.5,
+     "mean": 0.6,
+     "med": 0.4,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.5
+    },
+    "sites": {
+     "max": 111,
+     "mean": 94.2,
+     "med": 96.0,
+     "min": 79,
+     "n": 12,
+     "sd": 11.3
+    },
+    "spreadMean": {
+     "max": 59,
+     "mean": 48.2,
+     "med": 47.5,
+     "min": 38,
+     "n": 12,
+     "sd": 7.6
+    },
+    "spreadMin": {
+     "max": 21,
+     "mean": 12.5,
+     "med": 11.5,
+     "min": 6,
+     "n": 12,
+     "sd": 4.4
+    },
+    "stone": {
+     "max": 18359,
+     "mean": 11963.2,
+     "med": 12291.0,
+     "min": 6512,
+     "n": 12,
+     "sd": 5024.3
+    },
+    "terrSitesCV": {
+     "max": 0.968,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.348,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 11.1,
+     "mean": 9.4,
+     "med": 9.6,
+     "min": 7.9,
+     "n": 12,
+     "sd": 1.1
+    },
+    "terrYieldCV": {
+     "max": 1.051,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.378,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 6752,
+     "mean": 4422.4,
+     "med": 4583.0,
+     "min": 2456,
+     "n": 12,
+     "sd": 1781.3
+    },
+    "trees": {
+     "max": 7.0,
+     "mean": 4.4,
+     "med": 4.7,
+     "min": 2.3,
+     "n": 12,
+     "sd": 1.8
+    },
+    "veg": {
+     "max": 8.1,
+     "mean": 5.0,
+     "med": 5.1,
+     "min": 2.5,
+     "n": 12,
+     "sd": 2.3
+    },
+    "wood": {
+     "max": 3975,
+     "mean": 2521.4,
+     "med": 2672.5,
+     "min": 1280,
+     "n": 12,
+     "sd": 1042.0
+    }
+   },
+   "group": "Ebbing Sea",
+   "imgs": [
+    "atlas/ebbing-sea-huge-square/seed-1.png",
+    "atlas/ebbing-sea-huge-square/seed-2.png",
+    "atlas/ebbing-sea-huge-square/seed-3.png",
+    "atlas/ebbing-sea-huge-square/seed-4.png",
+    "atlas/ebbing-sea-huge-square/seed-5.png",
+    "atlas/ebbing-sea-huge-square/seed-6.png",
+    "atlas/ebbing-sea-huge-square/seed-7.png",
+    "atlas/ebbing-sea-huge-square/seed-8.png",
+    "atlas/ebbing-sea-huge-square/seed-9.png",
+    "atlas/ebbing-sea-huge-square/seed-10.png",
+    "atlas/ebbing-sea-huge-square/seed-11.png",
+    "atlas/ebbing-sea-huge-square/seed-12.png"
+   ],
+   "label": "Ebbing Sea \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "ebbing-sea-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 6,
+     "mean": 1.8,
+     "med": 1.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.0
+    },
+    "camp": {
+     "max": 63,
+     "mean": 44.1,
+     "med": 45.5,
+     "min": 24,
+     "n": 12,
+     "sd": 13.3
+    },
+    "clearcutSF": {
+     "max": 33200,
+     "mean": 21720.0,
+     "med": 22050.0,
+     "min": 11120,
+     "n": 12,
+     "sd": 8651.8
+    },
+    "clearcutWJ": {
+     "max": 33200,
+     "mean": 21720.0,
+     "med": 22050.0,
+     "min": 11120,
+     "n": 12,
+     "sd": 8651.8
+    },
+    "collideCV": {
+     "max": 0.907,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.21,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 108,
+     "mean": 77.5,
+     "med": 71.5,
+     "min": 53,
+     "n": 12,
+     "sd": 18.1
+    },
+    "ele": {
+     "max": 19,
+     "mean": 7.6,
+     "med": 6.5,
+     "min": 1,
+     "n": 12,
+     "sd": 5.6
+    },
+    "expansion": {
+     "max": 3489,
+     "mean": 2266.9,
+     "med": 2309.5,
+     "min": 1261,
+     "n": 12,
+     "sd": 901.9
+    },
+    "fairScore": {
+     "max": 73,
+     "mean": 45.1,
+     "med": 47.5,
+     "min": 12,
+     "n": 12,
+     "sd": 16.6
+    },
+    "food": {
+     "max": 24928,
+     "mean": 16711.5,
+     "med": 17359.0,
+     "min": 9757,
+     "n": 12,
+     "sd": 6065.1
+    },
+    "grain": {
+     "max": 89,
+     "mean": 59.2,
+     "med": 58.5,
+     "min": 37,
+     "n": 12,
+     "sd": 12.0
+    },
+    "grove": {
+     "max": 122,
+     "mean": 95.0,
+     "med": 92.5,
+     "min": 76,
+     "n": 12,
+     "sd": 13.9
+    },
+    "hills": {
+     "max": 1084,
+     "mean": 679.6,
+     "med": 662.0,
+     "min": 386,
+     "n": 12,
+     "sd": 274.1
+    },
+    "hillsPct": {
+     "max": 10.0,
+     "mean": 6.3,
+     "med": 6.1,
+     "min": 3.6,
+     "n": 12,
+     "sd": 2.5
+    },
+    "horse": {
+     "max": 79,
+     "mean": 58.0,
+     "med": 61.0,
+     "min": 42,
+     "n": 12,
+     "sd": 11.1
+    },
+    "iron": {
+     "max": 21070,
+     "mean": 13821.4,
+     "med": 13958.0,
+     "min": 7826,
+     "n": 12,
+     "sd": 5436.8
+    },
+    "islandPct": {
+     "max": 70,
+     "mean": 20.8,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 22.9
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 100.0,
+     "med": 100.0,
+     "min": 100,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4016,
+     "mean": 2698.2,
+     "med": 2778.0,
+     "min": 1590,
+     "n": 12,
+     "sd": 1010.8
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 8.9,
+     "med": 10.0,
+     "min": 5,
+     "n": 12,
+     "sd": 1.7
+    },
+    "marble": {
+     "max": 32,
+     "mean": 21.0,
+     "med": 19.5,
+     "min": 11,
+     "n": 12,
+     "sd": 7.4
+    },
+    "marsh": {
+     "max": 1.2,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.4
+    },
+    "nets": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "nomad": {
+     "max": 2.2,
+     "mean": 0.9,
+     "med": 0.6,
+     "min": 0.3,
+     "n": 12,
+     "sd": 0.7
+    },
+    "ore": {
+     "max": 31,
+     "mean": 22.7,
+     "med": 21.5,
+     "min": 16,
+     "n": 12,
+     "sd": 4.3
+    },
+    "pasture": {
+     "max": 119,
+     "mean": 90.3,
+     "med": 88.0,
+     "min": 61,
+     "n": 12,
+     "sd": 18.6
+    },
+    "precious": {
+     "max": 37,
+     "mean": 19.1,
+     "med": 15.5,
+     "min": 5,
+     "n": 12,
+     "sd": 12.9
+    },
+    "rangedCover": {
+     "max": 3.8,
+     "mean": 2.5,
+     "med": 2.5,
+     "min": 1.3,
+     "n": 12,
+     "sd": 1.0
+    },
+    "river": {
+     "max": 19.0,
+     "mean": 13.1,
+     "med": 13.7,
+     "min": 8.1,
+     "n": 12,
+     "sd": 4.0
+    },
+    "scrub": {
+     "max": 1.3,
+     "mean": 0.5,
+     "med": 0.3,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.4
+    },
+    "sites": {
+     "max": 114,
+     "mean": 95.8,
+     "med": 99.5,
+     "min": 79,
+     "n": 12,
+     "sd": 12.8
+    },
+    "spreadMean": {
+     "max": 70,
+     "mean": 58.8,
+     "med": 57.5,
+     "min": 48,
+     "n": 12,
+     "sd": 7.5
+    },
+    "spreadMin": {
+     "max": 20,
+     "mean": 13.2,
+     "med": 13.0,
+     "min": 8,
+     "n": 12,
+     "sd": 3.7
+    },
+    "stone": {
+     "max": 18928,
+     "mean": 12242.2,
+     "med": 12498.0,
+     "min": 6787,
+     "n": 12,
+     "sd": 4997.4
+    },
+    "terrSitesCV": {
+     "max": 0.741,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.23,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 11.4,
+     "mean": 9.6,
+     "med": 9.9,
+     "min": 7.9,
+     "n": 12,
+     "sd": 1.3
+    },
+    "terrYieldCV": {
+     "max": 0.847,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.299,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 6895,
+     "mean": 4549.6,
+     "med": 4663.5,
+     "min": 2599,
+     "n": 12,
+     "sd": 1751.5
+    },
+    "trees": {
+     "max": 7.2,
+     "mean": 4.7,
+     "med": 4.9,
+     "min": 2.5,
+     "n": 12,
+     "sd": 1.8
+    },
+    "veg": {
+     "max": 8.3,
+     "mean": 5.3,
+     "med": 5.2,
+     "min": 2.6,
+     "n": 12,
+     "sd": 2.2
+    },
+    "wood": {
+     "max": 4105,
+     "mean": 2720.7,
+     "med": 2811.5,
+     "min": 1455,
+     "n": 12,
+     "sd": 1024.9
+    }
+   },
+   "group": "Ebbing Sea",
+   "imgs": [
+    "atlas/ebbing-sea-huge-wide/seed-1.png",
+    "atlas/ebbing-sea-huge-wide/seed-2.png",
+    "atlas/ebbing-sea-huge-wide/seed-3.png",
+    "atlas/ebbing-sea-huge-wide/seed-4.png",
+    "atlas/ebbing-sea-huge-wide/seed-5.png",
+    "atlas/ebbing-sea-huge-wide/seed-6.png",
+    "atlas/ebbing-sea-huge-wide/seed-7.png",
+    "atlas/ebbing-sea-huge-wide/seed-8.png",
+    "atlas/ebbing-sea-huge-wide/seed-9.png",
+    "atlas/ebbing-sea-huge-wide/seed-10.png",
+    "atlas/ebbing-sea-huge-wide/seed-11.png",
+    "atlas/ebbing-sea-huge-wide/seed-12.png"
+   ],
+   "label": "Ebbing Sea \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "ebbing-sea-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 1,
+     "mean": 0.3,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.5
+    },
+    "camp": {
+     "max": 49,
+     "mean": 26.7,
+     "med": 25.0,
+     "min": 14,
+     "n": 12,
+     "sd": 8.8
+    },
+    "clearcutSF": {
+     "max": 83140,
+     "mean": 72625.0,
+     "med": 73850.0,
+     "min": 66740,
+     "n": 12,
+     "sd": 4268.1
+    },
+    "clearcutWJ": {
+     "max": 83140,
+     "mean": 72625.0,
+     "med": 73850.0,
+     "min": 66740,
+     "n": 12,
+     "sd": 4268.1
+    },
+    "collideCV": {
+     "max": 0.414,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.171,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 97,
+     "mean": 76.5,
+     "med": 75.0,
+     "min": 57,
+     "n": 12,
+     "sd": 13.4
+    },
+    "ele": {
+     "max": 4,
+     "mean": 2.6,
+     "med": 3.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.0
+    },
+    "expansion": {
+     "max": 2736,
+     "mean": 2255.9,
+     "med": 2164.0,
+     "min": 1751,
+     "n": 12,
+     "sd": 308.7
+    },
+    "fairScore": {
+     "max": 69,
+     "mean": 58.2,
+     "med": 59.0,
+     "min": 49,
+     "n": 12,
+     "sd": 6.1
+    },
+    "food": {
+     "max": 21171,
+     "mean": 16957.1,
+     "med": 16084.0,
+     "min": 12696,
+     "n": 12,
+     "sd": 2816.0
+    },
+    "grain": {
+     "max": 36,
+     "mean": 26.1,
+     "med": 26.0,
+     "min": 15,
+     "n": 12,
+     "sd": 5.6
+    },
+    "grove": {
+     "max": 34,
+     "mean": 26.2,
+     "med": 28.0,
+     "min": 13,
+     "n": 12,
+     "sd": 5.9
+    },
+    "hills": {
+     "max": 1616,
+     "mean": 1461.3,
+     "med": 1455.0,
+     "min": 1269,
+     "n": 12,
+     "sd": 96.7
+    },
+    "hillsPct": {
+     "max": 24.2,
+     "mean": 21.7,
+     "med": 21.6,
+     "min": 19.0,
+     "n": 12,
+     "sd": 1.4
+    },
+    "horse": {
+     "max": 36,
+     "mean": 26.7,
+     "med": 26.0,
+     "min": 21,
+     "n": 12,
+     "sd": 4.6
+    },
+    "iron": {
+     "max": 20417,
+     "mean": 18094.8,
+     "med": 17879.5,
+     "min": 16604,
+     "n": 12,
+     "sd": 1104.0
+    },
+    "islandPct": {
+     "max": 10,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.9
+    },
+    "isolPct": {
+     "max": 10,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.9
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 3948,
+     "mean": 3579.8,
+     "med": 3550.5,
+     "min": 3363,
+     "n": 12,
+     "sd": 177.0
+    },
+    "landmasses": {
+     "max": 2,
+     "mean": 1.4,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.5
+    },
+    "marble": {
+     "max": 23,
+     "mean": 13.5,
+     "med": 12.5,
+     "min": 10,
+     "n": 12,
+     "sd": 3.4
+    },
+    "marsh": {
+     "max": 2.7,
+     "mean": 2.3,
+     "med": 2.3,
+     "min": 1.6,
+     "n": 12,
+     "sd": 0.3
+    },
+    "nets": {
+     "max": 84,
+     "mean": 74.3,
+     "med": 76.0,
+     "min": 59,
+     "n": 12,
+     "sd": 7.5
+    },
+    "nomad": {
+     "max": 5.9,
+     "mean": 3.8,
+     "med": 4.0,
+     "min": 1.1,
+     "n": 12,
+     "sd": 1.4
+    },
+    "ore": {
+     "max": 22,
+     "mean": 13.7,
+     "med": 13.0,
+     "min": 10,
+     "n": 12,
+     "sd": 3.2
+    },
+    "pasture": {
+     "max": 51,
+     "mean": 42.5,
+     "med": 41.5,
+     "min": 35,
+     "n": 12,
+     "sd": 5.3
+    },
+    "precious": {
+     "max": 67,
+     "mean": 48.8,
+     "med": 48.0,
+     "min": 33,
+     "n": 12,
+     "sd": 9.5
+    },
+    "rangedCover": {
+     "max": 15.1,
+     "mean": 13.5,
+     "med": 13.7,
+     "min": 12.2,
+     "n": 12,
+     "sd": 0.8
+    },
+    "river": {
+     "max": 28.5,
+     "mean": 26.0,
+     "med": 26.5,
+     "min": 21.7,
+     "n": 12,
+     "sd": 2.1
+    },
+    "scrub": {
+     "max": 3.0,
+     "mean": 2.2,
+     "med": 2.5,
+     "min": 0.8,
+     "n": 12,
+     "sd": 0.7
+    },
+    "sites": {
+     "max": 63,
+     "mean": 58.2,
+     "med": 58.5,
+     "min": 51,
+     "n": 12,
+     "sd": 3.7
+    },
+    "spreadMean": {
+     "max": 48,
+     "mean": 40.8,
+     "med": 39.5,
+     "min": 34,
+     "n": 12,
+     "sd": 3.9
+    },
+    "spreadMin": {
+     "max": 17,
+     "mean": 14.1,
+     "med": 13.0,
+     "min": 11,
+     "n": 12,
+     "sd": 2.4
+    },
+    "stone": {
+     "max": 16714,
+     "mean": 14808.9,
+     "med": 14863.5,
+     "min": 13485,
+     "n": 12,
+     "sd": 896.3
+    },
+    "terrSitesCV": {
+     "max": 0.598,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.348,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 6.3,
+     "mean": 5.8,
+     "med": 5.8,
+     "min": 5.1,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 0.692,
+     "mean": 0.5,
+     "med": 0.6,
+     "min": 0.355,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 6806,
+     "mean": 5941.9,
+     "med": 5885.5,
+     "min": 5156,
+     "n": 12,
+     "sd": 516.2
+    },
+    "trees": {
+     "max": 29.8,
+     "mean": 25.8,
+     "med": 26.2,
+     "min": 22.9,
+     "n": 12,
+     "sd": 1.9
+    },
+    "veg": {
+     "max": 30.6,
+     "mean": 28.1,
+     "med": 28.1,
+     "min": 25.8,
+     "n": 12,
+     "sd": 1.5
+    },
+    "wood": {
+     "max": 11352,
+     "mean": 9557.2,
+     "med": 9687.5,
+     "min": 8490,
+     "n": 12,
+     "sd": 722.2
+    }
+   },
+   "group": "Hardwood Forest",
+   "imgs": [
+    "atlas/hardwood-forest-huge-square/seed-1.png",
+    "atlas/hardwood-forest-huge-square/seed-2.png",
+    "atlas/hardwood-forest-huge-square/seed-3.png",
+    "atlas/hardwood-forest-huge-square/seed-4.png",
+    "atlas/hardwood-forest-huge-square/seed-5.png",
+    "atlas/hardwood-forest-huge-square/seed-6.png",
+    "atlas/hardwood-forest-huge-square/seed-7.png",
+    "atlas/hardwood-forest-huge-square/seed-8.png",
+    "atlas/hardwood-forest-huge-square/seed-9.png",
+    "atlas/hardwood-forest-huge-square/seed-10.png",
+    "atlas/hardwood-forest-huge-square/seed-11.png",
+    "atlas/hardwood-forest-huge-square/seed-12.png"
+   ],
+   "label": "Hardwood Forest \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "hardwood-forest-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 1,
+     "mean": 0.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.4
+    },
+    "camp": {
+     "max": 38,
+     "mean": 26.8,
+     "med": 26.5,
+     "min": 15,
+     "n": 12,
+     "sd": 7.9
+    },
+    "clearcutSF": {
+     "max": 80920,
+     "mean": 76743.3,
+     "med": 77560.0,
+     "min": 70180,
+     "n": 12,
+     "sd": 3456.3
+    },
+    "clearcutWJ": {
+     "max": 80920,
+     "mean": 76743.3,
+     "med": 77560.0,
+     "min": 70180,
+     "n": 12,
+     "sd": 3456.3
+    },
+    "collideCV": {
+     "max": 0.449,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.145,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 93,
+     "mean": 79.1,
+     "med": 78.0,
+     "min": 70,
+     "n": 12,
+     "sd": 6.9
+    },
+    "ele": {
+     "max": 7,
+     "mean": 2.3,
+     "med": 2.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.6
+    },
+    "expansion": {
+     "max": 3397,
+     "mean": 2644.2,
+     "med": 2600.5,
+     "min": 2247,
+     "n": 12,
+     "sd": 267.7
+    },
+    "fairScore": {
+     "max": 74,
+     "mean": 60.8,
+     "med": 61.0,
+     "min": 38,
+     "n": 12,
+     "sd": 10.6
+    },
+    "food": {
+     "max": 26616,
+     "mean": 20276.6,
+     "med": 19877.0,
+     "min": 17142,
+     "n": 12,
+     "sd": 2196.6
+    },
+    "grain": {
+     "max": 38,
+     "mean": 24.7,
+     "med": 23.0,
+     "min": 16,
+     "n": 12,
+     "sd": 6.9
+    },
+    "grove": {
+     "max": 51,
+     "mean": 31.2,
+     "med": 29.5,
+     "min": 23,
+     "n": 12,
+     "sd": 7.5
+    },
+    "hills": {
+     "max": 1583,
+     "mean": 1437.6,
+     "med": 1438.5,
+     "min": 1257,
+     "n": 12,
+     "sd": 95.0
+    },
+    "hillsPct": {
+     "max": 23.2,
+     "mean": 21.3,
+     "med": 21.2,
+     "min": 18.6,
+     "n": 12,
+     "sd": 1.4
+    },
+    "horse": {
+     "max": 49,
+     "mean": 27.7,
+     "med": 27.0,
+     "min": 21,
+     "n": 12,
+     "sd": 6.9
+    },
+    "iron": {
+     "max": 22007,
+     "mean": 19268.6,
+     "med": 19130.0,
+     "min": 17591,
+     "n": 12,
+     "sd": 1099.9
+    },
+    "islandPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
+    "isolPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4061,
+     "mean": 3757.4,
+     "med": 3783.5,
+     "min": 3515,
+     "n": 12,
+     "sd": 164.8
+    },
+    "landmasses": {
+     "max": 2,
+     "mean": 1.2,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.4
+    },
+    "marble": {
+     "max": 33,
+     "mean": 15.8,
+     "med": 12.5,
+     "min": 10,
+     "n": 12,
+     "sd": 6.9
+    },
+    "marsh": {
+     "max": 3.0,
+     "mean": 2.2,
+     "med": 2.2,
+     "min": 1.9,
+     "n": 12,
+     "sd": 0.3
+    },
+    "nets": {
+     "max": 93,
+     "mean": 75.2,
+     "med": 79.5,
+     "min": 57,
+     "n": 12,
+     "sd": 10.4
+    },
+    "nomad": {
+     "max": 4.4,
+     "mean": 3.3,
+     "med": 3.5,
+     "min": 1.6,
+     "n": 12,
+     "sd": 0.8
+    },
+    "ore": {
+     "max": 22,
+     "mean": 15.4,
+     "med": 14.0,
+     "min": 11,
+     "n": 12,
+     "sd": 3.9
+    },
+    "pasture": {
+     "max": 67,
+     "mean": 45.6,
+     "med": 44.5,
+     "min": 33,
+     "n": 12,
+     "sd": 8.8
+    },
+    "precious": {
+     "max": 67,
+     "mean": 47.8,
+     "med": 47.0,
+     "min": 35,
+     "n": 12,
+     "sd": 7.8
+    },
+    "rangedCover": {
+     "max": 15.3,
+     "mean": 14.2,
+     "med": 14.2,
+     "min": 13.1,
+     "n": 12,
+     "sd": 0.7
+    },
+    "river": {
+     "max": 28.8,
+     "mean": 27.8,
+     "med": 27.9,
+     "min": 26.1,
+     "n": 12,
+     "sd": 0.7
+    },
+    "scrub": {
+     "max": 2.7,
+     "mean": 1.8,
+     "med": 1.9,
+     "min": 0.4,
+     "n": 12,
+     "sd": 0.6
+    },
+    "sites": {
+     "max": 73,
+     "mean": 63.5,
+     "med": 62.5,
+     "min": 58,
+     "n": 12,
+     "sd": 3.8
+    },
+    "spreadMean": {
+     "max": 52,
+     "mean": 47.1,
+     "med": 47.5,
+     "min": 40,
+     "n": 12,
+     "sd": 3.3
+    },
+    "spreadMin": {
+     "max": 18,
+     "mean": 13.8,
+     "med": 14.0,
+     "min": 8,
+     "n": 12,
+     "sd": 2.6
+    },
+    "stone": {
+     "max": 18102,
+     "mean": 15498.0,
+     "med": 15463.0,
+     "min": 13897,
+     "n": 12,
+     "sd": 1162.4
+    },
+    "terrSitesCV": {
+     "max": 0.699,
+     "mean": 0.5,
+     "med": 0.4,
+     "min": 0.272,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 7.3,
+     "mean": 6.4,
+     "med": 6.2,
+     "min": 5.8,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 0.792,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.192,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 7760,
+     "mean": 6531.0,
+     "med": 6493.5,
+     "min": 5817,
+     "n": 12,
+     "sd": 448.2
+    },
+    "trees": {
+     "max": 29.9,
+     "mean": 27.5,
+     "med": 27.3,
+     "min": 25.1,
+     "n": 12,
+     "sd": 1.5
+    },
+    "veg": {
+     "max": 31.1,
+     "mean": 29.3,
+     "med": 29.2,
+     "min": 27.1,
+     "n": 12,
+     "sd": 1.2
+    },
+    "wood": {
+     "max": 10977,
+     "mean": 10266.1,
+     "med": 10349.0,
+     "min": 9356,
+     "n": 12,
+     "sd": 502.4
+    }
+   },
+   "group": "Hardwood Forest",
+   "imgs": [
+    "atlas/hardwood-forest-huge-wide/seed-1.png",
+    "atlas/hardwood-forest-huge-wide/seed-2.png",
+    "atlas/hardwood-forest-huge-wide/seed-3.png",
+    "atlas/hardwood-forest-huge-wide/seed-4.png",
+    "atlas/hardwood-forest-huge-wide/seed-5.png",
+    "atlas/hardwood-forest-huge-wide/seed-6.png",
+    "atlas/hardwood-forest-huge-wide/seed-7.png",
+    "atlas/hardwood-forest-huge-wide/seed-8.png",
+    "atlas/hardwood-forest-huge-wide/seed-9.png",
+    "atlas/hardwood-forest-huge-wide/seed-10.png",
+    "atlas/hardwood-forest-huge-wide/seed-11.png",
+    "atlas/hardwood-forest-huge-wide/seed-12.png"
+   ],
+   "label": "Hardwood Forest \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "hardwood-forest-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 12,
+     "mean": 9.1,
+     "med": 10.0,
+     "min": 5,
+     "n": 12,
+     "sd": 2.3
+    },
+    "camp": {
+     "max": 61,
+     "mean": 40.7,
+     "med": 42.0,
+     "min": 28,
+     "n": 12,
+     "sd": 9.8
+    },
+    "clearcutSF": {
+     "max": 35960,
+     "mean": 29595.0,
+     "med": 30550.0,
+     "min": 19740,
+     "n": 12,
+     "sd": 4526.9
+    },
+    "clearcutWJ": {
+     "max": 35960,
+     "mean": 29595.0,
+     "med": 30550.0,
+     "min": 19740,
+     "n": 12,
+     "sd": 4526.9
+    },
+    "collideCV": {
+     "max": 0.428,
+     "mean": 0.2,
+     "med": 0.2,
+     "min": 0.119,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 127,
+     "mean": 109.1,
+     "med": 107.5,
+     "min": 92,
+     "n": 12,
+     "sd": 9.8
+    },
+    "ele": {
+     "max": 25,
+     "mean": 10.8,
+     "med": 9.0,
+     "min": 3,
+     "n": 12,
+     "sd": 6.0
+    },
+    "expansion": {
+     "max": 3199,
+     "mean": 2996.0,
+     "med": 3018.0,
+     "min": 2758,
+     "n": 12,
+     "sd": 115.0
+    },
+    "fairScore": {
+     "max": 79,
+     "mean": 69.8,
+     "med": 72.0,
+     "min": 52,
+     "n": 12,
+     "sd": 7.1
+    },
+    "food": {
+     "max": 18065,
+     "mean": 16825.9,
+     "med": 16804.5,
+     "min": 14963,
+     "n": 12,
+     "sd": 935.6
+    },
+    "grain": {
+     "max": 50,
+     "mean": 34.9,
+     "med": 33.0,
+     "min": 24,
+     "n": 12,
+     "sd": 8.2
+    },
+    "grove": {
+     "max": 51,
+     "mean": 40.6,
+     "med": 40.5,
+     "min": 28,
+     "n": 12,
+     "sd": 7.1
+    },
+    "hills": {
+     "max": 1228,
+     "mean": 1049.7,
+     "med": 1088.5,
+     "min": 735,
+     "n": 12,
+     "sd": 141.2
+    },
+    "hillsPct": {
+     "max": 25.5,
+     "mean": 21.7,
+     "med": 22.7,
+     "min": 15.1,
+     "n": 12,
+     "sd": 2.8
+    },
+    "horse": {
+     "max": 33,
+     "mean": 26.4,
+     "med": 26.0,
+     "min": 22,
+     "n": 12,
+     "sd": 3.5
+    },
+    "iron": {
+     "max": 20064,
+     "mean": 18804.9,
+     "med": 19164.0,
+     "min": 17609,
+     "n": 12,
+     "sd": 833.2
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 3986,
+     "mean": 3673.2,
+     "med": 3700.0,
+     "min": 3320,
+     "n": 12,
+     "sd": 166.2
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 29,
+     "mean": 18.1,
+     "med": 17.0,
+     "min": 12,
+     "n": 12,
+     "sd": 4.5
+    },
+    "marsh": {
+     "max": 5.8,
+     "mean": 3.8,
+     "med": 3.7,
+     "min": 2.6,
+     "n": 12,
+     "sd": 0.8
+    },
+    "nets": {
+     "max": 9,
+     "mean": 2.3,
+     "med": 0.5,
+     "min": 0,
+     "n": 12,
+     "sd": 3.1
+    },
+    "nomad": {
+     "max": 23.1,
+     "mean": 19.6,
+     "med": 20.1,
+     "min": 15.8,
+     "n": 12,
+     "sd": 2.0
+    },
+    "ore": {
+     "max": 14,
+     "mean": 11.3,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.3
+    },
+    "pasture": {
+     "max": 69,
+     "mean": 56.2,
+     "med": 55.0,
+     "min": 45,
+     "n": 12,
+     "sd": 7.1
+    },
+    "precious": {
+     "max": 38,
+     "mean": 27.8,
+     "med": 28.0,
+     "min": 14,
+     "n": 12,
+     "sd": 7.1
+    },
+    "rangedCover": {
+     "max": 9.2,
+     "mean": 7.6,
+     "med": 7.9,
+     "min": 5.7,
+     "n": 12,
+     "sd": 1.0
+    },
+    "river": {
+     "max": 0.9,
+     "mean": 0.8,
+     "med": 0.8,
+     "min": 0.6,
+     "n": 12,
+     "sd": 0.1
+    },
+    "scrub": {
+     "max": 9.2,
+     "mean": 8.1,
+     "med": 7.9,
+     "min": 7.1,
+     "n": 12,
+     "sd": 0.8
+    },
+    "sites": {
+     "max": 71,
+     "mean": 63.1,
+     "med": 62.5,
+     "min": 55,
+     "n": 12,
+     "sd": 4.1
+    },
+    "spreadMean": {
+     "max": 45,
+     "mean": 40.2,
+     "med": 41.0,
+     "min": 36,
+     "n": 12,
+     "sd": 2.6
+    },
+    "spreadMin": {
+     "max": 20,
+     "mean": 16.4,
+     "med": 16.5,
+     "min": 13,
+     "n": 12,
+     "sd": 1.9
+    },
+    "stone": {
+     "max": 20327,
+     "mean": 18970.8,
+     "med": 19282.5,
+     "min": 17678,
+     "n": 12,
+     "sd": 832.1
+    },
+    "terrSitesCV": {
+     "max": 0.505,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.211,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 7.1,
+     "mean": 6.3,
+     "med": 6.2,
+     "min": 5.5,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 0.535,
+     "mean": 0.4,
+     "med": 0.3,
+     "min": 0.215,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 6130,
+     "mean": 5732.2,
+     "med": 5793.5,
+     "min": 5202,
+     "n": 12,
+     "sd": 262.9
+    },
+    "trees": {
+     "max": 13.8,
+     "mean": 11.2,
+     "med": 11.6,
+     "min": 7.8,
+     "n": 12,
+     "sd": 1.9
+    },
+    "veg": {
+     "max": 23.0,
+     "mean": 19.3,
+     "med": 20.1,
+     "min": 15.0,
+     "n": 12,
+     "sd": 2.3
+    },
+    "wood": {
+     "max": 3380,
+     "mean": 2720.4,
+     "med": 2787.5,
+     "min": 1700,
+     "n": 12,
+     "sd": 500.8
+    }
+   },
+   "group": "Highlands",
+   "imgs": [
+    "atlas/highlands-huge-square/seed-1.png",
+    "atlas/highlands-huge-square/seed-2.png",
+    "atlas/highlands-huge-square/seed-3.png",
+    "atlas/highlands-huge-square/seed-4.png",
+    "atlas/highlands-huge-square/seed-5.png",
+    "atlas/highlands-huge-square/seed-6.png",
+    "atlas/highlands-huge-square/seed-7.png",
+    "atlas/highlands-huge-square/seed-8.png",
+    "atlas/highlands-huge-square/seed-9.png",
+    "atlas/highlands-huge-square/seed-10.png",
+    "atlas/highlands-huge-square/seed-11.png",
+    "atlas/highlands-huge-square/seed-12.png"
+   ],
+   "label": "Highlands \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "highlands-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 14,
+     "mean": 8.6,
+     "med": 9.0,
+     "min": 2,
+     "n": 12,
+     "sd": 3.8
+    },
+    "camp": {
+     "max": 60,
+     "mean": 37.1,
+     "med": 35.5,
+     "min": 22,
+     "n": 12,
+     "sd": 11.0
+    },
+    "clearcutSF": {
+     "max": 31000,
+     "mean": 26838.3,
+     "med": 26680.0,
+     "min": 20500,
+     "n": 12,
+     "sd": 3265.5
+    },
+    "clearcutWJ": {
+     "max": 31000,
+     "mean": 26838.3,
+     "med": 26680.0,
+     "min": 20500,
+     "n": 12,
+     "sd": 3265.5
+    },
+    "collideCV": {
+     "max": 0.496,
+     "mean": 0.3,
+     "med": 0.2,
+     "min": 0.115,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 117,
+     "mean": 104.3,
+     "med": 107.0,
+     "min": 86,
+     "n": 12,
+     "sd": 10.2
+    },
+    "ele": {
+     "max": 17,
+     "mean": 10.7,
+     "med": 10.0,
+     "min": 4,
+     "n": 12,
+     "sd": 3.6
+    },
+    "expansion": {
+     "max": 3379,
+     "mean": 2825.6,
+     "med": 2710.5,
+     "min": 2466,
+     "n": 12,
+     "sd": 302.3
+    },
+    "fairScore": {
+     "max": 81,
+     "mean": 66.8,
+     "med": 66.0,
+     "min": 59,
+     "n": 12,
+     "sd": 5.8
+    },
+    "food": {
+     "max": 18902,
+     "mean": 15290.9,
+     "med": 14334.0,
+     "min": 12833,
+     "n": 12,
+     "sd": 2057.1
+    },
+    "grain": {
+     "max": 41,
+     "mean": 32.8,
+     "med": 34.0,
+     "min": 13,
+     "n": 12,
+     "sd": 7.6
+    },
+    "grove": {
+     "max": 63,
+     "mean": 40.7,
+     "med": 41.5,
+     "min": 19,
+     "n": 12,
+     "sd": 12.8
+    },
+    "hills": {
+     "max": 1128,
+     "mean": 908.8,
+     "med": 949.0,
+     "min": 618,
+     "n": 12,
+     "sd": 159.1
+    },
+    "hillsPct": {
+     "max": 25.4,
+     "mean": 20.1,
+     "med": 20.4,
+     "min": 15.5,
+     "n": 12,
+     "sd": 3.2
+    },
+    "horse": {
+     "max": 38,
+     "mean": 24.8,
+     "med": 23.5,
+     "min": 20,
+     "n": 12,
+     "sd": 4.8
+    },
+    "iron": {
+     "max": 21189,
+     "mean": 17502.0,
+     "med": 17401.5,
+     "min": 15214,
+     "n": 12,
+     "sd": 1872.7
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4179,
+     "mean": 3441.4,
+     "med": 3248.5,
+     "min": 3050,
+     "n": 12,
+     "sd": 375.5
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 27,
+     "mean": 16.4,
+     "med": 16.5,
+     "min": 10,
+     "n": 12,
+     "sd": 4.9
+    },
+    "marsh": {
+     "max": 4.6,
+     "mean": 3.6,
+     "med": 3.6,
+     "min": 2.8,
+     "n": 12,
+     "sd": 0.5
+    },
+    "nets": {
+     "max": 13,
+     "mean": 4.3,
+     "med": 4.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.9
+    },
+    "nomad": {
+     "max": 29.2,
+     "mean": 22.6,
+     "med": 22.7,
+     "min": 14.8,
+     "n": 12,
+     "sd": 3.9
+    },
+    "ore": {
+     "max": 15,
+     "mean": 11.2,
+     "med": 10.5,
+     "min": 10,
+     "n": 12,
+     "sd": 1.6
+    },
+    "pasture": {
+     "max": 72,
+     "mean": 52.5,
+     "med": 51.5,
+     "min": 42,
+     "n": 12,
+     "sd": 7.7
+    },
+    "precious": {
+     "max": 31,
+     "mean": 24.0,
+     "med": 27.0,
+     "min": 13,
+     "n": 12,
+     "sd": 6.1
+    },
+    "rangedCover": {
+     "max": 8.3,
+     "mean": 7.4,
+     "med": 7.5,
+     "min": 6.2,
+     "n": 12,
+     "sd": 0.6
+    },
+    "river": {
+     "max": 1.0,
+     "mean": 0.8,
+     "med": 0.8,
+     "min": 0.6,
+     "n": 12,
+     "sd": 0.1
+    },
+    "scrub": {
+     "max": 10.0,
+     "mean": 8.8,
+     "med": 9.2,
+     "min": 5.7,
+     "n": 12,
+     "sd": 1.2
+    },
+    "sites": {
+     "max": 75,
+     "mean": 61.0,
+     "med": 59.0,
+     "min": 53,
+     "n": 12,
+     "sd": 7.2
+    },
+    "spreadMean": {
+     "max": 49,
+     "mean": 40.6,
+     "med": 40.5,
+     "min": 33,
+     "n": 12,
+     "sd": 4.1
+    },
+    "spreadMin": {
+     "max": 19,
+     "mean": 15.2,
+     "med": 15.5,
+     "min": 13,
+     "n": 12,
+     "sd": 1.8
+    },
+    "stone": {
+     "max": 21206,
+     "mean": 17687.4,
+     "med": 17633.0,
+     "min": 15385,
+     "n": 12,
+     "sd": 1881.4
+    },
+    "terrSitesCV": {
+     "max": 0.522,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.237,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 7.5,
+     "mean": 6.1,
+     "med": 5.9,
+     "min": 5.3,
+     "n": 12,
+     "sd": 0.7
+    },
+    "terrYieldCV": {
+     "max": 0.468,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.241,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 6399,
+     "mean": 5284.6,
+     "med": 5085.0,
+     "min": 4639,
+     "n": 12,
+     "sd": 592.2
+    },
+    "trees": {
+     "max": 12.4,
+     "mean": 10.4,
+     "med": 10.2,
+     "min": 7.5,
+     "n": 12,
+     "sd": 1.4
+    },
+    "veg": {
+     "max": 21.0,
+     "mean": 19.2,
+     "med": 19.4,
+     "min": 17.1,
+     "n": 12,
+     "sd": 1.3
+    },
+    "wood": {
+     "max": 2995,
+     "mean": 2365.4,
+     "med": 2355.0,
+     "min": 1570,
+     "n": 12,
+     "sd": 425.3
+    }
+   },
+   "group": "Highlands",
+   "imgs": [
+    "atlas/highlands-huge-wide/seed-1.png",
+    "atlas/highlands-huge-wide/seed-2.png",
+    "atlas/highlands-huge-wide/seed-3.png",
+    "atlas/highlands-huge-wide/seed-4.png",
+    "atlas/highlands-huge-wide/seed-5.png",
+    "atlas/highlands-huge-wide/seed-6.png",
+    "atlas/highlands-huge-wide/seed-7.png",
+    "atlas/highlands-huge-wide/seed-8.png",
+    "atlas/highlands-huge-wide/seed-9.png",
+    "atlas/highlands-huge-wide/seed-10.png",
+    "atlas/highlands-huge-wide/seed-11.png",
+    "atlas/highlands-huge-wide/seed-12.png"
+   ],
+   "label": "Highlands \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "highlands-huge-wide",
    "tip": "",
    "variant": ""
   },
@@ -4349,6 +10865,2902 @@
    "aspect": "square",
    "dist": {
     "camel": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "camp": {
+     "max": 48,
+     "mean": 38.5,
+     "med": 39.0,
+     "min": 28,
+     "n": 12,
+     "sd": 7.0
+    },
+    "clearcutSF": {
+     "max": 67580,
+     "mean": 58435.0,
+     "med": 57680.0,
+     "min": 52380,
+     "n": 12,
+     "sd": 5016.5
+    },
+    "clearcutWJ": {
+     "max": 67580,
+     "mean": 58435.0,
+     "med": 57680.0,
+     "min": 52380,
+     "n": 12,
+     "sd": 5016.5
+    },
+    "collideCV": {
+     "max": 0.483,
+     "mean": 0.2,
+     "med": 0.2,
+     "min": 0.137,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 134,
+     "mean": 115.9,
+     "med": 116.5,
+     "min": 94,
+     "n": 12,
+     "sd": 12.3
+    },
+    "ele": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "expansion": {
+     "max": 3854,
+     "mean": 3440.3,
+     "med": 3443.0,
+     "min": 3092,
+     "n": 12,
+     "sd": 277.0
+    },
+    "fairScore": {
+     "max": 77,
+     "mean": 71.8,
+     "med": 71.0,
+     "min": 62,
+     "n": 12,
+     "sd": 3.9
+    },
+    "food": {
+     "max": 21968,
+     "mean": 19363.9,
+     "med": 19505.5,
+     "min": 16831,
+     "n": 12,
+     "sd": 1909.5
+    },
+    "grain": {
+     "max": 59,
+     "mean": 41.7,
+     "med": 40.5,
+     "min": 25,
+     "n": 12,
+     "sd": 8.1
+    },
+    "grove": {
+     "max": 59,
+     "mean": 39.5,
+     "med": 39.0,
+     "min": 28,
+     "n": 12,
+     "sd": 8.7
+    },
+    "hills": {
+     "max": 1448,
+     "mean": 1231.5,
+     "med": 1240.0,
+     "min": 1063,
+     "n": 12,
+     "sd": 107.6
+    },
+    "hillsPct": {
+     "max": 26.8,
+     "mean": 23.1,
+     "med": 22.9,
+     "min": 19.2,
+     "n": 12,
+     "sd": 2.5
+    },
+    "horse": {
+     "max": 42,
+     "mean": 33.1,
+     "med": 33.5,
+     "min": 26,
+     "n": 12,
+     "sd": 4.8
+    },
+    "iron": {
+     "max": 23993,
+     "mean": 22595.3,
+     "med": 22454.5,
+     "min": 20849,
+     "n": 12,
+     "sd": 943.9
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4523,
+     "mean": 4256.4,
+     "med": 4308.0,
+     "min": 3926,
+     "n": 12,
+     "sd": 222.8
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 37,
+     "mean": 18.9,
+     "med": 18.0,
+     "min": 11,
+     "n": 12,
+     "sd": 7.2
+    },
+    "marsh": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "nets": {
+     "max": 6,
+     "mean": 0.6,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 1.7
+    },
+    "nomad": {
+     "max": 14.0,
+     "mean": 11.4,
+     "med": 11.6,
+     "min": 8.0,
+     "n": 12,
+     "sd": 1.7
+    },
+    "ore": {
+     "max": 16,
+     "mean": 12.5,
+     "med": 12.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.4
+    },
+    "pasture": {
+     "max": 84,
+     "mean": 67.3,
+     "med": 68.0,
+     "min": 44,
+     "n": 12,
+     "sd": 12.4
+    },
+    "precious": {
+     "max": 45,
+     "mean": 37.5,
+     "med": 38.5,
+     "min": 27,
+     "n": 12,
+     "sd": 4.8
+    },
+    "rangedCover": {
+     "max": 15.1,
+     "mean": 13.6,
+     "med": 13.5,
+     "min": 12.4,
+     "n": 12,
+     "sd": 0.8
+    },
+    "river": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "scrub": {
+     "max": 9.6,
+     "mean": 8.5,
+     "med": 8.4,
+     "min": 7.9,
+     "n": 12,
+     "sd": 0.5
+    },
+    "sites": {
+     "max": 78,
+     "mean": 70.6,
+     "med": 71.0,
+     "min": 64,
+     "n": 12,
+     "sd": 4.6
+    },
+    "spreadMean": {
+     "max": 50,
+     "mean": 44.7,
+     "med": 45.0,
+     "min": 40,
+     "n": 12,
+     "sd": 3.1
+    },
+    "spreadMin": {
+     "max": 20,
+     "mean": 15.5,
+     "med": 15.5,
+     "min": 8,
+     "n": 12,
+     "sd": 3.5
+    },
+    "stone": {
+     "max": 23148,
+     "mean": 21535.2,
+     "med": 21458.5,
+     "min": 20131,
+     "n": 12,
+     "sd": 965.7
+    },
+    "terrSitesCV": {
+     "max": 0.437,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.228,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 7.8,
+     "mean": 7.1,
+     "med": 7.1,
+     "min": 6.4,
+     "n": 12,
+     "sd": 0.5
+    },
+    "terrYieldCV": {
+     "max": 0.407,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.217,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 7615,
+     "mean": 6965.9,
+     "med": 6958.5,
+     "min": 6408,
+     "n": 12,
+     "sd": 428.5
+    },
+    "trees": {
+     "max": 26.1,
+     "mean": 23.0,
+     "med": 22.8,
+     "min": 20.4,
+     "n": 12,
+     "sd": 1.7
+    },
+    "veg": {
+     "max": 34.5,
+     "mean": 31.5,
+     "med": 31.2,
+     "min": 29.2,
+     "n": 12,
+     "sd": 1.5
+    },
+    "wood": {
+     "max": 7275,
+     "mean": 6165.4,
+     "med": 6107.5,
+     "min": 5380,
+     "n": 12,
+     "sd": 625.2
+    }
+   },
+   "group": "Mountain Pass",
+   "imgs": [
+    "atlas/mountain-pass-huge-square/seed-1.png",
+    "atlas/mountain-pass-huge-square/seed-2.png",
+    "atlas/mountain-pass-huge-square/seed-3.png",
+    "atlas/mountain-pass-huge-square/seed-4.png",
+    "atlas/mountain-pass-huge-square/seed-5.png",
+    "atlas/mountain-pass-huge-square/seed-6.png",
+    "atlas/mountain-pass-huge-square/seed-7.png",
+    "atlas/mountain-pass-huge-square/seed-8.png",
+    "atlas/mountain-pass-huge-square/seed-9.png",
+    "atlas/mountain-pass-huge-square/seed-10.png",
+    "atlas/mountain-pass-huge-square/seed-11.png",
+    "atlas/mountain-pass-huge-square/seed-12.png"
+   ],
+   "label": "Mountain Pass \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "mountain-pass-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "camp": {
+     "max": 48,
+     "mean": 37.3,
+     "med": 41.5,
+     "min": 16,
+     "n": 12,
+     "sd": 9.1
+    },
+    "clearcutSF": {
+     "max": 64940,
+     "mean": 57166.7,
+     "med": 57040.0,
+     "min": 49720,
+     "n": 12,
+     "sd": 4891.4
+    },
+    "clearcutWJ": {
+     "max": 64940,
+     "mean": 57166.7,
+     "med": 57040.0,
+     "min": 49720,
+     "n": 12,
+     "sd": 4891.4
+    },
+    "collideCV": {
+     "max": 0.64,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.099,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 130,
+     "mean": 112.8,
+     "med": 115.5,
+     "min": 90,
+     "n": 12,
+     "sd": 10.3
+    },
+    "ele": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "expansion": {
+     "max": 3940,
+     "mean": 3472.7,
+     "med": 3488.0,
+     "min": 3144,
+     "n": 12,
+     "sd": 270.1
+    },
+    "fairScore": {
+     "max": 80,
+     "mean": 70.2,
+     "med": 73.5,
+     "min": 37,
+     "n": 12,
+     "sd": 11.3
+    },
+    "food": {
+     "max": 22253,
+     "mean": 19800.2,
+     "med": 19976.5,
+     "min": 17427,
+     "n": 12,
+     "sd": 1789.2
+    },
+    "grain": {
+     "max": 57,
+     "mean": 42.9,
+     "med": 43.0,
+     "min": 23,
+     "n": 12,
+     "sd": 8.1
+    },
+    "grove": {
+     "max": 46,
+     "mean": 35.0,
+     "med": 32.5,
+     "min": 26,
+     "n": 12,
+     "sd": 6.1
+    },
+    "hills": {
+     "max": 1426,
+     "mean": 1173.4,
+     "med": 1153.5,
+     "min": 943,
+     "n": 12,
+     "sd": 118.0
+    },
+    "hillsPct": {
+     "max": 25.3,
+     "mean": 21.4,
+     "med": 20.6,
+     "min": 18.6,
+     "n": 12,
+     "sd": 2.1
+    },
+    "horse": {
+     "max": 49,
+     "mean": 35.8,
+     "med": 34.0,
+     "min": 29,
+     "n": 12,
+     "sd": 5.7
+    },
+    "iron": {
+     "max": 24775,
+     "mean": 22311.2,
+     "med": 22815.5,
+     "min": 19833,
+     "n": 12,
+     "sd": 1437.0
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 4692,
+     "mean": 4231.7,
+     "med": 4318.5,
+     "min": 3839,
+     "n": 12,
+     "sd": 278.5
+    },
+    "landmasses": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "marble": {
+     "max": 29,
+     "mean": 17.7,
+     "med": 17.0,
+     "min": 11,
+     "n": 12,
+     "sd": 5.0
+    },
+    "marsh": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "nets": {
+     "max": 11,
+     "mean": 3.8,
+     "med": 3.5,
+     "min": 0,
+     "n": 12,
+     "sd": 3.6
+    },
+    "nomad": {
+     "max": 13.3,
+     "mean": 10.7,
+     "med": 10.1,
+     "min": 8.4,
+     "n": 12,
+     "sd": 1.7
+    },
+    "ore": {
+     "max": 19,
+     "mean": 13.5,
+     "med": 13.0,
+     "min": 11,
+     "n": 12,
+     "sd": 2.6
+    },
+    "pasture": {
+     "max": 83,
+     "mean": 70.9,
+     "med": 72.0,
+     "min": 56,
+     "n": 12,
+     "sd": 7.8
+    },
+    "precious": {
+     "max": 49,
+     "mean": 39.2,
+     "med": 41.0,
+     "min": 29,
+     "n": 12,
+     "sd": 6.8
+    },
+    "rangedCover": {
+     "max": 14.2,
+     "mean": 13.0,
+     "med": 12.9,
+     "min": 12.1,
+     "n": 12,
+     "sd": 0.6
+    },
+    "river": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "scrub": {
+     "max": 9.3,
+     "mean": 8.3,
+     "med": 8.6,
+     "min": 7.3,
+     "n": 12,
+     "sd": 0.6
+    },
+    "sites": {
+     "max": 78,
+     "mean": 71.2,
+     "med": 73.0,
+     "min": 64,
+     "n": 12,
+     "sd": 4.6
+    },
+    "spreadMean": {
+     "max": 59,
+     "mean": 49.1,
+     "med": 48.5,
+     "min": 40,
+     "n": 12,
+     "sd": 4.6
+    },
+    "spreadMin": {
+     "max": 19,
+     "mean": 16.8,
+     "med": 18.0,
+     "min": 8,
+     "n": 12,
+     "sd": 3.1
+    },
+    "stone": {
+     "max": 23737,
+     "mean": 21549.5,
+     "med": 22043.5,
+     "min": 19609,
+     "n": 12,
+     "sd": 1285.5
+    },
+    "terrSitesCV": {
+     "max": 0.612,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.206,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 7.8,
+     "mean": 7.1,
+     "med": 7.3,
+     "min": 6.4,
+     "n": 12,
+     "sd": 0.5
+    },
+    "terrYieldCV": {
+     "max": 0.62,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.174,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 7731,
+     "mean": 6966.9,
+     "med": 7117.0,
+     "min": 6285,
+     "n": 12,
+     "sd": 490.4
+    },
+    "trees": {
+     "max": 24.7,
+     "mean": 21.9,
+     "med": 21.7,
+     "min": 19.9,
+     "n": 12,
+     "sd": 1.3
+    },
+    "veg": {
+     "max": 32.0,
+     "mean": 30.2,
+     "med": 30.1,
+     "min": 28.4,
+     "n": 12,
+     "sd": 1.2
+    },
+    "wood": {
+     "max": 7070,
+     "mean": 6009.6,
+     "med": 6030.0,
+     "min": 5125,
+     "n": 12,
+     "sd": 596.0
+    }
+   },
+   "group": "Mountain Pass",
+   "imgs": [
+    "atlas/mountain-pass-huge-wide/seed-1.png",
+    "atlas/mountain-pass-huge-wide/seed-2.png",
+    "atlas/mountain-pass-huge-wide/seed-3.png",
+    "atlas/mountain-pass-huge-wide/seed-4.png",
+    "atlas/mountain-pass-huge-wide/seed-5.png",
+    "atlas/mountain-pass-huge-wide/seed-6.png",
+    "atlas/mountain-pass-huge-wide/seed-7.png",
+    "atlas/mountain-pass-huge-wide/seed-8.png",
+    "atlas/mountain-pass-huge-wide/seed-9.png",
+    "atlas/mountain-pass-huge-wide/seed-10.png",
+    "atlas/mountain-pass-huge-wide/seed-11.png",
+    "atlas/mountain-pass-huge-wide/seed-12.png"
+   ],
+   "label": "Mountain Pass \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "mountain-pass-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 7,
+     "mean": 3.3,
+     "med": 3.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.6
+    },
+    "camp": {
+     "max": 34,
+     "mean": 25.9,
+     "med": 25.0,
+     "min": 16,
+     "n": 12,
+     "sd": 5.5
+    },
+    "clearcutSF": {
+     "max": 23380,
+     "mean": 19561.7,
+     "med": 19400.0,
+     "min": 15660,
+     "n": 12,
+     "sd": 1915.0
+    },
+    "clearcutWJ": {
+     "max": 23380,
+     "mean": 19561.7,
+     "med": 19400.0,
+     "min": 15660,
+     "n": 12,
+     "sd": 1915.0
+    },
+    "collideCV": {
+     "max": 0.728,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.294,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 78,
+     "mean": 63.8,
+     "med": 63.0,
+     "min": 50,
+     "n": 12,
+     "sd": 9.2
+    },
+    "ele": {
+     "max": 15,
+     "mean": 10.2,
+     "med": 9.5,
+     "min": 6,
+     "n": 12,
+     "sd": 3.1
+    },
+    "expansion": {
+     "max": 2510,
+     "mean": 2094.1,
+     "med": 2072.5,
+     "min": 1766,
+     "n": 12,
+     "sd": 201.8
+    },
+    "fairScore": {
+     "max": 67,
+     "mean": 50.3,
+     "med": 52.0,
+     "min": 12,
+     "n": 12,
+     "sd": 14.3
+    },
+    "food": {
+     "max": 16310,
+     "mean": 13712.8,
+     "med": 13768.5,
+     "min": 11725,
+     "n": 12,
+     "sd": 1281.3
+    },
+    "grain": {
+     "max": 41,
+     "mean": 20.2,
+     "med": 19.0,
+     "min": 6,
+     "n": 12,
+     "sd": 8.5
+    },
+    "grove": {
+     "max": 44,
+     "mean": 32.0,
+     "med": 32.0,
+     "min": 21,
+     "n": 12,
+     "sd": 7.6
+    },
+    "hills": {
+     "max": 632,
+     "mean": 526.2,
+     "med": 522.0,
+     "min": 397,
+     "n": 12,
+     "sd": 60.8
+    },
+    "hillsPct": {
+     "max": 13.2,
+     "mean": 10.4,
+     "med": 10.1,
+     "min": 9.2,
+     "n": 12,
+     "sd": 1.1
+    },
+    "horse": {
+     "max": 30,
+     "mean": 22.8,
+     "med": 21.5,
+     "min": 20,
+     "n": 12,
+     "sd": 2.8
+    },
+    "iron": {
+     "max": 14424,
+     "mean": 12439.4,
+     "med": 12362.0,
+     "min": 10345,
+     "n": 12,
+     "sd": 1115.9
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 80.0,
+     "med": 100.0,
+     "min": 40,
+     "n": 12,
+     "sd": 28.3
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 2821,
+     "mean": 2433.9,
+     "med": 2433.5,
+     "min": 2061,
+     "n": 12,
+     "sd": 206.0
+    },
+    "landmasses": {
+     "max": 3,
+     "mean": 2.6,
+     "med": 3.0,
+     "min": 2,
+     "n": 12,
+     "sd": 0.5
+    },
+    "marble": {
+     "max": 16,
+     "mean": 12.4,
+     "med": 11.5,
+     "min": 10,
+     "n": 12,
+     "sd": 2.1
+    },
+    "marsh": {
+     "max": 1.2,
+     "mean": 0.8,
+     "med": 0.8,
+     "min": 0.4,
+     "n": 12,
+     "sd": 0.2
+    },
+    "nets": {
+     "max": 63,
+     "mean": 52.2,
+     "med": 53.5,
+     "min": 32,
+     "n": 12,
+     "sd": 7.4
+    },
+    "nomad": {
+     "max": 12.4,
+     "mean": 8.3,
+     "med": 8.2,
+     "min": 6.2,
+     "n": 12,
+     "sd": 1.7
+    },
+    "ore": {
+     "max": 11,
+     "mean": 10.1,
+     "med": 10.0,
+     "min": 9,
+     "n": 12,
+     "sd": 0.6
+    },
+    "pasture": {
+     "max": 51,
+     "mean": 40.1,
+     "med": 40.5,
+     "min": 29,
+     "n": 12,
+     "sd": 6.9
+    },
+    "precious": {
+     "max": 45,
+     "mean": 31.2,
+     "med": 32.5,
+     "min": 17,
+     "n": 12,
+     "sd": 7.3
+    },
+    "rangedCover": {
+     "max": 5.3,
+     "mean": 4.8,
+     "med": 4.8,
+     "min": 4.2,
+     "n": 12,
+     "sd": 0.3
+    },
+    "river": {
+     "max": 29.1,
+     "mean": 26.3,
+     "med": 26.8,
+     "min": 22.3,
+     "n": 12,
+     "sd": 1.9
+    },
+    "scrub": {
+     "max": 4.5,
+     "mean": 3.5,
+     "med": 3.5,
+     "min": 2.5,
+     "n": 12,
+     "sd": 0.6
+    },
+    "sites": {
+     "max": 61,
+     "mean": 53.8,
+     "med": 54.0,
+     "min": 47,
+     "n": 12,
+     "sd": 4.2
+    },
+    "spreadMean": {
+     "max": 44,
+     "mean": 40.8,
+     "med": 41.5,
+     "min": 35,
+     "n": 12,
+     "sd": 2.6
+    },
+    "spreadMin": {
+     "max": 19,
+     "mean": 11.0,
+     "med": 10.5,
+     "min": 7,
+     "n": 12,
+     "sd": 3.2
+    },
+    "stone": {
+     "max": 13958,
+     "mean": 11920.2,
+     "med": 11827.5,
+     "min": 10086,
+     "n": 12,
+     "sd": 1040.2
+    },
+    "terrSitesCV": {
+     "max": 0.894,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.269,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 6.1,
+     "mean": 5.4,
+     "med": 5.4,
+     "min": 4.7,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 1.039,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.299,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 4739,
+     "mean": 4029.2,
+     "med": 4024.0,
+     "min": 3391,
+     "n": 12,
+     "sd": 364.4
+    },
+    "trees": {
+     "max": 8.9,
+     "mean": 7.9,
+     "med": 7.8,
+     "min": 7.1,
+     "n": 12,
+     "sd": 0.5
+    },
+    "veg": {
+     "max": 12.5,
+     "mean": 11.4,
+     "med": 11.6,
+     "min": 9.6,
+     "n": 12,
+     "sd": 0.9
+    },
+    "wood": {
+     "max": 2694,
+     "mean": 2219.5,
+     "med": 2227.5,
+     "min": 1755,
+     "n": 12,
+     "sd": 244.8
+    }
+   },
+   "group": "Multiple Continents",
+   "imgs": [
+    "atlas/multiple-continents-huge-square/seed-1.png",
+    "atlas/multiple-continents-huge-square/seed-2.png",
+    "atlas/multiple-continents-huge-square/seed-3.png",
+    "atlas/multiple-continents-huge-square/seed-4.png",
+    "atlas/multiple-continents-huge-square/seed-5.png",
+    "atlas/multiple-continents-huge-square/seed-6.png",
+    "atlas/multiple-continents-huge-square/seed-7.png",
+    "atlas/multiple-continents-huge-square/seed-8.png",
+    "atlas/multiple-continents-huge-square/seed-9.png",
+    "atlas/multiple-continents-huge-square/seed-10.png",
+    "atlas/multiple-continents-huge-square/seed-11.png",
+    "atlas/multiple-continents-huge-square/seed-12.png"
+   ],
+   "label": "Multiple Continents \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "multiple-continents-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 5,
+     "mean": 2.4,
+     "med": 2.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.3
+    },
+    "camp": {
+     "max": 41,
+     "mean": 25.0,
+     "med": 22.5,
+     "min": 17,
+     "n": 12,
+     "sd": 6.5
+    },
+    "clearcutSF": {
+     "max": 24160,
+     "mean": 19173.3,
+     "med": 19890.0,
+     "min": 15740,
+     "n": 12,
+     "sd": 2776.7
+    },
+    "clearcutWJ": {
+     "max": 24160,
+     "mean": 19173.3,
+     "med": 19890.0,
+     "min": 15740,
+     "n": 12,
+     "sd": 2776.7
+    },
+    "collideCV": {
+     "max": 0.578,
+     "mean": 0.4,
+     "med": 0.5,
+     "min": 0.249,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 80,
+     "mean": 61.2,
+     "med": 63.0,
+     "min": 45,
+     "n": 12,
+     "sd": 8.9
+    },
+    "ele": {
+     "max": 16,
+     "mean": 9.4,
+     "med": 10.0,
+     "min": 3,
+     "n": 12,
+     "sd": 3.7
+    },
+    "expansion": {
+     "max": 2503,
+     "mean": 2027.7,
+     "med": 2033.5,
+     "min": 1676,
+     "n": 12,
+     "sd": 271.0
+    },
+    "fairScore": {
+     "max": 67,
+     "mean": 55.0,
+     "med": 55.5,
+     "min": 41,
+     "n": 12,
+     "sd": 6.9
+    },
+    "food": {
+     "max": 16455,
+     "mean": 13515.5,
+     "med": 13568.5,
+     "min": 11362,
+     "n": 12,
+     "sd": 1640.9
+    },
+    "grain": {
+     "max": 21,
+     "mean": 14.4,
+     "med": 13.5,
+     "min": 10,
+     "n": 12,
+     "sd": 3.4
+    },
+    "grove": {
+     "max": 35,
+     "mean": 28.8,
+     "med": 29.0,
+     "min": 19,
+     "n": 12,
+     "sd": 4.8
+    },
+    "hills": {
+     "max": 639,
+     "mean": 466.0,
+     "med": 462.5,
+     "min": 312,
+     "n": 12,
+     "sd": 86.7
+    },
+    "hillsPct": {
+     "max": 12.6,
+     "mean": 9.9,
+     "med": 9.3,
+     "min": 7.3,
+     "n": 12,
+     "sd": 1.5
+    },
+    "horse": {
+     "max": 26,
+     "mean": 21.7,
+     "med": 21.5,
+     "min": 20,
+     "n": 12,
+     "sd": 1.6
+    },
+    "iron": {
+     "max": 14107,
+     "mean": 11763.2,
+     "med": 11891.5,
+     "min": 9466,
+     "n": 12,
+     "sd": 1493.8
+    },
+    "islandPct": {
+     "max": 10,
+     "mean": 3.3,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.7
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 74.2,
+     "med": 100.0,
+     "min": 30,
+     "n": 12,
+     "sd": 30.7
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 2751,
+     "mean": 2298.9,
+     "med": 2328.5,
+     "min": 1863,
+     "n": 12,
+     "sd": 290.4
+    },
+    "landmasses": {
+     "max": 3,
+     "mean": 2.7,
+     "med": 3.0,
+     "min": 2,
+     "n": 12,
+     "sd": 0.5
+    },
+    "marble": {
+     "max": 22,
+     "mean": 12.5,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 3.1
+    },
+    "marsh": {
+     "max": 1.4,
+     "mean": 0.8,
+     "med": 0.8,
+     "min": 0.5,
+     "n": 12,
+     "sd": 0.3
+    },
+    "nets": {
+     "max": 68,
+     "mean": 50.7,
+     "med": 50.5,
+     "min": 38,
+     "n": 12,
+     "sd": 8.8
+    },
+    "nomad": {
+     "max": 9.9,
+     "mean": 6.0,
+     "med": 5.7,
+     "min": 3.4,
+     "n": 12,
+     "sd": 1.9
+    },
+    "ore": {
+     "max": 11,
+     "mean": 10.2,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.4
+    },
+    "pasture": {
+     "max": 55,
+     "mean": 39.7,
+     "med": 41.0,
+     "min": 29,
+     "n": 12,
+     "sd": 6.7
+    },
+    "precious": {
+     "max": 38,
+     "mean": 26.8,
+     "med": 27.5,
+     "min": 19,
+     "n": 12,
+     "sd": 5.2
+    },
+    "rangedCover": {
+     "max": 6.2,
+     "mean": 5.1,
+     "med": 5.0,
+     "min": 4.0,
+     "n": 12,
+     "sd": 0.6
+    },
+    "river": {
+     "max": 32.5,
+     "mean": 28.4,
+     "med": 28.6,
+     "min": 25.3,
+     "n": 12,
+     "sd": 2.2
+    },
+    "scrub": {
+     "max": 4.3,
+     "mean": 3.4,
+     "med": 3.5,
+     "min": 2.8,
+     "n": 12,
+     "sd": 0.5
+    },
+    "sites": {
+     "max": 61,
+     "mean": 51.6,
+     "med": 50.0,
+     "min": 45,
+     "n": 12,
+     "sd": 5.6
+    },
+    "spreadMean": {
+     "max": 50,
+     "mean": 43.0,
+     "med": 43.0,
+     "min": 36,
+     "n": 12,
+     "sd": 4.1
+    },
+    "spreadMin": {
+     "max": 17,
+     "mean": 11.0,
+     "med": 10.5,
+     "min": 6,
+     "n": 12,
+     "sd": 3.6
+    },
+    "stone": {
+     "max": 13507,
+     "mean": 11283.7,
+     "med": 11415.5,
+     "min": 9083,
+     "n": 12,
+     "sd": 1436.5
+    },
+    "terrSitesCV": {
+     "max": 0.561,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.233,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 6.1,
+     "mean": 5.2,
+     "med": 5.0,
+     "min": 4.5,
+     "n": 12,
+     "sd": 0.6
+    },
+    "terrYieldCV": {
+     "max": 0.622,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.352,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 4666,
+     "mean": 3878.1,
+     "med": 3939.5,
+     "min": 3217,
+     "n": 12,
+     "sd": 481.5
+    },
+    "trees": {
+     "max": 10.3,
+     "mean": 8.5,
+     "med": 8.5,
+     "min": 6.4,
+     "n": 12,
+     "sd": 1.0
+    },
+    "veg": {
+     "max": 14.7,
+     "mean": 11.9,
+     "med": 11.5,
+     "min": 9.5,
+     "n": 12,
+     "sd": 1.3
+    },
+    "wood": {
+     "max": 2821,
+     "mean": 2218.0,
+     "med": 2320.0,
+     "min": 1775,
+     "n": 12,
+     "sd": 329.3
+    }
+   },
+   "group": "Multiple Continents",
+   "imgs": [
+    "atlas/multiple-continents-huge-wide/seed-1.png",
+    "atlas/multiple-continents-huge-wide/seed-2.png",
+    "atlas/multiple-continents-huge-wide/seed-3.png",
+    "atlas/multiple-continents-huge-wide/seed-4.png",
+    "atlas/multiple-continents-huge-wide/seed-5.png",
+    "atlas/multiple-continents-huge-wide/seed-6.png",
+    "atlas/multiple-continents-huge-wide/seed-7.png",
+    "atlas/multiple-continents-huge-wide/seed-8.png",
+    "atlas/multiple-continents-huge-wide/seed-9.png",
+    "atlas/multiple-continents-huge-wide/seed-10.png",
+    "atlas/multiple-continents-huge-wide/seed-11.png",
+    "atlas/multiple-continents-huge-wide/seed-12.png"
+   ],
+   "label": "Multiple Continents \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "multiple-continents-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 12,
+     "mean": 8.7,
+     "med": 10.0,
+     "min": 4,
+     "n": 12,
+     "sd": 2.7
+    },
+    "camp": {
+     "max": 48,
+     "mean": 31.0,
+     "med": 31.0,
+     "min": 15,
+     "n": 12,
+     "sd": 7.7
+    },
+    "clearcutSF": {
+     "max": 29220,
+     "mean": 24638.3,
+     "med": 24410.0,
+     "min": 21240,
+     "n": 12,
+     "sd": 2062.8
+    },
+    "clearcutWJ": {
+     "max": 29220,
+     "mean": 24638.3,
+     "med": 24410.0,
+     "min": 21240,
+     "n": 12,
+     "sd": 2062.8
+    },
+    "collideCV": {
+     "max": 0.903,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.295,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 108,
+     "mean": 87.7,
+     "med": 89.0,
+     "min": 55,
+     "n": 12,
+     "sd": 13.9
+    },
+    "ele": {
+     "max": 14,
+     "mean": 8.5,
+     "med": 8.5,
+     "min": 4,
+     "n": 12,
+     "sd": 2.7
+    },
+    "expansion": {
+     "max": 2559,
+     "mean": 2247.2,
+     "med": 2232.0,
+     "min": 2011,
+     "n": 12,
+     "sd": 141.2
+    },
+    "fairScore": {
+     "max": 64,
+     "mean": 45.3,
+     "med": 47.0,
+     "min": 26,
+     "n": 12,
+     "sd": 11.5
+    },
+    "food": {
+     "max": 13445,
+     "mean": 12029.8,
+     "med": 11946.5,
+     "min": 10906,
+     "n": 12,
+     "sd": 644.4
+    },
+    "grain": {
+     "max": 29,
+     "mean": 23.2,
+     "med": 23.5,
+     "min": 16,
+     "n": 12,
+     "sd": 4.3
+    },
+    "grove": {
+     "max": 37,
+     "mean": 29.2,
+     "med": 29.0,
+     "min": 23,
+     "n": 12,
+     "sd": 4.6
+    },
+    "hills": {
+     "max": 1200,
+     "mean": 1059.4,
+     "med": 1058.0,
+     "min": 972,
+     "n": 12,
+     "sd": 62.1
+    },
+    "hillsPct": {
+     "max": 17.0,
+     "mean": 15.1,
+     "med": 14.9,
+     "min": 14.1,
+     "n": 12,
+     "sd": 0.8
+    },
+    "horse": {
+     "max": 34,
+     "mean": 25.7,
+     "med": 25.5,
+     "min": 20,
+     "n": 12,
+     "sd": 4.1
+    },
+    "iron": {
+     "max": 17666,
+     "mean": 15777.3,
+     "med": 15979.5,
+     "min": 14303,
+     "n": 12,
+     "sd": 854.8
+    },
+    "islandPct": {
+     "max": 50,
+     "mean": 21.7,
+     "med": 15.0,
+     "min": 0,
+     "n": 12,
+     "sd": 19.5
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 40.0,
+     "med": 25.0,
+     "min": 0,
+     "n": 12,
+     "sd": 36.1
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 3361,
+     "mean": 3060.7,
+     "med": 3068.0,
+     "min": 2807,
+     "n": 12,
+     "sd": 152.4
+    },
+    "landmasses": {
+     "max": 6,
+     "mean": 3.4,
+     "med": 3.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.8
+    },
+    "marble": {
+     "max": 25,
+     "mean": 13.9,
+     "med": 11.5,
+     "min": 10,
+     "n": 12,
+     "sd": 4.2
+    },
+    "marsh": {
+     "max": 0.3,
+     "mean": 0.1,
+     "med": 0.1,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.1
+    },
+    "nets": {
+     "max": 117,
+     "mean": 104.6,
+     "med": 107.0,
+     "min": 76,
+     "n": 12,
+     "sd": 10.8
+    },
+    "nomad": {
+     "max": 18.0,
+     "mean": 16.0,
+     "med": 16.2,
+     "min": 13.3,
+     "n": 12,
+     "sd": 1.2
+    },
+    "ore": {
+     "max": 14,
+     "mean": 11.2,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.1
+    },
+    "pasture": {
+     "max": 59,
+     "mean": 50.1,
+     "med": 52.0,
+     "min": 32,
+     "n": 12,
+     "sd": 6.9
+    },
+    "precious": {
+     "max": 80,
+     "mean": 67.5,
+     "med": 69.0,
+     "min": 53,
+     "n": 12,
+     "sd": 9.4
+    },
+    "rangedCover": {
+     "max": 5.2,
+     "mean": 4.4,
+     "med": 4.4,
+     "min": 3.8,
+     "n": 12,
+     "sd": 0.4
+    },
+    "river": {
+     "max": 7.5,
+     "mean": 7.0,
+     "med": 7.0,
+     "min": 6.3,
+     "n": 12,
+     "sd": 0.3
+    },
+    "scrub": {
+     "max": 5.8,
+     "mean": 5.0,
+     "med": 5.0,
+     "min": 3.6,
+     "n": 12,
+     "sd": 0.6
+    },
+    "sites": {
+     "max": 75,
+     "mean": 69.2,
+     "med": 69.5,
+     "min": 62,
+     "n": 12,
+     "sd": 4.5
+    },
+    "spreadMean": {
+     "max": 57,
+     "mean": 45.3,
+     "med": 44.5,
+     "min": 40,
+     "n": 12,
+     "sd": 4.4
+    },
+    "spreadMin": {
+     "max": 17,
+     "mean": 12.5,
+     "med": 13.0,
+     "min": 8,
+     "n": 12,
+     "sd": 2.4
+    },
+    "stone": {
+     "max": 14980,
+     "mean": 13450.4,
+     "med": 13442.0,
+     "min": 12030,
+     "n": 12,
+     "sd": 804.3
+    },
+    "terrSitesCV": {
+     "max": 0.828,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.426,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 7.5,
+     "mean": 6.9,
+     "med": 6.9,
+     "min": 6.2,
+     "n": 12,
+     "sd": 0.5
+    },
+    "terrYieldCV": {
+     "max": 0.876,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.257,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 4891,
+     "mean": 4354.7,
+     "med": 4368.5,
+     "min": 3968,
+     "n": 12,
+     "sd": 235.2
+    },
+    "trees": {
+     "max": 7.7,
+     "mean": 6.3,
+     "med": 6.1,
+     "min": 5.0,
+     "n": 12,
+     "sd": 0.7
+    },
+    "veg": {
+     "max": 13.0,
+     "mean": 11.3,
+     "med": 11.4,
+     "min": 9.5,
+     "n": 12,
+     "sd": 0.8
+    },
+    "wood": {
+     "max": 2821,
+     "mean": 2289.8,
+     "med": 2209.0,
+     "min": 1835,
+     "n": 12,
+     "sd": 278.5
+    }
+   },
+   "group": "Northern Ocean",
+   "imgs": [
+    "atlas/northern-ocean-huge-square/seed-1.png",
+    "atlas/northern-ocean-huge-square/seed-2.png",
+    "atlas/northern-ocean-huge-square/seed-3.png",
+    "atlas/northern-ocean-huge-square/seed-4.png",
+    "atlas/northern-ocean-huge-square/seed-5.png",
+    "atlas/northern-ocean-huge-square/seed-6.png",
+    "atlas/northern-ocean-huge-square/seed-7.png",
+    "atlas/northern-ocean-huge-square/seed-8.png",
+    "atlas/northern-ocean-huge-square/seed-9.png",
+    "atlas/northern-ocean-huge-square/seed-10.png",
+    "atlas/northern-ocean-huge-square/seed-11.png",
+    "atlas/northern-ocean-huge-square/seed-12.png"
+   ],
+   "label": "Northern Ocean \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "northern-ocean-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 11,
+     "mean": 7.2,
+     "med": 7.0,
+     "min": 4,
+     "n": 12,
+     "sd": 1.8
+    },
+    "camp": {
+     "max": 49,
+     "mean": 30.8,
+     "med": 28.0,
+     "min": 20,
+     "n": 12,
+     "sd": 8.5
+    },
+    "clearcutSF": {
+     "max": 25700,
+     "mean": 24278.3,
+     "med": 24290.0,
+     "min": 22860,
+     "n": 12,
+     "sd": 848.5
+    },
+    "clearcutWJ": {
+     "max": 25700,
+     "mean": 24278.3,
+     "med": 24290.0,
+     "min": 22860,
+     "n": 12,
+     "sd": 848.5
+    },
+    "collideCV": {
+     "max": 0.71,
+     "mean": 0.5,
+     "med": 0.5,
+     "min": 0.276,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 101,
+     "mean": 79.8,
+     "med": 78.5,
+     "min": 47,
+     "n": 12,
+     "sd": 13.0
+    },
+    "ele": {
+     "max": 15,
+     "mean": 9.7,
+     "med": 9.0,
+     "min": 5,
+     "n": 12,
+     "sd": 3.2
+    },
+    "expansion": {
+     "max": 2348,
+     "mean": 2241.3,
+     "med": 2243.0,
+     "min": 2080,
+     "n": 12,
+     "sd": 81.7
+    },
+    "fairScore": {
+     "max": 67,
+     "mean": 45.8,
+     "med": 46.5,
+     "min": 27,
+     "n": 12,
+     "sd": 10.2
+    },
+    "food": {
+     "max": 12655,
+     "mean": 11849.2,
+     "med": 11722.5,
+     "min": 10997,
+     "n": 12,
+     "sd": 449.2
+    },
+    "grain": {
+     "max": 39,
+     "mean": 28.8,
+     "med": 28.0,
+     "min": 19,
+     "n": 12,
+     "sd": 5.6
+    },
+    "grove": {
+     "max": 40,
+     "mean": 28.7,
+     "med": 26.5,
+     "min": 22,
+     "n": 12,
+     "sd": 5.7
+    },
+    "hills": {
+     "max": 1159,
+     "mean": 1084.7,
+     "med": 1087.5,
+     "min": 968,
+     "n": 12,
+     "sd": 58.4
+    },
+    "hillsPct": {
+     "max": 16.5,
+     "mean": 15.3,
+     "med": 15.4,
+     "min": 13.5,
+     "n": 12,
+     "sd": 0.8
+    },
+    "horse": {
+     "max": 28,
+     "mean": 23.4,
+     "med": 23.0,
+     "min": 21,
+     "n": 12,
+     "sd": 1.8
+    },
+    "iron": {
+     "max": 16878,
+     "mean": 15951.4,
+     "med": 16026.5,
+     "min": 15163,
+     "n": 12,
+     "sd": 444.9
+    },
+    "islandPct": {
+     "max": 50,
+     "mean": 20.8,
+     "med": 25.0,
+     "min": 0,
+     "n": 12,
+     "sd": 15.0
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 33.3,
+     "med": 30.0,
+     "min": 0,
+     "n": 12,
+     "sd": 23.2
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 3300,
+     "mean": 3174.6,
+     "med": 3200.0,
+     "min": 3023,
+     "n": 12,
+     "sd": 82.7
+    },
+    "landmasses": {
+     "max": 6,
+     "mean": 3.5,
+     "med": 4.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.4
+    },
+    "marble": {
+     "max": 22,
+     "mean": 13.5,
+     "med": 11.5,
+     "min": 10,
+     "n": 12,
+     "sd": 3.9
+    },
+    "marsh": {
+     "max": 0.2,
+     "mean": 0.1,
+     "med": 0.1,
+     "min": 0.1,
+     "n": 12,
+     "sd": 0.0
+    },
+    "nets": {
+     "max": 126,
+     "mean": 111.7,
+     "med": 108.5,
+     "min": 93,
+     "n": 12,
+     "sd": 10.0
+    },
+    "nomad": {
+     "max": 19.0,
+     "mean": 17.1,
+     "med": 17.2,
+     "min": 15.3,
+     "n": 12,
+     "sd": 1.3
+    },
+    "ore": {
+     "max": 12,
+     "mean": 10.8,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.6
+    },
+    "pasture": {
+     "max": 53,
+     "mean": 45.2,
+     "med": 45.5,
+     "min": 40,
+     "n": 12,
+     "sd": 3.3
+    },
+    "precious": {
+     "max": 96,
+     "mean": 77.2,
+     "med": 76.5,
+     "min": 57,
+     "n": 12,
+     "sd": 10.0
+    },
+    "rangedCover": {
+     "max": 4.5,
+     "mean": 4.3,
+     "med": 4.3,
+     "min": 4.0,
+     "n": 12,
+     "sd": 0.1
+    },
+    "river": {
+     "max": 7.3,
+     "mean": 6.9,
+     "med": 7.0,
+     "min": 6.6,
+     "n": 12,
+     "sd": 0.2
+    },
+    "scrub": {
+     "max": 6.0,
+     "mean": 5.3,
+     "med": 5.3,
+     "min": 4.5,
+     "n": 12,
+     "sd": 0.4
+    },
+    "sites": {
+     "max": 77,
+     "mean": 70.6,
+     "med": 71.0,
+     "min": 67,
+     "n": 12,
+     "sd": 2.9
+    },
+    "spreadMean": {
+     "max": 62,
+     "mean": 48.8,
+     "med": 48.5,
+     "min": 38,
+     "n": 12,
+     "sd": 6.1
+    },
+    "spreadMin": {
+     "max": 18,
+     "mean": 12.9,
+     "med": 12.0,
+     "min": 9,
+     "n": 12,
+     "sd": 3.3
+    },
+    "stone": {
+     "max": 14498,
+     "mean": 13532.0,
+     "med": 13496.0,
+     "min": 12747,
+     "n": 12,
+     "sd": 451.4
+    },
+    "terrSitesCV": {
+     "max": 0.802,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.344,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 7.7,
+     "mean": 7.1,
+     "med": 7.1,
+     "min": 6.7,
+     "n": 12,
+     "sd": 0.3
+    },
+    "terrYieldCV": {
+     "max": 0.855,
+     "mean": 0.6,
+     "med": 0.5,
+     "min": 0.261,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 4614,
+     "mean": 4350.5,
+     "med": 4349.0,
+     "min": 4114,
+     "n": 12,
+     "sd": 116.4
+    },
+    "trees": {
+     "max": 6.4,
+     "mean": 6.0,
+     "med": 6.0,
+     "min": 5.3,
+     "n": 12,
+     "sd": 0.3
+    },
+    "veg": {
+     "max": 11.8,
+     "mean": 11.2,
+     "med": 11.2,
+     "min": 10.5,
+     "n": 12,
+     "sd": 0.4
+    },
+    "wood": {
+     "max": 2375,
+     "mean": 2171.6,
+     "med": 2153.5,
+     "min": 1918,
+     "n": 12,
+     "sd": 136.8
+    }
+   },
+   "group": "Northern Ocean",
+   "imgs": [
+    "atlas/northern-ocean-huge-wide/seed-1.png",
+    "atlas/northern-ocean-huge-wide/seed-2.png",
+    "atlas/northern-ocean-huge-wide/seed-3.png",
+    "atlas/northern-ocean-huge-wide/seed-4.png",
+    "atlas/northern-ocean-huge-wide/seed-5.png",
+    "atlas/northern-ocean-huge-wide/seed-6.png",
+    "atlas/northern-ocean-huge-wide/seed-7.png",
+    "atlas/northern-ocean-huge-wide/seed-8.png",
+    "atlas/northern-ocean-huge-wide/seed-9.png",
+    "atlas/northern-ocean-huge-wide/seed-10.png",
+    "atlas/northern-ocean-huge-wide/seed-11.png",
+    "atlas/northern-ocean-huge-wide/seed-12.png"
+   ],
+   "label": "Northern Ocean \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "northern-ocean-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 5,
+     "mean": 1.9,
+     "med": 1.0,
+     "min": 0,
+     "n": 12,
+     "sd": 1.4
+    },
+    "camp": {
+     "max": 30,
+     "mean": 19.9,
+     "med": 20.0,
+     "min": 10,
+     "n": 12,
+     "sd": 5.4
+    },
+    "clearcutSF": {
+     "max": 18060,
+     "mean": 16550.0,
+     "med": 16640.0,
+     "min": 15500,
+     "n": 12,
+     "sd": 744.1
+    },
+    "clearcutWJ": {
+     "max": 18060,
+     "mean": 16550.0,
+     "med": 16640.0,
+     "min": 15500,
+     "n": 12,
+     "sd": 744.1
+    },
+    "collideCV": {
+     "max": 0.866,
+     "mean": 0.7,
+     "med": 0.6,
+     "min": 0.425,
+     "n": 12,
+     "sd": 0.1
+    },
+    "collideMean": {
+     "max": 100,
+     "mean": 76.2,
+     "med": 73.5,
+     "min": 60,
+     "n": 12,
+     "sd": 13.5
+    },
+    "ele": {
+     "max": 12,
+     "mean": 6.8,
+     "med": 6.5,
+     "min": 2,
+     "n": 12,
+     "sd": 3.2
+    },
+    "expansion": {
+     "max": 1787,
+     "mean": 1713.6,
+     "med": 1719.0,
+     "min": 1660,
+     "n": 12,
+     "sd": 38.9
+    },
+    "fairScore": {
+     "max": 63,
+     "mean": 46.5,
+     "med": 50.0,
+     "min": 16,
+     "n": 12,
+     "sd": 13.6
+    },
+    "food": {
+     "max": 12943,
+     "mean": 12522.3,
+     "med": 12583.0,
+     "min": 11905,
+     "n": 12,
+     "sd": 299.8
+    },
+    "grain": {
+     "max": 23,
+     "mean": 16.7,
+     "med": 16.0,
+     "min": 11,
+     "n": 12,
+     "sd": 3.3
+    },
+    "grove": {
+     "max": 42,
+     "mean": 32.3,
+     "med": 32.0,
+     "min": 25,
+     "n": 12,
+     "sd": 5.1
+    },
+    "hills": {
+     "max": 706,
+     "mean": 651.2,
+     "med": 664.0,
+     "min": 535,
+     "n": 12,
+     "sd": 48.3
+    },
+    "hillsPct": {
+     "max": 11.5,
+     "mean": 10.6,
+     "med": 10.8,
+     "min": 8.8,
+     "n": 12,
+     "sd": 0.8
+    },
+    "horse": {
+     "max": 29,
+     "mean": 23.7,
+     "med": 23.0,
+     "min": 21,
+     "n": 12,
+     "sd": 2.5
+    },
+    "iron": {
+     "max": 11249,
+     "mean": 10899.5,
+     "med": 10896.5,
+     "min": 10499,
+     "n": 12,
+     "sd": 243.7
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 100.0,
+     "med": 100.0,
+     "min": 100,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 2078,
+     "mean": 2034.8,
+     "med": 2042.0,
+     "min": 1963,
+     "n": 12,
+     "sd": 31.7
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 8.3,
+     "med": 9.0,
+     "min": 6,
+     "n": 12,
+     "sd": 1.1
+    },
+    "marble": {
+     "max": 13,
+     "mean": 11.2,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.1
+    },
+    "marsh": {
+     "max": 2.2,
+     "mean": 1.3,
+     "med": 1.3,
+     "min": 0.9,
+     "n": 12,
+     "sd": 0.4
+    },
+    "nets": {
+     "max": 117,
+     "mean": 100.2,
+     "med": 100.5,
+     "min": 88,
+     "n": 12,
+     "sd": 9.2
+    },
+    "nomad": {
+     "max": 4.4,
+     "mean": 2.3,
+     "med": 2.2,
+     "min": 1.5,
+     "n": 12,
+     "sd": 0.7
+    },
+    "ore": {
+     "max": 13,
+     "mean": 10.6,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.0
+    },
+    "pasture": {
+     "max": 48,
+     "mean": 39.2,
+     "med": 39.0,
+     "min": 32,
+     "n": 12,
+     "sd": 4.5
+    },
+    "precious": {
+     "max": 52,
+     "mean": 44.2,
+     "med": 47.0,
+     "min": 26,
+     "n": 12,
+     "sd": 7.5
+    },
+    "rangedCover": {
+     "max": 3.7,
+     "mean": 3.4,
+     "med": 3.4,
+     "min": 3.1,
+     "n": 12,
+     "sd": 0.2
+    },
+    "river": {
+     "max": 23.5,
+     "mean": 22.2,
+     "med": 22.7,
+     "min": 20.3,
+     "n": 12,
+     "sd": 1.1
+    },
+    "scrub": {
+     "max": 2.1,
+     "mean": 1.3,
+     "med": 1.2,
+     "min": 1.0,
+     "n": 12,
+     "sd": 0.3
+    },
+    "sites": {
+     "max": 68,
+     "mean": 59.7,
+     "med": 59.5,
+     "min": 52,
+     "n": 12,
+     "sd": 3.7
+    },
+    "spreadMean": {
+     "max": 50,
+     "mean": 42.5,
+     "med": 42.0,
+     "min": 31,
+     "n": 12,
+     "sd": 4.6
+    },
+    "spreadMin": {
+     "max": 17,
+     "mean": 11.4,
+     "med": 11.0,
+     "min": 7,
+     "n": 12,
+     "sd": 3.3
+    },
+    "stone": {
+     "max": 9727,
+     "mean": 9521.3,
+     "med": 9589.0,
+     "min": 9262,
+     "n": 12,
+     "sd": 152.8
+    },
+    "terrSitesCV": {
+     "max": 0.818,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.144,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 6.8,
+     "mean": 6.0,
+     "med": 6.0,
+     "min": 5.2,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 0.825,
+     "mean": 0.4,
+     "med": 0.4,
+     "min": 0.126,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 3584,
+     "mean": 3498.6,
+     "med": 3522.0,
+     "min": 3405,
+     "n": 12,
+     "sd": 65.1
+    },
+    "trees": {
+     "max": 6.6,
+     "mean": 6.1,
+     "med": 6.0,
+     "min": 5.7,
+     "n": 12,
+     "sd": 0.3
+    },
+    "veg": {
+     "max": 8.1,
+     "mean": 7.4,
+     "med": 7.5,
+     "min": 6.7,
+     "n": 12,
+     "sd": 0.4
+    },
+    "wood": {
+     "max": 2168,
+     "mean": 2043.5,
+     "med": 2030.5,
+     "min": 1936,
+     "n": 12,
+     "sd": 81.2
+    }
+   },
+   "group": "Player Islands",
+   "imgs": [
+    "atlas/player-islands-huge-square/seed-1.png",
+    "atlas/player-islands-huge-square/seed-2.png",
+    "atlas/player-islands-huge-square/seed-3.png",
+    "atlas/player-islands-huge-square/seed-4.png",
+    "atlas/player-islands-huge-square/seed-5.png",
+    "atlas/player-islands-huge-square/seed-6.png",
+    "atlas/player-islands-huge-square/seed-7.png",
+    "atlas/player-islands-huge-square/seed-8.png",
+    "atlas/player-islands-huge-square/seed-9.png",
+    "atlas/player-islands-huge-square/seed-10.png",
+    "atlas/player-islands-huge-square/seed-11.png",
+    "atlas/player-islands-huge-square/seed-12.png"
+   ],
+   "label": "Player Islands \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "player-islands-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 2,
+     "mean": 1.2,
+     "med": 1.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.6
+    },
+    "camp": {
+     "max": 30,
+     "mean": 19.2,
+     "med": 18.0,
+     "min": 9,
+     "n": 12,
+     "sd": 5.2
+    },
+    "clearcutSF": {
+     "max": 17920,
+     "mean": 16775.0,
+     "med": 16900.0,
+     "min": 15480,
+     "n": 12,
+     "sd": 805.7
+    },
+    "clearcutWJ": {
+     "max": 17920,
+     "mean": 16775.0,
+     "med": 16900.0,
+     "min": 15480,
+     "n": 12,
+     "sd": 805.7
+    },
+    "collideCV": {
+     "max": 1.003,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.388,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 100,
+     "mean": 75.4,
+     "med": 70.0,
+     "min": 57,
+     "n": 12,
+     "sd": 13.0
+    },
+    "ele": {
+     "max": 11,
+     "mean": 6.6,
+     "med": 5.5,
+     "min": 3,
+     "n": 12,
+     "sd": 2.6
+    },
+    "expansion": {
+     "max": 1796,
+     "mean": 1729.0,
+     "med": 1736.0,
+     "min": 1653,
+     "n": 12,
+     "sd": 39.6
+    },
+    "fairScore": {
+     "max": 75,
+     "mean": 51.8,
+     "med": 50.0,
+     "min": 36,
+     "n": 12,
+     "sd": 11.1
+    },
+    "food": {
+     "max": 13532,
+     "mean": 12804.5,
+     "med": 12832.0,
+     "min": 12046,
+     "n": 12,
+     "sd": 430.6
+    },
+    "grain": {
+     "max": 28,
+     "mean": 17.2,
+     "med": 17.0,
+     "min": 10,
+     "n": 12,
+     "sd": 5.6
+    },
+    "grove": {
+     "max": 44,
+     "mean": 33.4,
+     "med": 32.0,
+     "min": 25,
+     "n": 12,
+     "sd": 5.3
+    },
+    "hills": {
+     "max": 730,
+     "mean": 624.3,
+     "med": 614.0,
+     "min": 564,
+     "n": 12,
+     "sd": 46.2
+    },
+    "hillsPct": {
+     "max": 11.7,
+     "mean": 10.1,
+     "med": 9.9,
+     "min": 9.0,
+     "n": 12,
+     "sd": 0.7
+    },
+    "horse": {
+     "max": 31,
+     "mean": 25.2,
+     "med": 24.5,
+     "min": 20,
+     "n": 12,
+     "sd": 3.4
+    },
+    "iron": {
+     "max": 11190,
+     "mean": 10887.7,
+     "med": 10947.5,
+     "min": 10604,
+     "n": 12,
+     "sd": 180.2
+    },
+    "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 100.0,
+     "med": 100.0,
+     "min": 100,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 0.0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0.0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "land": {
+     "max": 2100,
+     "mean": 2055.5,
+     "med": 2057.0,
+     "min": 1997,
+     "n": 12,
+     "sd": 31.2
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 8.8,
+     "med": 9.0,
+     "min": 8,
+     "n": 12,
+     "sd": 0.6
+    },
+    "marble": {
+     "max": 16,
+     "mean": 11.2,
+     "med": 11.0,
+     "min": 10,
+     "n": 12,
+     "sd": 1.5
+    },
+    "marsh": {
+     "max": 1.8,
+     "mean": 1.3,
+     "med": 1.3,
+     "min": 0.9,
+     "n": 12,
+     "sd": 0.3
+    },
+    "nets": {
+     "max": 125,
+     "mean": 109.1,
+     "med": 107.0,
+     "min": 94,
+     "n": 12,
+     "sd": 9.0
+    },
+    "nomad": {
+     "max": 3.6,
+     "mean": 2.3,
+     "med": 2.3,
+     "min": 1.1,
+     "n": 12,
+     "sd": 0.7
+    },
+    "ore": {
+     "max": 15,
+     "mean": 10.9,
+     "med": 10.5,
+     "min": 10,
+     "n": 12,
+     "sd": 1.4
+    },
+    "pasture": {
+     "max": 45,
+     "mean": 38.7,
+     "med": 38.5,
+     "min": 32,
+     "n": 12,
+     "sd": 4.2
+    },
+    "precious": {
+     "max": 58,
+     "mean": 45.6,
+     "med": 44.0,
+     "min": 34,
+     "n": 12,
+     "sd": 7.3
+    },
+    "rangedCover": {
+     "max": 3.6,
+     "mean": 3.4,
+     "med": 3.4,
+     "min": 3.1,
+     "n": 12,
+     "sd": 0.2
+    },
+    "river": {
+     "max": 25.9,
+     "mean": 23.2,
+     "med": 23.6,
+     "min": 19.3,
+     "n": 12,
+     "sd": 1.5
+    },
+    "scrub": {
+     "max": 1.7,
+     "mean": 1.3,
+     "med": 1.3,
+     "min": 1.0,
+     "n": 12,
+     "sd": 0.2
+    },
+    "sites": {
+     "max": 67,
+     "mean": 61.2,
+     "med": 61.0,
+     "min": 55,
+     "n": 12,
+     "sd": 2.7
+    },
+    "spreadMean": {
+     "max": 50,
+     "mean": 45.8,
+     "med": 46.0,
+     "min": 41,
+     "n": 12,
+     "sd": 2.5
+    },
+    "spreadMin": {
+     "max": 16,
+     "mean": 11.6,
+     "med": 12.0,
+     "min": 7,
+     "n": 12,
+     "sd": 3.4
+    },
+    "stone": {
+     "max": 9639,
+     "mean": 9467.8,
+     "med": 9482.5,
+     "min": 9242,
+     "n": 12,
+     "sd": 104.0
+    },
+    "terrSitesCV": {
+     "max": 0.536,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.149,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrSitesMean": {
+     "max": 6.7,
+     "mean": 6.1,
+     "med": 6.1,
+     "min": 5.5,
+     "n": 12,
+     "sd": 0.3
+    },
+    "terrYieldCV": {
+     "max": 0.627,
+     "mean": 0.3,
+     "med": 0.3,
+     "min": 0.099,
+     "n": 12,
+     "sd": 0.1
+    },
+    "terrYieldMean": {
+     "max": 3630,
+     "mean": 3523.1,
+     "med": 3544.5,
+     "min": 3380,
+     "n": 12,
+     "sd": 69.9
+    },
+    "trees": {
+     "max": 6.7,
+     "mean": 6.1,
+     "med": 6.1,
+     "min": 5.4,
+     "n": 12,
+     "sd": 0.4
+    },
+    "veg": {
+     "max": 7.8,
+     "mean": 7.4,
+     "med": 7.5,
+     "min": 6.9,
+     "n": 12,
+     "sd": 0.3
+    },
+    "wood": {
+     "max": 2293,
+     "mean": 2068.8,
+     "med": 2090.0,
+     "min": 1868,
+     "n": 12,
+     "sd": 131.3
+    }
+   },
+   "group": "Player Islands",
+   "imgs": [
+    "atlas/player-islands-huge-wide/seed-1.png",
+    "atlas/player-islands-huge-wide/seed-2.png",
+    "atlas/player-islands-huge-wide/seed-3.png",
+    "atlas/player-islands-huge-wide/seed-4.png",
+    "atlas/player-islands-huge-wide/seed-5.png",
+    "atlas/player-islands-huge-wide/seed-6.png",
+    "atlas/player-islands-huge-wide/seed-7.png",
+    "atlas/player-islands-huge-wide/seed-8.png",
+    "atlas/player-islands-huge-wide/seed-9.png",
+    "atlas/player-islands-huge-wide/seed-10.png",
+    "atlas/player-islands-huge-wide/seed-11.png",
+    "atlas/player-islands-huge-wide/seed-12.png"
+   ],
+   "label": "Player Islands \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "player-islands-huge-wide",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
      "max": 14,
      "mean": 6.7,
      "med": 6.0,
@@ -5068,15 +14480,753 @@
    "slug": "seaside-huge-wide",
    "tip": "",
    "variant": ""
+  },
+  {
+   "aspect": "square",
+   "dist": {
+    "camel": {
+     "max": 3,
+     "mean": 1.8,
+     "med": 1.5,
+     "min": 1,
+     "n": 12,
+     "sd": 0.8
+    },
+    "camp": {
+     "max": 38,
+     "mean": 26.3,
+     "med": 25.5,
+     "min": 18,
+     "n": 12,
+     "sd": 7.2
+    },
+    "clearcutSF": {
+     "max": 16840,
+     "mean": 14043.3,
+     "med": 13930.0,
+     "min": 12520,
+     "n": 12,
+     "sd": 1205.5
+    },
+    "clearcutWJ": {
+     "max": 29220,
+     "mean": 27788.3,
+     "med": 27390.0,
+     "min": 26840,
+     "n": 12,
+     "sd": 805.7
+    },
+    "collideCV": {
+     "max": 1.127,
+     "mean": 0.7,
+     "med": 0.7,
+     "min": 0.362,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 111,
+     "mean": 85.2,
+     "med": 87.0,
+     "min": 49,
+     "n": 12,
+     "sd": 19.2
+    },
+    "ele": {
+     "max": 15,
+     "mean": 9.1,
+     "med": 10.0,
+     "min": 3,
+     "n": 12,
+     "sd": 3.5
+    },
+    "expansion": {
+     "max": 2311,
+     "mean": 2169.2,
+     "med": 2171.5,
+     "min": 2040,
+     "n": 12,
+     "sd": 83.3
+    },
+    "fairScore": {
+     "max": 59,
+     "mean": 29.2,
+     "med": 32.5,
+     "min": 0,
+     "n": 12,
+     "sd": 16.2
+    },
+    "food": {
+     "max": 18093,
+     "mean": 17218.6,
+     "med": 17215.0,
+     "min": 16337,
+     "n": 12,
+     "sd": 584.7
+    },
+    "grain": {
+     "max": 37,
+     "mean": 27.9,
+     "med": 28.5,
+     "min": 12,
+     "n": 12,
+     "sd": 7.5
+    },
+    "grove": {
+     "max": 66,
+     "mean": 54.5,
+     "med": 56.5,
+     "min": 39,
+     "n": 12,
+     "sd": 8.5
+    },
+    "hills": {
+     "max": 867,
+     "mean": 772.4,
+     "med": 769.0,
+     "min": 709,
+     "n": 12,
+     "sd": 45.3
+    },
+    "hillsPct": {
+     "max": 8.0,
+     "mean": 7.1,
+     "med": 7.1,
+     "min": 6.6,
+     "n": 12,
+     "sd": 0.4
+    },
+    "horse": {
+     "max": 57,
+     "mean": 43.8,
+     "med": 43.0,
+     "min": 38,
+     "n": 12,
+     "sd": 5.4
+    },
+    "iron": {
+     "max": 15235,
+     "mean": 14802.2,
+     "med": 14876.0,
+     "min": 14221,
+     "n": 12,
+     "sd": 344.1
+    },
+    "islandPct": {
+     "max": 70,
+     "mean": 40.0,
+     "med": 35.0,
+     "min": 10,
+     "n": 12,
+     "sd": 22.4
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 100.0,
+     "med": 100.0,
+     "min": 100,
+     "n": 12,
+     "sd": 0.0
+    },
+    "jungle": {
+     "max": 2.4,
+     "mean": 2.1,
+     "med": 2.2,
+     "min": 1.6,
+     "n": 12,
+     "sd": 0.2
+    },
+    "land": {
+     "max": 3848,
+     "mean": 3723.8,
+     "med": 3729.5,
+     "min": 3622,
+     "n": 12,
+     "sd": 62.8
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 8.4,
+     "med": 9.5,
+     "min": 5,
+     "n": 12,
+     "sd": 1.9
+    },
+    "marble": {
+     "max": 30,
+     "mean": 18.1,
+     "med": 18.0,
+     "min": 11,
+     "n": 12,
+     "sd": 4.8
+    },
+    "marsh": {
+     "max": 9.2,
+     "mean": 8.9,
+     "med": 8.9,
+     "min": 8.5,
+     "n": 12,
+     "sd": 0.2
+    },
+    "nets": {
+     "max": 227,
+     "mean": 199.2,
+     "med": 195.0,
+     "min": 174,
+     "n": 12,
+     "sd": 16.2
+    },
+    "nomad": {
+     "max": 1.6,
+     "mean": 1.2,
+     "med": 1.2,
+     "min": 0.6,
+     "n": 12,
+     "sd": 0.3
+    },
+    "ore": {
+     "max": 23,
+     "mean": 16.6,
+     "med": 16.0,
+     "min": 10,
+     "n": 12,
+     "sd": 4.2
+    },
+    "pasture": {
+     "max": 75,
+     "mean": 65.0,
+     "med": 63.0,
+     "min": 61,
+     "n": 12,
+     "sd": 3.8
+    },
+    "precious": {
+     "max": 88,
+     "mean": 72.0,
+     "med": 73.0,
+     "min": 57,
+     "n": 12,
+     "sd": 10.5
+    },
+    "rangedCover": {
+     "max": 3.4,
+     "mean": 3.2,
+     "med": 3.2,
+     "min": 3.1,
+     "n": 12,
+     "sd": 0.1
+    },
+    "river": {
+     "max": 18.0,
+     "mean": 16.7,
+     "med": 16.9,
+     "min": 14.6,
+     "n": 12,
+     "sd": 1.0
+    },
+    "scrub": {
+     "max": 1.0,
+     "mean": 0.8,
+     "med": 0.8,
+     "min": 0.5,
+     "n": 12,
+     "sd": 0.2
+    },
+    "sites": {
+     "max": 107,
+     "mean": 99.6,
+     "med": 100.0,
+     "min": 91,
+     "n": 12,
+     "sd": 3.8
+    },
+    "spreadMean": {
+     "max": 64,
+     "mean": 53.5,
+     "med": 53.5,
+     "min": 47,
+     "n": 12,
+     "sd": 5.3
+    },
+    "spreadMin": {
+     "max": 20,
+     "mean": 13.4,
+     "med": 12.5,
+     "min": 6,
+     "n": 12,
+     "sd": 4.4
+    },
+    "stone": {
+     "max": 13442,
+     "mean": 13144.7,
+     "med": 13205.0,
+     "min": 12784,
+     "n": 12,
+     "sd": 219.8
+    },
+    "terrSitesCV": {
+     "max": 0.958,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.355,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 10.7,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 9.1,
+     "n": 12,
+     "sd": 0.4
+    },
+    "terrYieldCV": {
+     "max": 1.021,
+     "mean": 0.7,
+     "med": 0.6,
+     "min": 0.413,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 4817,
+     "mean": 4680.4,
+     "med": 4710.0,
+     "min": 4486,
+     "n": 12,
+     "sd": 119.6
+    },
+    "trees": {
+     "max": 3.4,
+     "mean": 2.9,
+     "med": 2.8,
+     "min": 2.5,
+     "n": 12,
+     "sd": 0.3
+    },
+    "veg": {
+     "max": 6.0,
+     "mean": 5.7,
+     "med": 5.8,
+     "min": 5.5,
+     "n": 12,
+     "sd": 0.2
+    },
+    "wood": {
+     "max": 1973,
+     "mean": 1638.2,
+     "med": 1625.0,
+     "min": 1398,
+     "n": 12,
+     "sd": 160.5
+    }
+   },
+   "group": "Wetlands",
+   "imgs": [
+    "atlas/wetlands-huge-square/seed-1.png",
+    "atlas/wetlands-huge-square/seed-2.png",
+    "atlas/wetlands-huge-square/seed-3.png",
+    "atlas/wetlands-huge-square/seed-4.png",
+    "atlas/wetlands-huge-square/seed-5.png",
+    "atlas/wetlands-huge-square/seed-6.png",
+    "atlas/wetlands-huge-square/seed-7.png",
+    "atlas/wetlands-huge-square/seed-8.png",
+    "atlas/wetlands-huge-square/seed-9.png",
+    "atlas/wetlands-huge-square/seed-10.png",
+    "atlas/wetlands-huge-square/seed-11.png",
+    "atlas/wetlands-huge-square/seed-12.png"
+   ],
+   "label": "Wetlands \u00b7 Huge/Square",
+   "n": 12,
+   "setting": "Huge \u00b7 square \u00b7 10 players",
+   "slug": "wetlands-huge-square",
+   "tip": "",
+   "variant": ""
+  },
+  {
+   "aspect": "wide",
+   "dist": {
+    "camel": {
+     "max": 5,
+     "mean": 1.7,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.2
+    },
+    "camp": {
+     "max": 40,
+     "mean": 29.0,
+     "med": 29.5,
+     "min": 20,
+     "n": 12,
+     "sd": 5.8
+    },
+    "clearcutSF": {
+     "max": 16420,
+     "mean": 14625.0,
+     "med": 14510.0,
+     "min": 13260,
+     "n": 12,
+     "sd": 901.1
+    },
+    "clearcutWJ": {
+     "max": 29980,
+     "mean": 28590.0,
+     "med": 28880.0,
+     "min": 27140,
+     "n": 12,
+     "sd": 954.8
+    },
+    "collideCV": {
+     "max": 1.14,
+     "mean": 0.7,
+     "med": 0.8,
+     "min": 0.413,
+     "n": 12,
+     "sd": 0.2
+    },
+    "collideMean": {
+     "max": 119,
+     "mean": 83.2,
+     "med": 83.0,
+     "min": 60,
+     "n": 12,
+     "sd": 14.8
+    },
+    "ele": {
+     "max": 20,
+     "mean": 11.9,
+     "med": 12.0,
+     "min": 8,
+     "n": 12,
+     "sd": 3.3
+    },
+    "expansion": {
+     "max": 2323,
+     "mean": 2237.9,
+     "med": 2243.5,
+     "min": 2146,
+     "n": 12,
+     "sd": 56.7
+    },
+    "fairScore": {
+     "max": 61,
+     "mean": 29.2,
+     "med": 31.0,
+     "min": 0,
+     "n": 12,
+     "sd": 17.5
+    },
+    "food": {
+     "max": 18294,
+     "mean": 17730.8,
+     "med": 17706.5,
+     "min": 17242,
+     "n": 12,
+     "sd": 360.4
+    },
+    "grain": {
+     "max": 45,
+     "mean": 31.9,
+     "med": 28.5,
+     "min": 22,
+     "n": 12,
+     "sd": 8.0
+    },
+    "grove": {
+     "max": 80,
+     "mean": 52.5,
+     "med": 51.5,
+     "min": 40,
+     "n": 12,
+     "sd": 10.8
+    },
+    "hills": {
+     "max": 855,
+     "mean": 744.9,
+     "med": 747.5,
+     "min": 662,
+     "n": 12,
+     "sd": 47.4
+    },
+    "hillsPct": {
+     "max": 7.9,
+     "mean": 6.9,
+     "med": 6.8,
+     "min": 6.1,
+     "n": 12,
+     "sd": 0.4
+    },
+    "horse": {
+     "max": 55,
+     "mean": 48.2,
+     "med": 47.5,
+     "min": 41,
+     "n": 12,
+     "sd": 4.5
+    },
+    "iron": {
+     "max": 15472,
+     "mean": 15071.9,
+     "med": 14982.5,
+     "min": 14770,
+     "n": 12,
+     "sd": 237.5
+    },
+    "islandPct": {
+     "max": 80,
+     "mean": 47.5,
+     "med": 45.0,
+     "min": 30,
+     "n": 12,
+     "sd": 14.2
+    },
+    "isolPct": {
+     "max": 100,
+     "mean": 89.2,
+     "med": 100.0,
+     "min": 30,
+     "n": 12,
+     "sd": 24.3
+    },
+    "jungle": {
+     "max": 2.4,
+     "mean": 2.1,
+     "med": 2.2,
+     "min": 1.7,
+     "n": 12,
+     "sd": 0.2
+    },
+    "land": {
+     "max": 3876,
+     "mean": 3815.8,
+     "med": 3810.5,
+     "min": 3760,
+     "n": 12,
+     "sd": 41.6
+    },
+    "landmasses": {
+     "max": 10,
+     "mean": 7.7,
+     "med": 7.5,
+     "min": 4,
+     "n": 12,
+     "sd": 2.0
+    },
+    "marble": {
+     "max": 27,
+     "mean": 20.1,
+     "med": 19.5,
+     "min": 10,
+     "n": 12,
+     "sd": 5.9
+    },
+    "marsh": {
+     "max": 9.2,
+     "mean": 9.0,
+     "med": 9.0,
+     "min": 8.8,
+     "n": 12,
+     "sd": 0.1
+    },
+    "nets": {
+     "max": 218,
+     "mean": 199.8,
+     "med": 198.5,
+     "min": 187,
+     "n": 12,
+     "sd": 9.3
+    },
+    "nomad": {
+     "max": 1.6,
+     "mean": 1.1,
+     "med": 1.1,
+     "min": 0.7,
+     "n": 12,
+     "sd": 0.3
+    },
+    "ore": {
+     "max": 20,
+     "mean": 13.8,
+     "med": 13.5,
+     "min": 10,
+     "n": 12,
+     "sd": 2.7
+    },
+    "pasture": {
+     "max": 83,
+     "mean": 67.7,
+     "med": 65.0,
+     "min": 56,
+     "n": 12,
+     "sd": 7.9
+    },
+    "precious": {
+     "max": 94,
+     "mean": 74.8,
+     "med": 70.0,
+     "min": 58,
+     "n": 12,
+     "sd": 10.4
+    },
+    "rangedCover": {
+     "max": 3.4,
+     "mean": 3.3,
+     "med": 3.3,
+     "min": 3.1,
+     "n": 12,
+     "sd": 0.1
+    },
+    "river": {
+     "max": 17.7,
+     "mean": 16.9,
+     "med": 16.8,
+     "min": 15.7,
+     "n": 12,
+     "sd": 0.6
+    },
+    "scrub": {
+     "max": 1.0,
+     "mean": 0.8,
+     "med": 0.8,
+     "min": 0.5,
+     "n": 12,
+     "sd": 0.1
+    },
+    "sites": {
+     "max": 105,
+     "mean": 101.6,
+     "med": 102.0,
+     "min": 95,
+     "n": 12,
+     "sd": 2.6
+    },
+    "spreadMean": {
+     "max": 67,
+     "mean": 59.1,
+     "med": 59.5,
+     "min": 47,
+     "n": 12,
+     "sd": 5.4
+    },
+    "spreadMin": {
+     "max": 25,
+     "mean": 14.6,
+     "med": 13.5,
+     "min": 7,
+     "n": 12,
+     "sd": 4.6
+    },
+    "stone": {
+     "max": 13545,
+     "mean": 13359.8,
+     "med": 13386.5,
+     "min": 13028,
+     "n": 12,
+     "sd": 154.6
+    },
+    "terrSitesCV": {
+     "max": 1.088,
+     "mean": 0.6,
+     "med": 0.6,
+     "min": 0.382,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrSitesMean": {
+     "max": 10.5,
+     "mean": 10.2,
+     "med": 10.2,
+     "min": 9.5,
+     "n": 12,
+     "sd": 0.3
+    },
+    "terrYieldCV": {
+     "max": 1.086,
+     "mean": 0.7,
+     "med": 0.7,
+     "min": 0.351,
+     "n": 12,
+     "sd": 0.2
+    },
+    "terrYieldMean": {
+     "max": 4919,
+     "mean": 4786.8,
+     "med": 4763.0,
+     "min": 4693,
+     "n": 12,
+     "sd": 72.9
+    },
+    "trees": {
+     "max": 3.4,
+     "mean": 3.0,
+     "med": 2.9,
+     "min": 2.7,
+     "n": 12,
+     "sd": 0.2
+    },
+    "veg": {
+     "max": 6.2,
+     "mean": 5.9,
+     "med": 5.8,
+     "min": 5.6,
+     "n": 12,
+     "sd": 0.2
+    },
+    "wood": {
+     "max": 1977,
+     "mean": 1705.8,
+     "med": 1670.0,
+     "min": 1515,
+     "n": 12,
+     "sd": 141.7
+    }
+   },
+   "group": "Wetlands",
+   "imgs": [
+    "atlas/wetlands-huge-wide/seed-1.png",
+    "atlas/wetlands-huge-wide/seed-2.png",
+    "atlas/wetlands-huge-wide/seed-3.png",
+    "atlas/wetlands-huge-wide/seed-4.png",
+    "atlas/wetlands-huge-wide/seed-5.png",
+    "atlas/wetlands-huge-wide/seed-6.png",
+    "atlas/wetlands-huge-wide/seed-7.png",
+    "atlas/wetlands-huge-wide/seed-8.png",
+    "atlas/wetlands-huge-wide/seed-9.png",
+    "atlas/wetlands-huge-wide/seed-10.png",
+    "atlas/wetlands-huge-wide/seed-11.png",
+    "atlas/wetlands-huge-wide/seed-12.png"
+   ],
+   "label": "Wetlands \u00b7 Huge/Wide",
+   "n": 12,
+   "setting": "Huge \u00b7 wide \u00b7 10 players",
+   "slug": "wetlands-huge-wide",
+   "tip": "",
+   "variant": ""
   }
  ],
  "groups": [
+  "Archipelago",
+  "Arid Plateau",
   "Bay",
+  "Coastal Rain Basin",
   "Continent",
+  "Deep Jungle",
+  "Desert",
+  "Desolation",
   "Donut",
+  "Ebbing Sea",
+  "Hardwood Forest",
+  "Highlands",
   "Inland Sea",
   "Lakes and Gulfs",
   "Mediterranean",
-  "Seaside"
+  "Mountain Pass",
+  "Multiple Continents",
+  "Northern Ocean",
+  "Player Islands",
+  "Seaside",
+  "Wetlands"
  ]
 }

@@ -130,7 +130,8 @@ const { g } = Astro.props as any;
       legend.innerHTML = st.map((s, i) =>
         `<span class="lg"><span class="sw" style="background:${PALETTE[co[i]]}"></span>`
         + `P${i + 1}: collide ${s.collide} · yield ${s.terrYield} · sites ${s.terrSites}`
-        + `${s.isolated ? ' · <b style=color:#d08a3a>isolated</b>' : ''}</span>`).join('');
+        + `${s.isolated ? ' · <b style=color:#d08a3a>stranded</b>' : ''}`
+        + `${s.island ? ` · <b style=color:#d0633a>tiny island (${s.landSites} sites)</b>` : ''}</span>`).join('');
     }
     function setMode(mo) {
       mode = mo;

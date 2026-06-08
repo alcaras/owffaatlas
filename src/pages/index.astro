@@ -104,9 +104,9 @@ const sd = (c: any, k: string) => c.dist?.[k]?.sd;
                 <div class="pill__r">until you meet a neighbour</div>
               </div>
               <div class="pill">
-                <div class="pill__l">Isolation</div>
-                <div class="pill__v"><b>{m(c, 'isolPct')}</b><span class="pm">%</span></div>
-                <div class="pill__r">island {m(c, 'islandPct')}% · {m(c, 'landmasses')} landmasses</div>
+                <div class="pill__l">Bad starts</div>
+                <div class="pill__v"><b>{m(c, 'badPct')}</b><span class="pm">%</span></div>
+                <div class="pill__r">stranded {m(c, 'isolPct')}% · tiny-island {m(c, 'islandPct')}% · {m(c, 'landmasses')} landmasses</div>
               </div>
             </div>
             <div class="rstrip">
@@ -129,7 +129,7 @@ const sd = (c: any, k: string) => c.dist?.[k]?.sd;
                       <img src={`${baseUrl}img/${p}`} loading="lazy" alt={`${c.group} sample`} />
                       <div class="cap"><span><i>fair</i><b>{gm.fairScore ?? '—'}</b></span>
                         <span><i>sites</i><b>{gm.sites ?? '—'}</b></span>
-                        <span><i>isol</i><b>{gm.isolPct ?? '—'}%</b></span></div>
+                        <span><i>bad</i><b>{gm.badPct ?? gm.isolPct ?? '—'}%</b></span></div>
                     </a>); })}
               </div>
             </details>

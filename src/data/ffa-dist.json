@@ -4,6 +4,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 85.0,
+     "med": 100.0,
+     "min": 40,
+     "n": 12,
+     "sd": 20.6
+    },
     "camel": {
      "max": 2,
      "mean": 0.7,
@@ -35,6 +43,14 @@
      "min": 11340,
      "n": 12,
      "sd": 8732.0
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.039,
@@ -133,20 +149,20 @@
      "sd": 5569.9
     },
     "islandPct": {
-     "max": 70,
-     "mean": 20.0,
-     "med": 10.0,
-     "min": 0,
+     "max": 100,
+     "mean": 61.7,
+     "med": 65.0,
+     "min": 20,
      "n": 12,
-     "sd": 20.0
+     "sd": 30.0
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 80.0,
+     "med": 80.0,
+     "min": 40,
      "n": 12,
-     "sd": 0.0
+     "sd": 20.4
     },
     "jungle": {
      "max": 0.0,
@@ -366,6 +382,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 50,
+     "mean": 25.8,
+     "med": 25.0,
+     "min": 10,
+     "n": 12,
+     "sd": 12.6
+    },
     "camel": {
      "max": 3,
      "mean": 1.4,
@@ -397,6 +421,14 @@
      "min": 12000,
      "n": 12,
      "sd": 537.6
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.992,
@@ -495,20 +527,20 @@
      "sd": 192.5
     },
     "islandPct": {
-     "max": 30,
-     "mean": 20.0,
-     "med": 20.0,
-     "min": 10,
+     "max": 40,
+     "mean": 17.5,
+     "med": 15.0,
+     "min": 0,
      "n": 12,
-     "sd": 8.2
+     "sd": 10.9
     },
     "isolPct": {
-     "max": 100,
-     "mean": 88.3,
-     "med": 100.0,
-     "min": 30,
+     "max": 50,
+     "mean": 25.8,
+     "med": 25.0,
+     "min": 10,
      "n": 12,
-     "sd": 26.1
+     "sd": 12.6
     },
     "jungle": {
      "max": 0.0,
@@ -728,6 +760,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 40,
+     "mean": 27.5,
+     "med": 30.0,
+     "min": 0,
+     "n": 12,
+     "sd": 13.6
+    },
     "camel": {
      "max": 5,
      "mean": 2.3,
@@ -759,6 +799,14 @@
      "min": 21220,
      "n": 12,
      "sd": 1187.3
+    },
+    "clusterMin": {
+     "max": 2,
+     "mean": 1.1,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.3
     },
     "collideCV": {
      "max": 0.62,
@@ -857,20 +905,20 @@
      "sd": 292.5
     },
     "islandPct": {
+     "max": 30,
+     "mean": 14.2,
+     "med": 15.0,
+     "min": 0,
+     "n": 12,
+     "sd": 8.6
+    },
+    "isolPct": {
      "max": 40,
-     "mean": 23.3,
+     "mean": 27.5,
      "med": 30.0,
      "min": 0,
      "n": 12,
-     "sd": 13.1
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 70.8,
-     "med": 100.0,
-     "min": 10,
-     "n": 12,
-     "sd": 35.2
+     "sd": 13.6
     },
     "jungle": {
      "max": 0.0,
@@ -1090,6 +1138,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 40,
+     "mean": 21.7,
+     "med": 20.0,
+     "min": 0,
+     "n": 12,
+     "sd": 12.8
+    },
     "camel": {
      "max": 7,
      "mean": 3.3,
@@ -1121,6 +1177,14 @@
      "min": 30640,
      "n": 12,
      "sd": 1302.7
+    },
+    "clusterMin": {
+     "max": 3,
+     "mean": 1.3,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.7
     },
     "collideCV": {
      "max": 0.721,
@@ -1219,20 +1283,20 @@
      "sd": 272.7
     },
     "islandPct": {
+     "max": 20,
+     "mean": 6.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 8.5
+    },
+    "isolPct": {
      "max": 40,
-     "mean": 20.8,
+     "mean": 21.7,
      "med": 20.0,
      "min": 0,
      "n": 12,
-     "sd": 11.9
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 35.8,
-     "med": 30.0,
-     "min": 10,
-     "n": 12,
-     "sd": 21.4
+     "sd": 12.8
     },
     "jungle": {
      "max": 0.0,
@@ -1452,6 +1516,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 75.8,
+     "med": 80.0,
+     "min": 20,
+     "n": 12,
+     "sd": 23.3
+    },
     "camel": {
      "max": 3,
      "mean": 1.1,
@@ -1483,6 +1555,14 @@
      "min": 11700,
      "n": 12,
      "sd": 797.0
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.851,
@@ -1581,20 +1661,20 @@
      "sd": 196.4
     },
     "islandPct": {
-     "max": 50,
-     "mean": 21.7,
-     "med": 15.0,
-     "min": 0,
+     "max": 80,
+     "mean": 56.7,
+     "med": 60.0,
+     "min": 20,
      "n": 12,
-     "sd": 15.7
+     "sd": 17.0
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 74.2,
+     "med": 75.0,
+     "min": 20,
      "n": 12,
-     "sd": 0.0
+     "sd": 23.6
     },
     "jungle": {
      "max": 0.0,
@@ -1814,6 +1894,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 81.7,
+     "med": 90.0,
+     "min": 60,
+     "n": 12,
+     "sd": 19.1
+    },
     "camel": {
      "max": 6,
      "mean": 2.2,
@@ -1845,6 +1933,14 @@
      "min": 19720,
      "n": 12,
      "sd": 1468.3
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.777,
@@ -1943,20 +2039,20 @@
      "sd": 366.7
     },
     "islandPct": {
-     "max": 80,
-     "mean": 43.3,
+     "max": 70,
+     "mean": 45.0,
      "med": 40.0,
      "min": 20,
      "n": 12,
-     "sd": 14.3
+     "sd": 14.4
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 81.7,
+     "med": 90.0,
+     "min": 60,
      "n": 12,
-     "sd": 0.0
+     "sd": 19.1
     },
     "jungle": {
      "max": 0.0,
@@ -2176,6 +2272,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 50,
+     "mean": 33.3,
+     "med": 35.0,
+     "min": 10,
+     "n": 12,
+     "sd": 16.0
+    },
     "camel": {
      "max": 6,
      "mean": 3.2,
@@ -2207,6 +2311,14 @@
      "min": 29140,
      "n": 12,
      "sd": 1394.0
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.021,
@@ -2305,20 +2417,20 @@
      "sd": 303.6
     },
     "islandPct": {
-     "max": 50,
-     "mean": 30.0,
-     "med": 30.0,
-     "min": 10,
+     "max": 40,
+     "mean": 14.2,
+     "med": 15.0,
+     "min": 0,
      "n": 12,
-     "sd": 13.5
+     "sd": 12.6
     },
     "isolPct": {
-     "max": 100,
-     "mean": 76.7,
-     "med": 100.0,
+     "max": 50,
+     "mean": 33.3,
+     "med": 35.0,
      "min": 10,
      "n": 12,
-     "sd": 33.7
+     "sd": 16.0
     },
     "jungle": {
      "max": 0.0,
@@ -2538,6 +2650,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 85.8,
+     "med": 100.0,
+     "min": 0,
+     "n": 12,
+     "sd": 29.0
+    },
     "camel": {
      "max": 1,
      "mean": 0.1,
@@ -2569,6 +2689,14 @@
      "min": 11120,
      "n": 12,
      "sd": 745.7
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 0.9,
+     "med": 1.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.3
     },
     "collideCV": {
      "max": 0.851,
@@ -2667,20 +2795,20 @@
      "sd": 219.1
     },
     "islandPct": {
-     "max": 30,
-     "mean": 7.5,
-     "med": 0.0,
+     "max": 100,
+     "mean": 79.2,
+     "med": 85.0,
      "min": 0,
      "n": 12,
-     "sd": 10.1
+     "sd": 26.9
     },
     "isolPct": {
      "max": 100,
-     "mean": 91.7,
+     "mean": 79.2,
      "med": 100.0,
      "min": 0,
      "n": 12,
-     "sd": 27.6
+     "sd": 31.2
     },
     "jungle": {
      "max": 0.0,
@@ -2900,6 +3028,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 93.3,
+     "med": 100.0,
+     "min": 60,
+     "n": 12,
+     "sd": 14.9
+    },
     "camel": {
      "max": 2,
      "mean": 0.8,
@@ -2931,6 +3067,14 @@
      "min": 21240,
      "n": 12,
      "sd": 698.3
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.723,
@@ -3029,20 +3173,20 @@
      "sd": 192.8
     },
     "islandPct": {
-     "max": 50,
-     "mean": 15.0,
-     "med": 10.0,
-     "min": 0,
+     "max": 80,
+     "mean": 55.0,
+     "med": 60.0,
+     "min": 30,
      "n": 12,
-     "sd": 16.6
+     "sd": 15.0
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
+     "mean": 93.3,
      "med": 100.0,
-     "min": 100,
+     "min": 60,
      "n": 12,
-     "sd": 0.0
+     "sd": 14.9
     },
     "jungle": {
      "max": 0.0,
@@ -3262,6 +3406,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 70.8,
+     "med": 80.0,
+     "min": 10,
+     "n": 12,
+     "sd": 32.8
+    },
     "camel": {
      "max": 5,
      "mean": 2.6,
@@ -3293,6 +3445,14 @@
      "min": 29960,
      "n": 12,
      "sd": 1185.3
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.3,
@@ -3391,20 +3551,20 @@
      "sd": 263.5
     },
     "islandPct": {
-     "max": 80,
-     "mean": 41.7,
-     "med": 35.0,
-     "min": 10,
+     "max": 60,
+     "mean": 25.8,
+     "med": 25.0,
+     "min": 0,
      "n": 12,
-     "sd": 21.1
+     "sd": 21.0
     },
     "isolPct": {
      "max": 100,
-     "mean": 92.5,
-     "med": 100.0,
+     "mean": 70.8,
+     "med": 80.0,
      "min": 10,
      "n": 12,
-     "sd": 24.9
+     "sd": 32.8
     },
     "jungle": {
      "max": 0.0,
@@ -3624,6 +3784,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 86.7,
+     "med": 100.0,
+     "min": 30,
+     "n": 12,
+     "sd": 21.7
+    },
     "camel": {
      "max": 3,
      "mean": 1.0,
@@ -3655,6 +3823,14 @@
      "min": 11900,
      "n": 12,
      "sd": 8656.0
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.161,
@@ -3753,20 +3929,20 @@
      "sd": 5424.8
     },
     "islandPct": {
-     "max": 80,
-     "mean": 23.3,
-     "med": 15.0,
-     "min": 0,
+     "max": 100,
+     "mean": 58.3,
+     "med": 60.0,
+     "min": 20,
      "n": 12,
-     "sd": 26.9
+     "sd": 25.1
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
+     "mean": 81.7,
      "med": 100.0,
-     "min": 100,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 26.1
     },
     "jungle": {
      "max": 0.0,
@@ -3986,6 +4162,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 50,
+     "mean": 28.3,
+     "med": 30.0,
+     "min": 10,
+     "n": 12,
+     "sd": 9.9
+    },
     "camel": {
      "max": 3,
      "mean": 1.5,
@@ -4017,6 +4201,14 @@
      "min": 12440,
      "n": 12,
      "sd": 765.1
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.917,
@@ -4116,19 +4308,19 @@
     },
     "islandPct": {
      "max": 30,
-     "mean": 16.7,
-     "med": 15.0,
-     "min": 0,
-     "n": 12,
-     "sd": 9.4
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 80.0,
-     "med": 100.0,
+     "mean": 19.2,
+     "med": 20.0,
      "min": 10,
      "n": 12,
-     "sd": 34.9
+     "sd": 4.9
+    },
+    "isolPct": {
+     "max": 50,
+     "mean": 28.3,
+     "med": 30.0,
+     "min": 10,
+     "n": 12,
+     "sd": 9.9
     },
     "jungle": {
      "max": 0.0,
@@ -4348,6 +4540,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 60,
+     "mean": 30.0,
+     "med": 25.0,
+     "min": 10,
+     "n": 12,
+     "sd": 17.3
+    },
     "camel": {
      "max": 4,
      "mean": 2.0,
@@ -4379,6 +4579,14 @@
      "min": 22400,
      "n": 12,
      "sd": 760.1
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.77,
@@ -4477,20 +4685,20 @@
      "sd": 244.0
     },
     "islandPct": {
-     "max": 50,
-     "mean": 22.5,
-     "med": 15.0,
+     "max": 40,
+     "mean": 10.8,
+     "med": 10.0,
      "min": 0,
      "n": 12,
-     "sd": 16.4
+     "sd": 11.9
     },
     "isolPct": {
-     "max": 100,
-     "mean": 83.3,
-     "med": 100.0,
-     "min": 30,
+     "max": 60,
+     "mean": 30.0,
+     "med": 25.0,
+     "min": 10,
      "n": 12,
-     "sd": 29.0
+     "sd": 17.3
     },
     "jungle": {
      "max": 0.0,
@@ -4710,6 +4918,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 40,
+     "mean": 15.0,
+     "med": 15.0,
+     "min": 0,
+     "n": 12,
+     "sd": 11.9
+    },
     "camel": {
      "max": 6,
      "mean": 3.2,
@@ -4741,6 +4957,14 @@
      "min": 33020,
      "n": 12,
      "sd": 838.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.8,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.813,
@@ -4839,20 +5063,20 @@
      "sd": 390.2
     },
     "islandPct": {
-     "max": 30,
-     "mean": 13.3,
+     "max": 20,
+     "mean": 6.7,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.2
+    },
+    "isolPct": {
+     "max": 40,
+     "mean": 15.0,
      "med": 15.0,
      "min": 0,
      "n": 12,
-     "sd": 9.4
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 56.7,
-     "med": 70.0,
-     "min": 0,
-     "n": 12,
-     "sd": 44.4
+     "sd": 11.9
     },
     "jungle": {
      "max": 0.0,
@@ -5072,6 +5296,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 70.0,
+     "med": 65.0,
+     "min": 30,
+     "n": 12,
+     "sd": 24.8
+    },
     "camel": {
      "max": 2,
      "mean": 1.1,
@@ -5103,6 +5335,14 @@
      "min": 12320,
      "n": 12,
      "sd": 590.0
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.11,
@@ -5201,20 +5441,20 @@
      "sd": 218.1
     },
     "islandPct": {
-     "max": 40,
-     "mean": 15.8,
-     "med": 10.0,
-     "min": 0,
+     "max": 80,
+     "mean": 49.2,
+     "med": 50.0,
+     "min": 20,
      "n": 12,
-     "sd": 11.1
+     "sd": 18.0
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 68.3,
+     "med": 65.0,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 23.4
     },
     "jungle": {
      "max": 0.0,
@@ -5434,6 +5674,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 81.7,
+     "med": 100.0,
+     "min": 10,
+     "n": 12,
+     "sd": 29.1
+    },
     "camel": {
      "max": 4,
      "mean": 1.6,
@@ -5465,6 +5713,14 @@
      "min": 22180,
      "n": 12,
      "sd": 884.6
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.814,
@@ -5563,20 +5819,20 @@
      "sd": 222.4
     },
     "islandPct": {
-     "max": 60,
-     "mean": 31.7,
-     "med": 35.0,
-     "min": 0,
+     "max": 50,
+     "mean": 32.5,
+     "med": 30.0,
+     "min": 10,
      "n": 12,
-     "sd": 21.9
+     "sd": 16.4
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
+     "mean": 81.7,
      "med": 100.0,
-     "min": 100,
+     "min": 10,
      "n": 12,
-     "sd": 0.0
+     "sd": 29.1
     },
     "jungle": {
      "max": 0.0,
@@ -5796,6 +6052,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 80,
+     "mean": 32.5,
+     "med": 30.0,
+     "min": 10,
+     "n": 12,
+     "sd": 17.9
+    },
     "camel": {
      "max": 5,
      "mean": 2.7,
@@ -5827,6 +6091,14 @@
      "min": 32920,
      "n": 12,
      "sd": 544.5
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.74,
@@ -5925,20 +6197,20 @@
      "sd": 288.8
     },
     "islandPct": {
-     "max": 50,
-     "mean": 27.5,
+     "max": 30,
+     "mean": 10.8,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 11.1
+    },
+    "isolPct": {
+     "max": 80,
+     "mean": 32.5,
      "med": 30.0,
      "min": 10,
      "n": 12,
-     "sd": 11.6
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 66.7,
-     "med": 70.0,
-     "min": 20,
-     "n": 12,
-     "sd": 33.7
+     "sd": 17.9
     },
     "jungle": {
      "max": 0.0,
@@ -6158,6 +6430,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 92.5,
+     "med": 100.0,
+     "min": 60,
+     "n": 12,
+     "sd": 13.6
+    },
     "camel": {
      "max": 1,
      "mean": 0.2,
@@ -6189,6 +6469,14 @@
      "min": 12140,
      "n": 12,
      "sd": 623.3
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.717,
@@ -6287,20 +6575,20 @@
      "sd": 231.7
     },
     "islandPct": {
-     "max": 30,
-     "mean": 5.0,
-     "med": 0.0,
-     "min": 0,
+     "max": 100,
+     "mean": 86.7,
+     "med": 90.0,
+     "min": 60,
      "n": 12,
-     "sd": 8.7
+     "sd": 11.8
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
+     "mean": 89.2,
      "med": 100.0,
-     "min": 100,
+     "min": 60,
      "n": 12,
-     "sd": 0.0
+     "sd": 16.1
     },
     "jungle": {
      "max": 0.0,
@@ -6520,6 +6808,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 100.0,
+     "med": 100.0,
+     "min": 100,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 3,
      "mean": 1.1,
@@ -6551,6 +6847,14 @@
      "min": 21600,
      "n": 12,
      "sd": 866.7
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.008,
@@ -6650,11 +6954,11 @@
     },
     "islandPct": {
      "max": 70,
-     "mean": 15.8,
-     "med": 5.0,
-     "min": 0,
+     "mean": 53.3,
+     "med": 55.0,
+     "min": 40,
      "n": 12,
-     "sd": 21.0
+     "sd": 11.1
     },
     "isolPct": {
      "max": 100,
@@ -6882,6 +7186,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 63.3,
+     "med": 60.0,
+     "min": 0,
+     "n": 12,
+     "sd": 26.9
+    },
     "camel": {
      "max": 3,
      "mean": 1.7,
@@ -6913,6 +7225,14 @@
      "min": 31520,
      "n": 12,
      "sd": 1115.7
+    },
+    "clusterMin": {
+     "max": 2,
+     "mean": 1.1,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.3
     },
     "collideCV": {
      "max": 1.308,
@@ -7011,20 +7331,20 @@
      "sd": 391.9
     },
     "islandPct": {
-     "max": 80,
-     "mean": 53.3,
-     "med": 55.0,
+     "max": 50,
+     "mean": 26.7,
+     "med": 25.0,
      "min": 0,
      "n": 12,
-     "sd": 19.7
+     "sd": 16.0
     },
     "isolPct": {
      "max": 100,
-     "mean": 95.0,
-     "med": 100.0,
-     "min": 40,
+     "mean": 63.3,
+     "med": 60.0,
+     "min": 0,
      "n": 12,
-     "sd": 16.6
+     "sd": 26.9
     },
     "jungle": {
      "max": 0.0,
@@ -7244,6 +7564,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
     "camel": {
      "max": 20,
      "mean": 8.7,
@@ -7275,6 +7603,14 @@
      "min": 35180,
      "n": 12,
      "sd": 2192.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.2,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.614,
@@ -7606,6 +7942,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 20,
      "mean": 7.8,
@@ -7637,6 +7981,14 @@
      "min": 35440,
      "n": 12,
      "sd": 2146.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.498,
@@ -7968,6 +8320,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 18,
      "mean": 8.8,
@@ -7999,6 +8359,14 @@
      "min": 34800,
      "n": 12,
      "sd": 2994.2
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.508,
@@ -8330,6 +8698,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
     "camel": {
      "max": 22,
      "mean": 8.0,
@@ -8361,6 +8737,14 @@
      "min": 32080,
      "n": 12,
      "sd": 3115.9
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.2,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.444,
@@ -8692,6 +9076,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 22,
      "mean": 7.8,
@@ -8723,6 +9115,14 @@
      "min": 33920,
      "n": 12,
      "sd": 2785.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.332,
@@ -9054,6 +9454,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
     "camel": {
      "max": 16,
      "mean": 8.1,
@@ -9085,6 +9493,14 @@
      "min": 33980,
      "n": 12,
      "sd": 3293.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.8,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.7
     },
     "collideCV": {
      "max": 0.639,
@@ -9191,12 +9607,12 @@
      "sd": 2.8
     },
     "isolPct": {
-     "max": 100,
-     "mean": 9.2,
+     "max": 10,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 27.5
+     "sd": 2.8
     },
     "jungle": {
      "max": 0.0,
@@ -9416,6 +9832,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 30,
+     "mean": 15.0,
+     "med": 20.0,
+     "min": 0,
+     "n": 12,
+     "sd": 10.4
+    },
     "camel": {
      "max": 9,
      "mean": 4.4,
@@ -9447,6 +9871,14 @@
      "min": 38340,
      "n": 12,
      "sd": 3442.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 3.2,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.9
     },
     "collideCV": {
      "max": 0.743,
@@ -9546,11 +9978,11 @@
     },
     "islandPct": {
      "max": 30,
-     "mean": 15.0,
-     "med": 20.0,
+     "mean": 11.7,
+     "med": 10.0,
      "min": 0,
      "n": 12,
-     "sd": 10.4
+     "sd": 9.0
     },
     "isolPct": {
      "max": 30,
@@ -9778,6 +10210,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 7.5,
+     "med": 5.0,
+     "min": 0,
+     "n": 12,
+     "sd": 8.3
+    },
     "camel": {
      "max": 9,
      "mean": 5.2,
@@ -9809,6 +10249,14 @@
      "min": 26020,
      "n": 12,
      "sd": 3031.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 5.5,
+     "med": 5.5,
+     "min": 1,
+     "n": 12,
+     "sd": 4.5
     },
     "collideCV": {
      "max": 0.601,
@@ -10140,6 +10588,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 30,
+     "mean": 6.7,
+     "med": 5.0,
+     "min": 0,
+     "n": 12,
+     "sd": 8.5
+    },
     "camel": {
      "max": 7,
      "mean": 2.8,
@@ -10171,6 +10627,14 @@
      "min": 43160,
      "n": 12,
      "sd": 2584.9
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 5.5,
+     "med": 5.5,
+     "min": 1,
+     "n": 12,
+     "sd": 4.5
     },
     "collideCV": {
      "max": 0.483,
@@ -10269,12 +10733,12 @@
      "sd": 456.4
     },
     "islandPct": {
-     "max": 30,
-     "mean": 6.7,
-     "med": 5.0,
+     "max": 20,
+     "mean": 4.2,
+     "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 8.5
+     "sd": 6.4
     },
     "isolPct": {
      "max": 30,
@@ -10502,6 +10966,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 5.0,
+     "med": 5.0,
+     "min": 0,
+     "n": 12,
+     "sd": 5.0
+    },
     "camel": {
      "max": 9,
      "mean": 3.5,
@@ -10533,6 +11005,14 @@
      "min": 28540,
      "n": 12,
      "sd": 2511.9
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 4.8,
+     "med": 1.5,
+     "min": 1,
+     "n": 12,
+     "sd": 4.4
     },
     "collideCV": {
      "max": 0.595,
@@ -10639,12 +11119,12 @@
      "sd": 5.0
     },
     "isolPct": {
-     "max": 20,
-     "mean": 6.7,
-     "med": 10.0,
+     "max": 10,
+     "mean": 5.0,
+     "med": 5.0,
      "min": 0,
      "n": 12,
-     "sd": 6.2
+     "sd": 5.0
     },
     "jungle": {
      "max": 0.0,
@@ -10864,6 +11344,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 14,
      "mean": 7.2,
@@ -10895,6 +11383,14 @@
      "min": 37500,
      "n": 12,
      "sd": 1745.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.562,
@@ -11226,6 +11722,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 11,
      "mean": 7.1,
@@ -11257,6 +11761,14 @@
      "min": 35220,
      "n": 12,
      "sd": 3497.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.588,
@@ -11588,6 +12100,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
     "camel": {
      "max": 12,
      "mean": 6.1,
@@ -11619,6 +12139,14 @@
      "min": 41460,
      "n": 12,
      "sd": 1008.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.2,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.473,
@@ -11717,12 +12245,12 @@
      "sd": 260.6
     },
     "islandPct": {
-     "max": 10,
-     "mean": 0.8,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 2.8
+     "sd": 0.0
     },
     "isolPct": {
      "max": 10,
@@ -11950,6 +12478,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 12,
      "mean": 7.1,
@@ -11981,6 +12517,14 @@
      "min": 33720,
      "n": 12,
      "sd": 2444.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.434,
@@ -12080,11 +12624,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -12312,6 +12856,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
     "camel": {
      "max": 12,
      "mean": 6.1,
@@ -12343,6 +12895,14 @@
      "min": 41460,
      "n": 12,
      "sd": 1008.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.2,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.473,
@@ -12441,12 +13001,12 @@
      "sd": 260.6
     },
     "islandPct": {
-     "max": 10,
-     "mean": 0.8,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 2.8
+     "sd": 0.0
     },
     "isolPct": {
      "max": 10,
@@ -12674,6 +13234,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 11,
      "mean": 4.9,
@@ -12705,6 +13273,14 @@
      "min": 44060,
      "n": 12,
      "sd": 864.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.1,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 4.1
     },
     "collideCV": {
      "max": 0.651,
@@ -12804,19 +13380,19 @@
     },
     "islandPct": {
      "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
+    "isolPct": {
+     "max": 10,
      "mean": 2.5,
      "med": 0.0,
      "min": 0,
      "n": 12,
      "sd": 4.3
-    },
-    "isolPct": {
-     "max": 20,
-     "mean": 4.2,
-     "med": 0.0,
-     "min": 0,
-     "n": 12,
-     "sd": 6.4
     },
     "jungle": {
      "max": 0.0,
@@ -13036,6 +13612,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 11,
      "mean": 4.5,
@@ -13067,6 +13651,14 @@
      "min": 42500,
      "n": 12,
      "sd": 1399.9
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.1,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 4.1
     },
     "collideCV": {
      "max": 0.461,
@@ -13166,19 +13758,19 @@
     },
     "islandPct": {
      "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
+    "isolPct": {
+     "max": 10,
      "mean": 2.5,
      "med": 0.0,
      "min": 0,
      "n": 12,
      "sd": 4.3
-    },
-    "isolPct": {
-     "max": 20,
-     "mean": 4.2,
-     "med": 0.0,
-     "min": 0,
-     "n": 12,
-     "sd": 6.4
     },
     "jungle": {
      "max": 0.0,
@@ -13398,6 +13990,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 11,
      "mean": 4.9,
@@ -13429,6 +14029,14 @@
      "min": 44060,
      "n": 12,
      "sd": 864.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.1,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 4.1
     },
     "collideCV": {
      "max": 0.651,
@@ -13528,19 +14136,19 @@
     },
     "islandPct": {
      "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
+    "isolPct": {
+     "max": 10,
      "mean": 2.5,
      "med": 0.0,
      "min": 0,
      "n": 12,
      "sd": 4.3
-    },
-    "isolPct": {
-     "max": 20,
-     "mean": 4.2,
-     "med": 0.0,
-     "min": 0,
-     "n": 12,
-     "sd": 6.4
     },
     "jungle": {
      "max": 0.0,
@@ -13760,6 +14368,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 12,
      "mean": 7.5,
@@ -13791,6 +14407,14 @@
      "min": 131800,
      "n": 12,
      "sd": 5370.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.552,
@@ -14122,6 +14746,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 10,
      "mean": 6.6,
@@ -14153,6 +14785,14 @@
      "min": 134900,
      "n": 12,
      "sd": 5056.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.724,
@@ -14484,6 +15124,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 10,
      "mean": 5.7,
@@ -14515,6 +15163,14 @@
      "min": 140460,
      "n": 12,
      "sd": 5202.8
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.47,
@@ -14846,6 +15502,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 7,
      "mean": 4.4,
@@ -14877,6 +15541,14 @@
      "min": 138400,
      "n": 12,
      "sd": 5136.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.589,
@@ -15208,6 +15880,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 39,
      "mean": 22.7,
@@ -15239,6 +15919,14 @@
      "min": 7300,
      "n": 12,
      "sd": 689.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.8,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.9
     },
     "collideCV": {
      "max": 0.637,
@@ -15570,6 +16258,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 39,
      "mean": 22.7,
@@ -15601,6 +16297,14 @@
      "min": 7300,
      "n": 12,
      "sd": 689.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.8,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.9
     },
     "collideCV": {
      "max": 0.637,
@@ -15932,6 +16636,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 25,
      "mean": 19.9,
@@ -15963,6 +16675,14 @@
      "min": 12240,
      "n": 12,
      "sd": 771.2
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.8,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.9
     },
     "collideCV": {
      "max": 0.415,
@@ -16062,11 +16782,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 2.5,
+     "mean": 1.7,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 4.3
+     "sd": 3.7
     },
     "isolPct": {
      "max": 10,
@@ -16294,6 +17014,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 25,
      "mean": 20.8,
@@ -16325,6 +17053,14 @@
      "min": 7900,
      "n": 12,
      "sd": 338.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.602,
@@ -16656,6 +17392,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 34,
      "mean": 23.2,
@@ -16687,6 +17431,14 @@
      "min": 7700,
      "n": 12,
      "sd": 499.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.87,
@@ -17018,6 +17770,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 34,
      "mean": 23.2,
@@ -17049,6 +17809,14 @@
      "min": 7700,
      "n": 12,
      "sd": 499.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.87,
@@ -17380,6 +18148,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 27,
      "mean": 18.4,
@@ -17411,6 +18187,14 @@
      "min": 12700,
      "n": 12,
      "sd": 709.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.403,
@@ -17742,6 +18526,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 30,
      "mean": 22.5,
@@ -17773,6 +18565,14 @@
      "min": 7380,
      "n": 12,
      "sd": 470.9
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.573,
@@ -18104,6 +18904,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 6,
      "mean": 2.9,
@@ -18135,6 +18943,14 @@
      "min": 37780,
      "n": 12,
      "sd": 1842.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.38,
@@ -18466,6 +19282,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 5,
      "mean": 3.2,
@@ -18497,6 +19321,14 @@
      "min": 36000,
      "n": 12,
      "sd": 3529.7
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.355,
@@ -18828,6 +19660,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 2.9,
@@ -18859,6 +19699,14 @@
      "min": 34060,
      "n": 12,
      "sd": 2200.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.606,
@@ -18958,11 +19806,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -19190,6 +20038,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 8,
      "mean": 3.8,
@@ -19221,6 +20077,14 @@
      "min": 35080,
      "n": 12,
      "sd": 1933.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.4,
+     "med": 10.0,
+     "min": 3,
+     "n": 12,
+     "sd": 1.9
     },
     "collideCV": {
      "max": 0.406,
@@ -19327,12 +20191,12 @@
      "sd": 0.0
     },
     "isolPct": {
-     "max": 30,
-     "mean": 2.5,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 8.3
+     "sd": 0.0
     },
     "jungle": {
      "max": 0.0,
@@ -19552,6 +20416,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 8,
      "mean": 3.8,
@@ -19583,6 +20455,14 @@
      "min": 35080,
      "n": 12,
      "sd": 1933.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.4,
+     "med": 10.0,
+     "min": 3,
+     "n": 12,
+     "sd": 1.9
     },
     "collideCV": {
      "max": 0.406,
@@ -19689,12 +20569,12 @@
      "sd": 0.0
     },
     "isolPct": {
-     "max": 30,
-     "mean": 2.5,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 8.3
+     "sd": 0.0
     },
     "jungle": {
      "max": 0.0,
@@ -19914,6 +20794,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 8,
      "mean": 3.8,
@@ -19945,6 +20833,14 @@
      "min": 35080,
      "n": 12,
      "sd": 1933.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.4,
+     "med": 10.0,
+     "min": 3,
+     "n": 12,
+     "sd": 1.9
     },
     "collideCV": {
      "max": 0.406,
@@ -20051,12 +20947,12 @@
      "sd": 0.0
     },
     "isolPct": {
-     "max": 30,
-     "mean": 2.5,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 8.3
+     "sd": 0.0
     },
     "jungle": {
      "max": 0.0,
@@ -20276,6 +21172,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 2.9,
@@ -20307,6 +21211,14 @@
      "min": 34060,
      "n": 12,
      "sd": 2200.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.606,
@@ -20406,11 +21318,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -20638,6 +21550,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 2.9,
@@ -20669,6 +21589,14 @@
      "min": 34060,
      "n": 12,
      "sd": 2200.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.606,
@@ -20768,11 +21696,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -21000,6 +21928,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 2.9,
@@ -21031,6 +21967,14 @@
      "min": 34060,
      "n": 12,
      "sd": 2200.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.606,
@@ -21130,11 +22074,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -21362,6 +22306,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 3.6,
@@ -21393,6 +22345,14 @@
      "min": 37780,
      "n": 12,
      "sd": 977.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.861,
@@ -21492,11 +22452,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -21724,6 +22684,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 3.2,
@@ -21755,6 +22723,14 @@
      "min": 37780,
      "n": 12,
      "sd": 968.4
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.861,
@@ -21854,11 +22830,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -22086,6 +23062,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 3.2,
@@ -22117,6 +23101,14 @@
      "min": 37780,
      "n": 12,
      "sd": 968.4
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.861,
@@ -22216,11 +23208,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -22448,6 +23440,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 3.2,
@@ -22479,6 +23479,14 @@
      "min": 37780,
      "n": 12,
      "sd": 968.4
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.861,
@@ -22578,11 +23586,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -22810,6 +23818,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 3.6,
@@ -22841,6 +23857,14 @@
      "min": 37780,
      "n": 12,
      "sd": 977.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.861,
@@ -22940,11 +23964,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -23172,6 +24196,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 3.6,
@@ -23203,6 +24235,14 @@
      "min": 37780,
      "n": 12,
      "sd": 977.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.861,
@@ -23302,11 +24342,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -23534,6 +24574,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 8,
      "mean": 3.6,
@@ -23565,6 +24613,14 @@
      "min": 37780,
      "n": 12,
      "sd": 977.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.861,
@@ -23664,11 +24720,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -23896,6 +24952,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 79.2,
+     "med": 80.0,
+     "min": 40,
+     "n": 12,
+     "sd": 21.4
+    },
     "camel": {
      "max": 4,
      "mean": 1.3,
@@ -23927,6 +24991,14 @@
      "min": 10240,
      "n": 12,
      "sd": 8824.0
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.98,
@@ -24025,20 +25097,20 @@
      "sd": 5573.4
     },
     "islandPct": {
-     "max": 40,
-     "mean": 19.2,
-     "med": 15.0,
-     "min": 0,
+     "max": 100,
+     "mean": 57.5,
+     "med": 60.0,
+     "min": 20,
      "n": 12,
-     "sd": 15.5
+     "sd": 27.7
     },
     "isolPct": {
      "max": 100,
-     "mean": 95.0,
-     "med": 100.0,
-     "min": 40,
+     "mean": 65.8,
+     "med": 65.0,
+     "min": 30,
      "n": 12,
-     "sd": 16.6
+     "sd": 25.6
     },
     "jungle": {
      "max": 0.0,
@@ -24258,6 +25330,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 85.8,
+     "med": 100.0,
+     "min": 40,
+     "n": 12,
+     "sd": 21.8
+    },
     "camel": {
      "max": 6,
      "mean": 1.8,
@@ -24289,6 +25369,14 @@
      "min": 11120,
      "n": 12,
      "sd": 8651.8
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.907,
@@ -24387,20 +25475,20 @@
      "sd": 5436.8
     },
     "islandPct": {
-     "max": 70,
-     "mean": 20.8,
-     "med": 10.0,
-     "min": 0,
+     "max": 100,
+     "mean": 59.2,
+     "med": 60.0,
+     "min": 20,
      "n": 12,
-     "sd": 22.9
+     "sd": 27.5
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
+     "mean": 82.5,
      "med": 100.0,
-     "min": 100,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 24.5
     },
     "jungle": {
      "max": 0.0,
@@ -24620,6 +25708,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.9
+    },
     "camel": {
      "max": 1,
      "mean": 0.3,
@@ -24651,6 +25747,14 @@
      "min": 66740,
      "n": 12,
      "sd": 4268.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 6.2,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 4.4
     },
     "collideCV": {
      "max": 0.414,
@@ -24750,11 +25854,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 4.2,
+     "mean": 3.3,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 4.9
+     "sd": 4.7
     },
     "isolPct": {
      "max": 10,
@@ -24982,6 +26086,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 1,
      "mean": 0.2,
@@ -25013,6 +26125,14 @@
      "min": 70180,
      "n": 12,
      "sd": 3456.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.449,
@@ -25344,6 +26464,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 12,
      "mean": 9.1,
@@ -25375,6 +26503,14 @@
      "min": 19740,
      "n": 12,
      "sd": 4526.9
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.428,
@@ -25706,6 +26842,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 14,
      "mean": 8.6,
@@ -25737,6 +26881,14 @@
      "min": 20500,
      "n": 12,
      "sd": 3265.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.496,
@@ -26068,6 +27220,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 11,
      "mean": 5.2,
@@ -26099,6 +27259,14 @@
      "min": 41020,
      "n": 12,
      "sd": 1266.3
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.403,
@@ -26198,11 +27366,11 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
      "max": 10,
@@ -26430,6 +27598,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.0
+    },
     "camel": {
      "max": 8,
      "mean": 4.5,
@@ -26461,6 +27637,14 @@
      "min": 41440,
      "n": 12,
      "sd": 1466.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 8.5,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.4
     },
     "collideCV": {
      "max": 0.504,
@@ -26792,6 +27976,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 1.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 3.7
+    },
     "camel": {
      "max": 18,
      "mean": 5.5,
@@ -26823,6 +28015,14 @@
      "min": 47640,
      "n": 12,
      "sd": 6167.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.8,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.8
     },
     "collideCV": {
      "max": 0.615,
@@ -26921,20 +28121,20 @@
      "sd": 885.5
     },
     "islandPct": {
-     "max": 20,
-     "mean": 3.3,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 6.2
+     "sd": 0.0
     },
     "isolPct": {
-     "max": 20,
-     "mean": 3.3,
+     "max": 10,
+     "mean": 1.7,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 6.2
+     "sd": 3.7
     },
     "jungle": {
      "max": 0.0,
@@ -27154,6 +28354,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 5.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.5
+    },
     "camel": {
      "max": 9,
      "mean": 5.8,
@@ -27185,6 +28393,14 @@
      "min": 42360,
      "n": 12,
      "sd": 3554.8
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 5.6,
+     "med": 6.0,
+     "min": 1,
+     "n": 12,
+     "sd": 4.4
     },
     "collideCV": {
      "max": 0.673,
@@ -27283,20 +28499,20 @@
      "sd": 681.9
     },
     "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
      "max": 20,
      "mean": 5.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
      "sd": 6.5
-    },
-    "isolPct": {
-     "max": 40,
-     "mean": 9.2,
-     "med": 5.0,
-     "min": 0,
-     "n": 12,
-     "sd": 11.9
     },
     "jungle": {
      "max": 0.0,
@@ -27516,6 +28732,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 30,
+     "mean": 7.5,
+     "med": 5.0,
+     "min": 0,
+     "n": 12,
+     "sd": 9.2
+    },
     "camel": {
      "max": 7,
      "mean": 3.0,
@@ -27547,6 +28771,14 @@
      "min": 55940,
      "n": 12,
      "sd": 3157.2
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 4.8,
+     "med": 1.5,
+     "min": 1,
+     "n": 12,
+     "sd": 4.4
     },
     "collideCV": {
      "max": 0.704,
@@ -27645,20 +28877,20 @@
      "sd": 317.3
     },
     "islandPct": {
+     "max": 20,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.0
+    },
+    "isolPct": {
      "max": 30,
      "mean": 7.5,
      "med": 5.0,
      "min": 0,
      "n": 12,
      "sd": 9.2
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 15.8,
-     "med": 10.0,
-     "min": 0,
-     "n": 12,
-     "sd": 26.9
     },
     "jungle": {
      "max": 0.0,
@@ -27878,6 +29110,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.4
+    },
     "camel": {
      "max": 10,
      "mean": 5.7,
@@ -27909,6 +29149,14 @@
      "min": 47220,
      "n": 12,
      "sd": 2363.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 6.3,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 4.3
     },
     "collideCV": {
      "max": 0.63,
@@ -28007,20 +29255,20 @@
      "sd": 440.5
     },
     "islandPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
+    "isolPct": {
      "max": 20,
      "mean": 4.2,
      "med": 0.0,
      "min": 0,
      "n": 12,
      "sd": 6.4
-    },
-    "isolPct": {
-     "max": 40,
-     "mean": 10.0,
-     "med": 0.0,
-     "min": 0,
-     "n": 12,
-     "sd": 13.5
     },
     "jungle": {
      "max": 0.0,
@@ -28240,6 +29488,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 5.0,
+     "med": 5.0,
+     "min": 0,
+     "n": 12,
+     "sd": 5.0
+    },
     "camel": {
      "max": 10,
      "mean": 5.5,
@@ -28271,6 +29527,14 @@
      "min": 63660,
      "n": 12,
      "sd": 4017.2
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.7,
+     "med": 1.5,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.731,
@@ -28369,20 +29633,20 @@
      "sd": 768.9
     },
     "islandPct": {
-     "max": 20,
-     "mean": 5.0,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 6.5
+     "sd": 0.0
     },
     "isolPct": {
-     "max": 100,
-     "mean": 50.0,
-     "med": 40.0,
+     "max": 10,
+     "mean": 5.0,
+     "med": 5.0,
      "min": 0,
      "n": 12,
-     "sd": 37.6
+     "sd": 5.0
     },
     "jungle": {
      "max": 0.0,
@@ -28602,6 +29866,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 30,
+     "mean": 10.8,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 10.4
+    },
     "camel": {
      "max": 9,
      "mean": 5.7,
@@ -28633,6 +29905,14 @@
      "min": 48440,
      "n": 12,
      "sd": 1509.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.1,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.4
     },
     "collideCV": {
      "max": 0.827,
@@ -28731,20 +30011,20 @@
      "sd": 839.0
     },
     "islandPct": {
-     "max": 20,
-     "mean": 8.3,
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
+    "isolPct": {
+     "max": 30,
+     "mean": 10.8,
      "med": 10.0,
      "min": 0,
      "n": 12,
-     "sd": 8.0
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 70.8,
-     "med": 100.0,
-     "min": 0,
-     "n": 12,
-     "sd": 41.5
+     "sd": 10.4
     },
     "jungle": {
      "max": 0.0,
@@ -28964,6 +30244,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.9
+    },
     "camel": {
      "max": 10,
      "mean": 5.5,
@@ -28995,6 +30283,14 @@
      "min": 63640,
      "n": 12,
      "sd": 4036.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.8,
+     "med": 2.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.727,
@@ -29093,20 +30389,20 @@
      "sd": 770.6
     },
     "islandPct": {
-     "max": 30,
-     "mean": 5.0,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 8.7
+     "sd": 0.0
     },
     "isolPct": {
-     "max": 100,
-     "mean": 48.3,
-     "med": 35.0,
+     "max": 10,
+     "mean": 4.2,
+     "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 38.3
+     "sd": 4.9
     },
     "jungle": {
      "max": 0.0,
@@ -29326,6 +30622,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 8.3,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.9
+    },
     "camel": {
      "max": 13,
      "mean": 4.1,
@@ -29357,6 +30661,14 @@
      "min": 70500,
      "n": 12,
      "sd": 4326.6
+    },
+    "clusterMin": {
+     "max": 5,
+     "mean": 1.6,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.1
     },
     "collideCV": {
      "max": 0.713,
@@ -29455,20 +30767,20 @@
      "sd": 942.1
     },
     "islandPct": {
+     "max": 10,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.9
+    },
+    "isolPct": {
      "max": 20,
-     "mean": 10.0,
+     "mean": 8.3,
      "med": 10.0,
      "min": 0,
      "n": 12,
-     "sd": 7.1
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 49.2,
-     "med": 35.0,
-     "min": 10,
-     "n": 12,
-     "sd": 37.1
+     "sd": 6.9
     },
     "jungle": {
      "max": 0.0,
@@ -29688,6 +31000,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 8.3,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 8.0
+    },
     "camel": {
      "max": 7,
      "mean": 4.2,
@@ -29719,6 +31039,14 @@
      "min": 51560,
      "n": 12,
      "sd": 2068.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.6
     },
     "collideCV": {
      "max": 0.969,
@@ -29818,19 +31146,19 @@
     },
     "islandPct": {
      "max": 20,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.4
+    },
+    "isolPct": {
+     "max": 20,
      "mean": 8.3,
      "med": 10.0,
      "min": 0,
      "n": 12,
      "sd": 8.0
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 38.3,
-     "med": 30.0,
-     "min": 0,
-     "n": 12,
-     "sd": 30.0
     },
     "jungle": {
      "max": 0.0,
@@ -30050,6 +31378,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 5.8,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.9
+    },
     "camel": {
      "max": 13,
      "mean": 4.1,
@@ -30081,6 +31417,14 @@
      "min": 70600,
      "n": 12,
      "sd": 4321.1
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.3,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.6
     },
     "collideCV": {
      "max": 0.865,
@@ -30179,20 +31523,20 @@
      "sd": 943.4
     },
     "islandPct": {
-     "max": 20,
-     "mean": 6.7,
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
+    "isolPct": {
+     "max": 10,
+     "mean": 5.8,
      "med": 10.0,
      "min": 0,
      "n": 12,
-     "sd": 6.2
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 45.8,
-     "med": 25.0,
-     "min": 0,
-     "n": 12,
-     "sd": 39.5
+     "sd": 4.9
     },
     "jungle": {
      "max": 0.0,
@@ -30412,6 +31756,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 0,
      "mean": 0.0,
@@ -30443,6 +31795,14 @@
      "min": 52380,
      "n": 12,
      "sd": 5016.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.483,
@@ -30774,6 +32134,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 0,
      "mean": 0.0,
@@ -30805,6 +32173,14 @@
      "min": 49720,
      "n": 12,
      "sd": 4891.4
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.64,
@@ -31136,6 +32512,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 7,
      "mean": 3.3,
@@ -31167,6 +32551,14 @@
      "min": 15660,
      "n": 12,
      "sd": 1915.0
+    },
+    "clusterMin": {
+     "max": 5,
+     "mean": 2.8,
+     "med": 2.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.5
     },
     "collideCV": {
      "max": 0.728,
@@ -31273,12 +32665,12 @@
      "sd": 0.0
     },
     "isolPct": {
-     "max": 100,
-     "mean": 80.0,
-     "med": 100.0,
-     "min": 40,
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
      "n": 12,
-     "sd": 28.3
+     "sd": 4.3
     },
     "jungle": {
      "max": 0.0,
@@ -31498,6 +32890,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.4
+    },
     "camel": {
      "max": 5,
      "mean": 2.4,
@@ -31529,6 +32929,14 @@
      "min": 17640,
      "n": 12,
      "sd": 1622.8
+    },
+    "clusterMin": {
+     "max": 2,
+     "mean": 1.7,
+     "med": 2.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.5
     },
     "collideCV": {
      "max": 0.689,
@@ -31628,19 +33036,19 @@
     },
     "islandPct": {
      "max": 10,
-     "mean": 1.7,
+     "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 3.7
+     "sd": 2.8
     },
     "isolPct": {
-     "max": 100,
-     "mean": 89.2,
-     "med": 100.0,
-     "min": 30,
+     "max": 20,
+     "mean": 4.2,
+     "med": 0.0,
+     "min": 0,
      "n": 12,
-     "sd": 24.3
+     "sd": 6.4
     },
     "jungle": {
      "max": 0.0,
@@ -31860,6 +33268,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
     "camel": {
      "max": 7,
      "mean": 3.0,
@@ -31891,6 +33307,14 @@
      "min": 13140,
      "n": 12,
      "sd": 1699.1
+    },
+    "clusterMin": {
+     "max": 5,
+     "mean": 3.9,
+     "med": 4.0,
+     "min": 1,
+     "n": 12,
+     "sd": 1.1
     },
     "collideCV": {
      "max": 0.545,
@@ -31989,20 +33413,20 @@
      "sd": 1041.1
     },
     "islandPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
+    "isolPct": {
      "max": 10,
      "mean": 0.8,
      "med": 0.0,
      "min": 0,
      "n": 12,
      "sd": 2.8
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 58.3,
-     "med": 40.0,
-     "min": 30,
-     "n": 12,
-     "sd": 29.7
     },
     "jungle": {
      "max": 0.0,
@@ -32222,6 +33646,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 3.3,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.7
+    },
     "camel": {
      "max": 5,
      "mean": 2.4,
@@ -32253,6 +33685,14 @@
      "min": 15740,
      "n": 12,
      "sd": 2776.7
+    },
+    "clusterMin": {
+     "max": 5,
+     "mean": 2.8,
+     "med": 2.5,
+     "min": 1,
+     "n": 12,
+     "sd": 1.6
     },
     "collideCV": {
      "max": 0.578,
@@ -32352,19 +33792,19 @@
     },
     "islandPct": {
      "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
+    "isolPct": {
+     "max": 10,
      "mean": 3.3,
      "med": 0.0,
      "min": 0,
      "n": 12,
      "sd": 4.7
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 74.2,
-     "med": 100.0,
-     "min": 30,
-     "n": 12,
-     "sd": 30.7
     },
     "jungle": {
      "max": 0.0,
@@ -32584,6 +34024,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 8.3,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.9
+    },
     "camel": {
      "max": 6,
      "mean": 2.7,
@@ -32615,6 +34063,14 @@
      "min": 11460,
      "n": 12,
      "sd": 3587.7
+    },
+    "clusterMin": {
+     "max": 2,
+     "mean": 1.3,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.5
     },
     "collideCV": {
      "max": 0.786,
@@ -32713,20 +34169,20 @@
      "sd": 2045.8
     },
     "islandPct": {
-     "max": 20,
-     "mean": 5.0,
+     "max": 10,
+     "mean": 2.5,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 6.5
+     "sd": 4.3
     },
     "isolPct": {
-     "max": 100,
-     "mean": 68.3,
-     "med": 70.0,
-     "min": 30,
+     "max": 20,
+     "mean": 8.3,
+     "med": 10.0,
+     "min": 0,
      "n": 12,
-     "sd": 31.8
+     "sd": 6.9
     },
     "jungle": {
      "max": 0.0,
@@ -32946,6 +34402,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 6,
      "mean": 2.5,
@@ -32977,6 +34441,14 @@
      "min": 14040,
      "n": 12,
      "sd": 3165.9
+    },
+    "clusterMin": {
+     "max": 5,
+     "mean": 4.6,
+     "med": 5.0,
+     "min": 4,
+     "n": 12,
+     "sd": 0.5
     },
     "collideCV": {
      "max": 0.496,
@@ -33083,12 +34555,12 @@
      "sd": 0.0
     },
     "isolPct": {
-     "max": 100,
-     "mean": 75.0,
-     "med": 100.0,
-     "min": 40,
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
      "n": 12,
-     "sd": 29.6
+     "sd": 0.0
     },
     "jungle": {
      "max": 0.0,
@@ -33308,6 +34780,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 50,
+     "mean": 21.7,
+     "med": 15.0,
+     "min": 0,
+     "n": 12,
+     "sd": 19.5
+    },
     "camel": {
      "max": 12,
      "mean": 8.7,
@@ -33339,6 +34819,14 @@
      "min": 21240,
      "n": 12,
      "sd": 2062.8
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.903,
@@ -33437,20 +34925,20 @@
      "sd": 854.8
     },
     "islandPct": {
+     "max": 40,
+     "mean": 14.2,
+     "med": 10.0,
+     "min": 0,
+     "n": 12,
+     "sd": 15.5
+    },
+    "isolPct": {
      "max": 50,
      "mean": 21.7,
      "med": 15.0,
      "min": 0,
      "n": 12,
      "sd": 19.5
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 40.0,
-     "med": 25.0,
-     "min": 0,
-     "n": 12,
-     "sd": 36.1
     },
     "jungle": {
      "max": 0.0,
@@ -33670,6 +35158,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 50,
+     "mean": 22.5,
+     "med": 25.0,
+     "min": 0,
+     "n": 12,
+     "sd": 16.4
+    },
     "camel": {
      "max": 11,
      "mean": 7.2,
@@ -33701,6 +35197,14 @@
      "min": 22860,
      "n": 12,
      "sd": 848.5
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 2.1,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.71,
@@ -33799,20 +35303,20 @@
      "sd": 444.9
     },
     "islandPct": {
+     "max": 20,
+     "mean": 6.7,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 9.4
+    },
+    "isolPct": {
      "max": 50,
-     "mean": 20.8,
+     "mean": 22.5,
      "med": 25.0,
      "min": 0,
      "n": 12,
-     "sd": 15.0
-    },
-    "isolPct": {
-     "max": 100,
-     "mean": 33.3,
-     "med": 30.0,
-     "min": 0,
-     "n": 12,
-     "sd": 23.2
+     "sd": 16.4
     },
     "jungle": {
      "max": 0.0,
@@ -34032,6 +35536,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 67.5,
+     "med": 80.0,
+     "min": 30,
+     "n": 12,
+     "sd": 20.5
+    },
     "camel": {
      "max": 5,
      "mean": 1.9,
@@ -34063,6 +35575,14 @@
      "min": 15500,
      "n": 12,
      "sd": 744.1
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.866,
@@ -34161,20 +35681,20 @@
      "sd": 243.7
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
+     "max": 40,
+     "mean": 14.2,
+     "med": 10.0,
      "min": 0,
      "n": 12,
-     "sd": 0.0
+     "sd": 12.6
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 67.5,
+     "med": 80.0,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 20.5
     },
     "jungle": {
      "max": 0.0,
@@ -34394,6 +35914,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 63.3,
+     "med": 60.0,
+     "min": 0,
+     "n": 12,
+     "sd": 24.3
+    },
     "camel": {
      "max": 2,
      "mean": 0.8,
@@ -34425,6 +35953,14 @@
      "min": 7740,
      "n": 12,
      "sd": 433.8
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 0.9,
+     "med": 1.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.3
     },
     "collideCV": {
      "max": 0.786,
@@ -34523,20 +36059,20 @@
      "sd": 198.6
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
+     "max": 90,
+     "mean": 59.2,
+     "med": 60.0,
      "min": 0,
      "n": 12,
-     "sd": 0.0
+     "sd": 23.6
     },
     "isolPct": {
      "max": 100,
-     "mean": 91.7,
-     "med": 100.0,
+     "mean": 55.0,
+     "med": 60.0,
      "min": 0,
      "n": 12,
-     "sd": 27.6
+     "sd": 26.0
     },
     "jungle": {
      "max": 0.0,
@@ -34756,6 +36292,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 71.7,
+     "med": 60.0,
+     "min": 60,
+     "n": 12,
+     "sd": 15.2
+    },
     "camel": {
      "max": 1,
      "mean": 0.6,
@@ -34787,6 +36331,14 @@
      "min": 8080,
      "n": 12,
      "sd": 347.3
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.808,
@@ -34885,20 +36437,20 @@
      "sd": 137.4
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
-     "min": 0,
+     "max": 90,
+     "mean": 65.0,
+     "med": 60.0,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 18.5
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 66.7,
+     "med": 60.0,
+     "min": 40,
      "n": 12,
-     "sd": 0.0
+     "sd": 18.9
     },
     "jungle": {
      "max": 0.0,
@@ -35118,6 +36670,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 66.7,
+     "med": 60.0,
+     "min": 40,
+     "n": 12,
+     "sd": 17.0
+    },
     "camel": {
      "max": 2,
      "mean": 0.8,
@@ -35149,6 +36709,14 @@
      "min": 8660,
      "n": 12,
      "sd": 580.0
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.892,
@@ -35247,20 +36815,20 @@
      "sd": 220.4
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
-     "min": 0,
+     "max": 100,
+     "mean": 60.0,
+     "med": 55.0,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 18.7
     },
     "isolPct": {
-     "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "max": 80,
+     "mean": 53.3,
+     "med": 60.0,
+     "min": 20,
      "n": 12,
-     "sd": 0.0
+     "sd": 20.5
     },
     "jungle": {
      "max": 0.0,
@@ -35480,6 +37048,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 75.0,
+     "med": 80.0,
+     "min": 60,
+     "n": 12,
+     "sd": 11.9
+    },
     "camel": {
      "max": 2,
      "mean": 1.2,
@@ -35511,6 +37087,14 @@
      "min": 15480,
      "n": 12,
      "sd": 805.7
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.003,
@@ -35609,20 +37193,20 @@
      "sd": 180.2
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
+     "max": 30,
+     "mean": 15.0,
+     "med": 15.0,
      "min": 0,
      "n": 12,
-     "sd": 0.0
+     "sd": 11.2
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 75.0,
+     "med": 80.0,
+     "min": 60,
      "n": 12,
-     "sd": 0.0
+     "sd": 11.9
     },
     "jungle": {
      "max": 0.0,
@@ -35842,6 +37426,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 77.5,
+     "med": 80.0,
+     "min": 50,
+     "n": 12,
+     "sd": 16.4
+    },
     "camel": {
      "max": 1,
      "mean": 0.6,
@@ -35873,6 +37465,14 @@
      "min": 7780,
      "n": 12,
      "sd": 517.4
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.891,
@@ -35971,20 +37571,20 @@
      "sd": 167.2
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
-     "min": 0,
+     "max": 100,
+     "mean": 67.5,
+     "med": 65.0,
+     "min": 40,
      "n": 12,
-     "sd": 0.0
+     "sd": 17.9
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 60.8,
+     "med": 60.0,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 21.8
     },
     "jungle": {
      "max": 0.0,
@@ -36204,6 +37804,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 88.3,
+     "med": 90.0,
+     "min": 60,
+     "n": 12,
+     "sd": 12.8
+    },
     "camel": {
      "max": 2,
      "mean": 1.0,
@@ -36235,6 +37843,14 @@
      "min": 8560,
      "n": 12,
      "sd": 481.5
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.721,
@@ -36333,20 +37949,20 @@
      "sd": 159.1
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
-     "min": 0,
+     "max": 100,
+     "mean": 82.5,
+     "med": 80.0,
+     "min": 60,
      "n": 12,
-     "sd": 0.0
+     "sd": 13.0
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 73.3,
+     "med": 70.0,
+     "min": 40,
      "n": 12,
-     "sd": 0.0
+     "sd": 22.1
     },
     "jungle": {
      "max": 0.0,
@@ -36566,6 +38182,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 81.7,
+     "med": 80.0,
+     "min": 60,
+     "n": 12,
+     "sd": 15.2
+    },
     "camel": {
      "max": 1,
      "mean": 0.9,
@@ -36597,6 +38221,14 @@
      "min": 9720,
      "n": 12,
      "sd": 491.4
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.736,
@@ -36695,20 +38327,20 @@
      "sd": 186.5
     },
     "islandPct": {
-     "max": 0,
-     "mean": 0.0,
-     "med": 0.0,
-     "min": 0,
+     "max": 90,
+     "mean": 70.0,
+     "med": 70.0,
+     "min": 50,
      "n": 12,
-     "sd": 0.0
+     "sd": 11.5
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 71.7,
+     "med": 70.0,
+     "min": 40,
      "n": 12,
-     "sd": 0.0
+     "sd": 17.2
     },
     "jungle": {
      "max": 0.0,
@@ -36928,6 +38560,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 2.5,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 4.3
+    },
     "camel": {
      "max": 14,
      "mean": 6.7,
@@ -36959,6 +38599,14 @@
      "min": 54100,
      "n": 12,
      "sd": 5563.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.8,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.9
     },
     "collideCV": {
      "max": 0.396,
@@ -37290,6 +38938,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 20,
+     "mean": 3.3,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 6.2
+    },
     "camel": {
      "max": 11,
      "mean": 6.8,
@@ -37321,6 +38977,14 @@
      "min": 39200,
      "n": 12,
      "sd": 2539.0
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 7.8,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 3.9
     },
     "collideCV": {
      "max": 0.362,
@@ -37652,6 +39316,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 0,
+     "mean": 0.0,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 0.0
+    },
     "camel": {
      "max": 12,
      "mean": 5.2,
@@ -37683,6 +39355,14 @@
      "min": 61520,
      "n": 12,
      "sd": 3236.6
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 10.0,
+     "med": 10.0,
+     "min": 10,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 0.547,
@@ -38014,6 +39694,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 10,
+     "mean": 0.8,
+     "med": 0.0,
+     "min": 0,
+     "n": 12,
+     "sd": 2.8
+    },
     "camel": {
      "max": 11,
      "mean": 5.8,
@@ -38045,6 +39733,14 @@
      "min": 42840,
      "n": 12,
      "sd": 2593.7
+    },
+    "clusterMin": {
+     "max": 10,
+     "mean": 9.2,
+     "med": 10.0,
+     "min": 1,
+     "n": 12,
+     "sd": 2.5
     },
     "collideCV": {
      "max": 0.393,
@@ -38143,12 +39839,12 @@
      "sd": 474.0
     },
     "islandPct": {
-     "max": 10,
-     "mean": 0.8,
+     "max": 0,
+     "mean": 0.0,
      "med": 0.0,
      "min": 0,
      "n": 12,
-     "sd": 2.8
+     "sd": 0.0
     },
     "isolPct": {
      "max": 10,
@@ -38376,6 +40072,14 @@
   {
    "aspect": "square",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 76.7,
+     "med": 90.0,
+     "min": 30,
+     "n": 12,
+     "sd": 26.9
+    },
     "camel": {
      "max": 3,
      "mean": 1.8,
@@ -38407,6 +40111,14 @@
      "min": 26840,
      "n": 12,
      "sd": 805.7
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.127,
@@ -38505,20 +40217,20 @@
      "sd": 344.1
     },
     "islandPct": {
-     "max": 70,
-     "mean": 40.0,
-     "med": 35.0,
-     "min": 10,
+     "max": 60,
+     "mean": 30.0,
+     "med": 30.0,
+     "min": 0,
      "n": 12,
-     "sd": 22.4
+     "sd": 19.6
     },
     "isolPct": {
      "max": 100,
-     "mean": 100.0,
-     "med": 100.0,
-     "min": 100,
+     "mean": 76.7,
+     "med": 90.0,
+     "min": 30,
      "n": 12,
-     "sd": 0.0
+     "sd": 26.9
     },
     "jungle": {
      "max": 2.4,
@@ -38738,6 +40450,14 @@
   {
    "aspect": "wide",
    "dist": {
+    "badPct": {
+     "max": 100,
+     "mean": 68.3,
+     "med": 65.0,
+     "min": 30,
+     "n": 12,
+     "sd": 24.8
+    },
     "camel": {
      "max": 5,
      "mean": 1.7,
@@ -38769,6 +40489,14 @@
      "min": 27140,
      "n": 12,
      "sd": 954.8
+    },
+    "clusterMin": {
+     "max": 1,
+     "mean": 1.0,
+     "med": 1.0,
+     "min": 1,
+     "n": 12,
+     "sd": 0.0
     },
     "collideCV": {
      "max": 1.14,
@@ -38867,20 +40595,20 @@
      "sd": 237.5
     },
     "islandPct": {
-     "max": 80,
-     "mean": 47.5,
-     "med": 45.0,
-     "min": 30,
+     "max": 50,
+     "mean": 31.7,
+     "med": 35.0,
+     "min": 10,
      "n": 12,
-     "sd": 14.2
+     "sd": 11.4
     },
     "isolPct": {
      "max": 100,
-     "mean": 89.2,
-     "med": 100.0,
+     "mean": 68.3,
+     "med": 65.0,
      "min": 30,
      "n": 12,
-     "sd": 24.3
+     "sd": 24.8
     },
     "jungle": {
      "max": 2.4,

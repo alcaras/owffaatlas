@@ -11,9 +11,11 @@ const FAIR: Dim[] = [
   { key: 'collideCV', label: 'Collision spread', unit: 'CV — lower is fairer', low: true },
   { key: 'terrYieldCV', label: 'Territory-yield spread', unit: 'CV — lower is fairer', low: true },
   { key: 'terrYieldMean', label: 'Territory yield', unit: 'pre-collision, per player' },
-  { key: 'isolPct', label: 'Isolated starts', unit: '% boxed off — lower is fairer', low: true },
-  { key: 'islandPct', label: 'Island starts', unit: '% on a small landmass — lower is fairer', low: true },
-  { key: 'landmasses', label: 'Landmasses w/ starts', unit: 'count — lower (1) is fairer', low: true },
+  { key: 'badPct', label: 'Bad starts', unit: '% stranded or tiny-island — lower is fairer', low: true },
+  { key: 'isolPct', label: 'Stranded starts', unit: '% alone on a landmass — lower is fairer', low: true },
+  { key: 'islandPct', label: 'Tiny-island starts', unit: '% on a ≤4-site island — lower is fairer', low: true },
+  { key: 'clusterMin', label: 'Smallest cluster', unit: 'fewest players per landmass (1 = someone alone)' },
+  { key: 'landmasses', label: 'Landmasses w/ starts', unit: 'count' },
   { key: 'spreadMean', label: 'Start spread', unit: 'mean hex between starts' },
 ];
 const MAP: Dim[] = [

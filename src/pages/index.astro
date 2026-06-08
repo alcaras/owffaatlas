@@ -1,0 +1,179 @@
+---
+import Base from '../layouts/Base.astro';
+import dist from '../data/ffa-dist.json';
+import gensData from '../data/ffa-gens.json';
+const baseUrl = import.meta.env.BASE_URL;
+
+const configs = (dist as any).configs as any[];
+const genMap: Record<string, any> = {};
+for (const g of (gensData as any).gens) genMap[g.id] = g;
+const idFromImg = (slug: string, p: string) => {
+  const m = p.match(/seed-(\d+)/); return `${slug}-s${m ? m[1] : 1}`;
+};
+
+// group by script
+const groupMap: Record<string, any[]> = {};
+for (const c of configs) (groupMap[c.group] ??= []).push(c);
+const sections = Object.keys(groupMap).sort().map((k) => ({
+  key: k, title: k,
+  cfgs: groupMap[k].sort((a, b) => a.aspect.localeCompare(b.aspect)),
+}));
+
+// resource / yield abundance bars (relative to the pool)
+const RES_BARS = [
+  { key: 'grain', icon: 'wheat', label: 'Grain', dir: 'resources' },
+  { key: 'pasture', icon: 'cattle', label: 'Pasture', dir: 'resources' },
+  { key: 'camp', icon: 'game', label: 'Camp', dir: 'resources' },
+  { key: 'grove', icon: 'wine', label: 'Grove', dir: 'resources' },
+  { key: 'nets', icon: 'fish', label: 'Nets', dir: 'resources' },
+  { key: 'ore', icon: 'iron', label: 'Ore', dir: 'resources' },
+  { key: 'precious', icon: 'gold', label: 'Precious', dir: 'resources' },
+  { key: 'marble', icon: 'stone', label: 'Marble', dir: 'resources' },
+  { key: 'food', icon: 'food', label: 'Food', dir: 'yields' },
+  { key: 'iron', icon: 'iron', label: 'Iron', dir: 'yields' },
+  { key: 'stone', icon: 'stone', label: 'Stone', dir: 'yields' },
+  { key: 'wood', icon: 'wood', label: 'Wood', dir: 'yields' },
+] as const;
+const range: Record<string, { lo: number; hi: number }> = {};
+for (const b of RES_BARS) {
+  const ms = configs.map((c) => c.dist?.[b.key]?.mean).filter((v) => v != null);
+  range[b.key] = { lo: ms.length ? Math.min(...ms) : 0, hi: ms.length ? Math.max(...ms) : 0 };
+}
+const bar = (c: any, key: string) => {
+  const d = c.dist?.[key]; const r = range[key] || { lo: 0, hi: 0 };
+  const mean = d?.mean ?? 0; const none = !d || (d.max ?? 0) <= 0;
+  const t = r.hi > r.lo ? (mean - r.lo) / (r.hi - r.lo) : 0.5;
+  const tt = Math.max(0, Math.min(1, t));
+  return { none, w: none ? 100 : Math.round(8 + tt * 92),
+    col: none ? '#23262c' : `hsl(${Math.round(tt * 125)},58%,42%)`,
+    tip: `${d?.mean ?? 0} avg per map (±${d?.sd ?? 0})` };
+};
+const m = (c: any, k: string) => c.dist?.[k]?.mean;
+const sd = (c: any, k: string) => c.dist?.[k]?.sd;
+---
+<Base title="FFA Atlas">
+  <p class="lede">
+    Old World <b>free-for-all</b> maps — every script on <b>Huge</b> with
+    <b>10 nations</b>. The headline metric is <b>fairness</b>: a greedy
+    collision model claims each tile for its nearest start by move-cost
+    (land first, water only when there's no land route), partitioning the
+    map into 10 territories. A map is <i>fair</i> when all 10 players hit
+    a neighbour at a similar <b>collision distance</b> and grab similar
+    <b>territory yields</b> before they do. Open any map to see the
+    territory partition (toggle on the preview).
+    <a href={`${baseUrl}rankings`}>→ Rankings</a>
+  </p>
+
+  <div class="pool">
+    {sections.map((sec) => (
+      <section class="tier">
+        <div class="tier__h"><h2 class="tier__t">{sec.title}</h2>
+          <span class="tier__n">{sec.cfgs.length} aspect{sec.cfgs.length === 1 ? '' : 's'}</span></div>
+        {sec.cfgs.map((c) => (
+          <div class="cfg" id={`cfg-${c.slug}`}>
+            <div class="cfg__hd">
+              <span class="cfg__name">{c.label}</span>
+              <span class="cfg__chips">{c.setting.split(' · ').map((p: string) => (<span class="ch">{p}</span>))}</span>
+            </div>
+            <div class="pills">
+              <div class="pill pill--big">
+                <div class="pill__l">Fairness</div>
+                <div class="pill__v"><b>{m(c, 'fairScore')}</b> <span class="pm">/100</span></div>
+                <div class="pill__r">collide CV {m(c, 'collideCV')} · yield CV {m(c, 'terrYieldCV')}</div>
+              </div>
+              <div class="pill">
+                <div class="pill__l">City sites</div>
+                <div class="pill__v"><b>{m(c, 'sites')}</b> <span class="pm">±{sd(c, 'sites')}</span></div>
+                <div class="pill__r">min {c.dist.sites?.min} · max {c.dist.sites?.max}</div>
+              </div>
+              <div class="pill">
+                <div class="pill__l">Collision distance</div>
+                <div class="pill__v"><b>{m(c, 'collideMean')}</b> <span class="pm">moves</span></div>
+                <div class="pill__r">until you meet a neighbour</div>
+              </div>
+              <div class="pill">
+                <div class="pill__l">Isolation</div>
+                <div class="pill__v"><b>{m(c, 'isolPct')}</b><span class="pm">%</span></div>
+                <div class="pill__r">island {m(c, 'islandPct')}% · {m(c, 'landmasses')} landmasses</div>
+              </div>
+            </div>
+            <div class="rstrip">
+              <div class="rstrip__lab">Resources &amp; yields <span class="rstrip__sub">green = lots · red = little, vs the other FFA maps</span></div>
+              <div class="rstrip__ics">
+                {RES_BARS.map((b) => { const v = bar(c, b.key); return (
+                  <div class={`ric${v.none ? ' ric--none' : ''}`} title={`${b.label} — ${v.tip}`}>
+                    <img src={`${baseUrl}img/icons/${b.dir}/${b.icon}.png`} alt={b.label} />
+                    <div class="ric__bar"><span style={`width:${v.w}%;background:${v.col}`}></span></div>
+                    <div class="ric__c">{b.label}</div>
+                  </div>); })}
+              </div>
+            </div>
+            <details class="gal" open>
+              <summary>{Math.min(c.imgs.length, 12)} generated maps</summary>
+              <div class="gal__grid">
+                {c.imgs.slice(0, 12).map((p: string) => { const id = idFromImg(c.slug, p); const gm = genMap[id] || {};
+                  return (
+                    <a class="gal__cell" href={`${baseUrl}gen/${id}`} target="_blank" rel="noopener">
+                      <img src={`${baseUrl}img/${p}`} loading="lazy" alt={`${c.group} sample`} />
+                      <div class="cap"><span><i>fair</i><b>{gm.fairScore ?? '—'}</b></span>
+                        <span><i>sites</i><b>{gm.sites ?? '—'}</b></span>
+                        <span><i>isol</i><b>{gm.isolPct ?? '—'}%</b></span></div>
+                    </a>); })}
+              </div>
+            </details>
+          </div>
+        ))}
+      </section>
+    ))}
+  </div>
+
+  <style>
+    .lede { font-family:var(--font-display); font-style:italic; font-size:1.05rem;
+      line-height:1.55; color:var(--text-soft); max-width:88ch; margin:0.6rem 0 1.4rem; }
+    .pool { display:flex; flex-direction:column; gap:2rem; }
+    .tier { display:flex; flex-direction:column; gap:0.8rem; }
+    .tier__h { display:flex; align-items:baseline; gap:0.7rem; flex-wrap:wrap;
+      border-bottom:1px solid var(--gold-deep); padding-bottom:0.35rem; }
+    .tier__t { font-family:var(--font-display); font-weight:700; font-size:1.55rem; color:var(--gold); }
+    .tier__n { margin-left:auto; font-size:0.68rem; font-family:var(--font-mono); color:var(--text-dim); letter-spacing:0.08em; }
+    .cfg { display:flex; flex-direction:column; background:var(--bg-elev);
+      border:1px solid var(--border); border-radius:6px; padding:0.8rem 1rem; }
+    .cfg__hd { display:flex; align-items:baseline; gap:0.8rem; flex-wrap:wrap; }
+    .cfg__name { font-family:var(--font-display); font-weight:700; font-size:1.18rem; color:var(--text); }
+    .cfg__chips { display:inline-flex; gap:0.35rem; flex-wrap:wrap; }
+    .ch { font-family:var(--font-display); font-weight:700; font-size:0.84rem; color:var(--gold);
+      background:linear-gradient(#15160f,#0c0d09); border:1px solid #4a431f; border-radius:6px;
+      padding:0.1rem 0.55rem; box-shadow:inset 0 0 0 1px #000; }
+    .pills { display:flex; flex-wrap:wrap; gap:0.7rem; margin-top:0.7rem; }
+    .pill { flex:1 1 200px; background:#16181d; border:1px solid var(--gold-deep); border-radius:8px; padding:0.55rem 0.85rem; }
+    .pill--big { border-color:var(--gold-soft); background:#1a160c; }
+    .pill__l { font-size:0.62rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-dim); }
+    .pill__v { font-size:2.4rem; font-family:var(--font-display); font-weight:700; color:var(--gold); line-height:1.15; margin:0.05rem 0 0.1rem; }
+    .pill__v .pm { font-size:0.95rem; color:var(--text-faint); font-family:var(--font-ui); font-weight:400; }
+    .pill__r { font-size:0.72rem; color:var(--text-faint); font-family:var(--font-mono); }
+    .pill__r b { color:var(--text-soft); }
+    .rstrip { margin-top:0.7rem; }
+    .rstrip__lab { font-size:0.62rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-dim); margin-bottom:0.5rem; }
+    .rstrip__sub { text-transform:none; letter-spacing:0; font-family:var(--font-ui); color:var(--text-faint); font-size:0.66rem; margin-left:0.4rem; }
+    .rstrip__ics { display:flex; flex-wrap:wrap; gap:0.85rem; }
+    .ric { display:flex; flex-direction:column; align-items:center; gap:0.28rem; width:52px; cursor:help; }
+    .ric img { width:30px; height:30px; object-fit:contain; filter:drop-shadow(0 1px 1px #000); }
+    .ric__bar { width:100%; height:7px; border-radius:4px; background:#0e0f12; border:1px solid var(--border); overflow:hidden; }
+    .ric__bar span { display:block; height:100%; border-radius:4px 0 0 4px; box-shadow:inset 0 0 0 1px #0006; }
+    .ric__c { font-size:0.58rem; color:var(--text-faint); font-family:var(--font-ui); text-align:center; line-height:1.1; }
+    .ric--none { opacity:0.38; }
+    .ric--none img { filter:grayscale(1) brightness(0.75); }
+    .gal { margin-top:0.6rem; }
+    .gal > summary { cursor:pointer; font-size:0.78rem; color:var(--gold-soft); font-family:var(--font-ui); padding:0.25rem 0; user-select:none; }
+    .gal__grid { display:grid; gap:0.5rem; margin-top:0.5rem; grid-template-columns:repeat(3,1fr); }
+    @media (max-width:760px){ .gal__grid{ grid-template-columns:1fr 1fr; } }
+    .gal__cell { display:block; border-radius:4px; overflow:hidden; border:1px solid var(--border-strong); }
+    .gal__cell:hover { border-color:var(--gold); }
+    .gal__grid img { width:100%; height:auto; display:block; }
+    .cap { display:grid; grid-template-columns:1fr 1fr 1fr; background:#0e0f12; font-size:0.66rem; }
+    .cap span { display:flex; flex-direction:column; align-items:center; padding:0.18rem 0; border-right:1px solid var(--border); color:var(--text-soft); }
+    .cap span:last-child { border-right:0; }
+    .cap i { font-style:normal; font-size:0.54rem; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.05em; }
+    .cap b { color:var(--text); font-size:0.84rem; }
+  </style>
+</Base>

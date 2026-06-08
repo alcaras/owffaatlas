@@ -1,0 +1,134 @@
+---
+import Base from '../../layouts/Base.astro';
+import gensData from '../../data/ffa-gens.json';
+const baseUrl = import.meta.env.BASE_URL;
+export function getStaticPaths() {
+  return (gensData as any).gens.map((g: any) => ({ params: { id: g.id }, props: { g } }));
+}
+const { g } = Astro.props as any;
+---
+<Base title={`Gen · ${g.label}`}>
+  <p class="back"><a href={baseUrl}>← all maps</a> · <a href={`${baseUrl}rankings`}>rankings</a></p>
+  <div class="hd">
+    <h2>{g.label} <span class="seed">seed {g.seed}</span></h2>
+    <div class="modes">
+      <button id="mTerr" class="mbtn on">Terrain</button>
+      <button id="mTerr2" class="mbtn">Territories</button>
+      <span class="hint" id="hint"></span>
+    </div>
+  </div>
+  <p class="expl" id="expl">
+    Fairness <b>{g.fairScore}</b>/100 · collide-CV {g.collideCV} · yield-CV {g.terrYieldCV} ·
+    isolation {g.isolPct}%. <i>Territories</i> shows the collision partition: each tile claimed by
+    its nearest start (land-move-cost first, water only if no land route), coloured by nation —
+    "what you grab before colliding with anyone".
+  </p>
+  <canvas id="cv" width="1100" height="800"></canvas>
+  <div id="legend" class="legend"></div>
+
+  <style>
+    .back { font-size:0.85rem; margin:0 0 0.6rem; }
+    .hd { display:flex; align-items:baseline; gap:1rem; flex-wrap:wrap; }
+    .hd h2 { font-family:var(--font-display); font-size:1.6rem; }
+    .seed { font-size:0.9rem; color:var(--text-faint); font-family:var(--font-mono); }
+    .modes { display:flex; align-items:center; gap:0.4rem; margin-left:auto; }
+    .mbtn { font-family:var(--font-ui); font-weight:600; font-size:0.82rem; color:var(--text-soft);
+      background:#16181d; border:1px solid var(--border-strong); border-radius:7px; padding:0.4rem 0.85rem; cursor:pointer; }
+    .mbtn.on { color:var(--gold); background:#231f0d; border-color:var(--gold-deep); }
+    .hint { font-size:0.8rem; color:var(--text-faint); font-family:var(--font-mono); }
+    .expl { font-size:0.85rem; color:var(--text-soft); max-width:90ch; line-height:1.5; margin:0.5rem 0 0.8rem; }
+    canvas { width:100%; height:auto; background:#0b0c0e; border:1px solid var(--border); border-radius:6px; cursor:crosshair; }
+    .legend { display:flex; flex-wrap:wrap; gap:0.5rem 1rem; margin-top:0.8rem; font-size:0.78rem; }
+    .legend .lg { display:inline-flex; align-items:center; gap:0.4rem; font-family:var(--font-mono); color:var(--text-soft); }
+    .legend .sw { width:14px; height:14px; border-radius:3px; border:1px solid #0008; }
+  </style>
+
+  <script is:inline define:vars={{ baseUrl, id: g.id }}>
+    const PALETTE = ["#c04e4a","#2360bc","#82c83e","#fadc3b","#a749ff",
+                     "#80e3e8","#bc6304","#880d56","#00b281","#f8a3b4"];
+    const TERR = { Water:"#27496b", Lush:"#4f7a3a", Temperate:"#5e8a44",
+      Arid:"#b39a5e", Sand:"#d8c98a", Marsh:"#3d5a45", Tundra:"#8a8f8a",
+      Urban:"#9a8d72", "—":"#444" };
+    const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+    const hint = document.getElementById('hint'), legend = document.getElementById('legend');
+    let D = null, mode = 'terr';
+
+    function hexPts(cx, cy, s) {
+      const p = [];
+      for (let i = 0; i < 6; i++) { const a = Math.PI / 180 * (60 * i - 90);
+        p.push([cx + s * Math.cos(a), cy + s * Math.sin(a)]); }
+      return p;
+    }
+    function draw() {
+      if (!D) return;
+      const W = D.w, H = D.h, S = Math.max(3, Math.min(
+        (cv.width - 4) / ((W + 0.5) * Math.sqrt(3)), (cv.height - 4) / ((H * 1.5 + 0.5))));
+      const hw = Math.sqrt(3) * S;
+      ctx.clearRect(0, 0, cv.width, cv.height);
+      const tL = D.L.terr, hL = D.L.hgt, owner = D.owner, colorOf = D.ffa.colorOf;
+      for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+        const tid = y * W + x;
+        if (D.bnd[tid]) continue;
+        const cx = 2 + hw * (x + (y % 2 === 0 ? 0.5 : 0)) + hw / 2;
+        const cy = 2 + S + y * 1.5 * S;
+        const tn = tL[D.terr[tid]];
+        let fill = TERR[tn] || '#555';
+        if (mode === 'territory') {
+          const o = owner[tid];
+          if (o >= 0 && tn !== 'Water') fill = PALETTE[colorOf[o]] || '#555';
+          else fill = (tn === 'Water') ? '#10151c' : '#1a1c20';
+        } else {
+          const hn = hL[D.hgt[tid]];
+          if (hn === 'Hill') fill = shade(fill, -18);
+          if (hn === 'Mountain' || hn === 'Volcano') fill = '#6b6b6b';
+        }
+        const pts = hexPts(cx, cy, S);
+        ctx.beginPath(); ctx.moveTo(pts[0][0], pts[0][1]);
+        for (let i = 1; i < 6; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+        ctx.closePath(); ctx.fillStyle = fill; ctx.fill();
+        // territory frontier: thin dark edge where owner changes
+        if (mode === 'territory' && owner[tid] >= 0) {
+          ctx.strokeStyle = 'rgba(0,0,0,0.25)'; ctx.lineWidth = 0.5; ctx.stroke();
+        }
+      }
+      // capitals
+      const caps = D.caps || [];
+      caps.forEach((c, i) => {
+        const x = c[0], y = c[1];
+        const cx = 2 + hw * (x + (y % 2 === 0 ? 0.5 : 0)) + hw / 2;
+        const cy = 2 + S + y * 1.5 * S;
+        ctx.beginPath(); ctx.arc(cx, cy, S * 0.78, 0, 7); ctx.fillStyle = '#fff'; ctx.fill();
+        ctx.beginPath(); ctx.arc(cx, cy, S * 0.55, 0, 7);
+        ctx.fillStyle = mode === 'territory' ? PALETTE[colorOf[i]] : '#e0469a'; ctx.fill();
+        ctx.fillStyle = '#000'; ctx.font = `bold ${Math.max(7, S * 0.7)}px sans-serif`;
+        ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(String(i + 1), cx, cy);
+      });
+    }
+    function shade(hex, d) {
+      const n = parseInt(hex.slice(1), 16);
+      let r = (n >> 16) + d, g = ((n >> 8) & 255) + d, b = (n & 255) + d;
+      r = Math.max(0, Math.min(255, r)); g = Math.max(0, Math.min(255, g)); b = Math.max(0, Math.min(255, b));
+      return '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+    }
+    function buildLegend() {
+      if (!D || mode !== 'territory') { legend.innerHTML = ''; return; }
+      const st = D.ffa.starts, co = D.ffa.colorOf;
+      legend.innerHTML = st.map((s, i) =>
+        `<span class="lg"><span class="sw" style="background:${PALETTE[co[i]]}"></span>`
+        + `P${i + 1}: collide ${s.collide} · yield ${s.terrYield} · sites ${s.terrSites}`
+        + `${s.isolated ? ' · <b style=color:#d08a3a>isolated</b>' : ''}</span>`).join('');
+    }
+    function setMode(mo) {
+      mode = mo;
+      document.getElementById('mTerr').classList.toggle('on', mo === 'terr');
+      document.getElementById('mTerr2').classList.toggle('on', mo === 'territory');
+      draw(); buildLegend();
+    }
+    document.getElementById('mTerr').onclick = () => setMode('terr');
+    document.getElementById('mTerr2').onclick = () => setMode('territory');
+
+    fetch(`${baseUrl}data/gen/${id}.json`).then(r => r.json()).then(d => {
+      D = d; draw();
+    });
+  </script>
+</Base>

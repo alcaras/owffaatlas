@@ -54,7 +54,13 @@ const GROUPS = [
 ];
 
 const nameOf = (c: any) => c.group;
-const subOf = (c: any) => c.aspect[0].toUpperCase() + c.aspect.slice(1);
+// aspect + the config's variant settings (from the label's 3rd segment),
+// so e.g. the 10 Archipelago/Wide rows are distinguishable at a glance.
+const subOf = (c: any) => {
+  const a = c.aspect[0].toUpperCase() + c.aspect.slice(1);
+  const v = (c.label || '').split(' · ')[2] || '';
+  return v ? `${a} · ${v}` : a;
+};
 function ranked(key: string, low = false) {
   const rows = configs.map((c) => {
     const d = c.dist?.[key]; const none = !d || (d.max ?? 0) <= 0;

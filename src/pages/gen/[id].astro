@@ -19,7 +19,7 @@ const { g } = Astro.props as any;
   </div>
   <p class="expl" id="expl">
     Fairness <b>{g.fairScore}</b>/100 · collide-CV {g.collideCV} · yield-CV {g.terrYieldCV} ·
-    isolation {g.isolPct}%. <i>Territories</i> shows the collision partition: each tile claimed by
+    boat-locked {g.isolPct}% (no founding route off the island to any player). <i>Territories</i> shows the collision partition: each tile claimed by
     its nearest start (land-move-cost first, water only if no land route), coloured by nation —
     "what you grab before colliding with anyone".
   </p>
@@ -130,8 +130,9 @@ const { g } = Astro.props as any;
       legend.innerHTML = st.map((s, i) =>
         `<span class="lg"><span class="sw" style="background:${PALETTE[co[i]]}"></span>`
         + `P${i + 1}: collide ${s.collide} · yield ${s.terrYield} · sites ${s.terrSites}`
-        + `${s.isolated ? ' · <b style=color:#d08a3a>stranded</b>' : ''}`
-        + `${s.island ? ` · <b style=color:#d0633a>tiny island (${s.landSites} sites)</b>` : ''}</span>`).join('');
+        + `${s.isolated ? ' · <b style=color:#d08a3a>boat-locked</b>' : ''}`
+        + `${s.island ? ` · <b style=color:#d0633a>tiny world (${s.reachSites ?? s.landSites} sites reachable)</b>` : ''}`
+        + `${!s.isolated && (s.reachMasses ?? 1) > 1 ? ` · <span style=color:#7fb069>bridges ${s.reachMasses} masses</span>` : ''}</span>`).join('');
     }
     function setMode(mo) {
       mode = mo;
